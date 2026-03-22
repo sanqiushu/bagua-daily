@@ -52,23 +52,23 @@
       "category": "Crypto",
       "items": [
         {
+          "zh": "Coinbase-backed CoinDCX founders questioned in fraud case: Report",
+          "en": "Coinbase-backed CoinDCX founders questioned in fraud case: Report",
+          "url": "https://cointelegraph.com/news/coinbase-backed-coindcx-founders-questioned-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
           "zh": "'Hawk Tuah' girl Hailey Welsh says memecoin implosion 'traumatized' her",
           "en": "'Hawk Tuah' girl Hailey Welsh says memecoin implosion 'traumatized' her",
           "url": "https://cointelegraph.com/news/hawk-tuah-hailey-welsh-memecoin-traumatized?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source": "CoinTelegraph",
-          "hot": true
+          "hot": false
         },
         {
           "zh": "Resolv Labs’ stablecoin depegs as attacker mints millions of tokens",
           "en": "Resolv Labs’ stablecoin depegs as attacker mints millions of tokens",
           "url": "https://cointelegraph.com/news/resolv-labs-stablecoin-depegs-attacker-mints-millions-of-tokens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source": "CoinTelegraph",
-          "hot": false
-        },
-        {
-          "zh": "Nevada judge temporarily blocks Kalshi from operating in the state",
-          "en": "Nevada judge temporarily blocks Kalshi from operating in the state",
-          "url": "https://cointelegraph.com/news/nevada-judge-temporarily-blocks-kalshi-from-operating-in-the-state?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
           "source": "CoinTelegraph",
           "hot": false
         }
