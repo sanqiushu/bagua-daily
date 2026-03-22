@@ -5,21 +5,27 @@
       "category": "AI",
       "items": [
         {
-          "zh": "Supermicro 联合创始人因走私 $25 亿 Nvidia AI 芯片至中国被捕，SMCI 股价暴跌 33%",
-          "en": "SMCI co-founder arrested for smuggling $2.5B Nvidia AI servers to China; stock crashes 33%",
-          "url": "https://www.ibtimes.com/supermicro-stock-crashes-33-after-co-founder-arrested-25-billion-nvidia-chip-smuggling-scheme-3799850",
+          "zh": "Are AI tokens the new signing bonus or just a cost of doing business?",
+          "en": "Are AI tokens the new signing bonus or just a cost of doing business?",
+          "url": "https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/",
           "hot": true
         },
         {
-          "zh": "Nvidia 与 AWS 签 $21 亿大单，2027 年前供应超 100 万颗 AI 芯片",
-          "en": "Nvidia signs $2.1B deal to sell 1M+ GPUs to AWS by 2027",
-          "url": "https://www.popularoutdoorsports.com/archives/41601",
+          "zh": "Publisher pulls horror novel ‘Shy Girl’ over AI concerns",
+          "en": "Publisher pulls horror novel ‘Shy Girl’ over AI concerns",
+          "url": "https://techcrunch.com/2026/03/21/publisher-pulls-horror-novel-shy-girl-over-ai-concerns/",
           "hot": false
         },
         {
-          "zh": "OpenAI 计划年底前员工翻倍至 8,000 人",
-          "en": "OpenAI plans to double headcount to 8,000 by end-2026",
-          "url": "https://meyka.com/blog/openai-today-march-22-headcount-to-double-to-8000-by-end-2026-2203/",
+          "zh": "Delve accused of misleading customers with ‘fake compliance’",
+          "en": "Delve accused of misleading customers with ‘fake compliance’",
+          "url": "https://techcrunch.com/2026/03/21/delve-accused-of-misleading-customers-with-fake-compliance/",
+          "hot": false
+        },
+        {
+          "zh": "Why Wall Street wasn&#8217;t won over by Nvidia&#8217;s big conference",
+          "en": "Why Wall Street wasn&#8217;t won over by Nvidia&#8217;s big conference",
+          "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
           "hot": false
         }
       ]
@@ -28,16 +34,28 @@
       "category": "Crypto",
       "items": [
         {
-          "zh": "BTC 报 $69,223，24h 跌 2%，恐惧贪婪指数降至 10（极度恐惧）",
-          "en": "BTC at $69,223 (-2%), Fear & Greed Index hits Extreme Fear at 10",
-          "url": "https://www.interactivecrypto.com/strategy-set-for-second-biggest-bitcoin-buying-quarter-despite-btc-price-slide-1774154140815",
+          "zh": "'Hawk Tuah' girl Hailey Welsh says memecoin implosion 'traumatized' her",
+          "en": "'Hawk Tuah' girl Hailey Welsh says memecoin implosion 'traumatized' her",
+          "url": "<![CDATA[https://cointelegraph.com/news/hawk-tuah-hailey-welsh-memecoin-traumatized?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+          "hot": true
+        },
+        {
+          "zh": "Resolv Labs’ stablecoin depegs as attacker mints millions of tokens",
+          "en": "Resolv Labs’ stablecoin depegs as attacker mints millions of tokens",
+          "url": "<![CDATA[https://cointelegraph.com/news/resolv-labs-stablecoin-depegs-attacker-mints-millions-of-tokens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
           "hot": false
         },
         {
-          "zh": "MicroStrategy Q1 已狂买 89,618 枚 BTC，创第二大季度购买纪录",
-          "en": "MicroStrategy bought 89,618 BTC in Q1, second-biggest quarter ever",
-          "url": "https://www.dipprofit.com/microstrategy-on-track/",
-          "hot": true
+          "zh": "Nevada judge temporarily blocks Kalshi from operating in the state",
+          "en": "Nevada judge temporarily blocks Kalshi from operating in the state",
+          "url": "<![CDATA[https://cointelegraph.com/news/nevada-judge-temporarily-blocks-kalshi-from-operating-in-the-state?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+          "hot": false
+        },
+        {
+          "zh": "CFTC staff clarify expectations on using crypto as collateral",
+          "en": "CFTC staff clarify expectations on using crypto as collateral",
+          "url": "<![CDATA[https://cointelegraph.com/news/cftc-staff-clarify-expectations-crypto-collateral?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+          "hot": false
         }
       ]
     },
@@ -45,21 +63,15 @@
       "category": "Finance",
       "items": [
         {
-          "zh": "美股上周再跌 1.9%，距 1 月高点已回调 6.8%",
-          "en": "S&P 500 down 1.9% last week, 6.8% off Jan highs",
-          "url": "https://seekingalpha.com/article/4884762-the-1-minute-market-report-march-22-2026",
-          "hot": false
+          "zh": "Nissan’s new hybrid is a U.S.-first that mixes EV driving with a gas engine",
+          "en": "Nissan’s new hybrid is a U.S.-first that mixes EV driving with a gas engine",
+          "url": "https://www.cnbc.com/2026/03/21/nissan-series-hybrid-rogue-suv.html",
+          "hot": true
         },
         {
-          "zh": "Micron (MU) 跌 3.9%，Q3 指引未达预期",
-          "en": "Micron drops 3.9% after Q3 guidance misses",
-          "url": "https://stockmarketwatch.com/live/stock-market-today/",
-          "hot": false
-        },
-        {
-          "zh": "黄金价格波动，开斋节需求 + 地缘紧张交织",
-          "en": "Gold fluctuates on Eid demand and geopolitical tensions",
-          "url": "https://www.timesnownews.com/business-economy/personal-finance/gold-rate-today-march-22-2026-check-24k-22k-18k-prices-in-delhi-mumbai-chennai-bengaluru-hyderabad-other-major-cities-article-153892115",
+          "zh": "GLP-1 drugs are changing how Americans eat. Food companies are racing to catch up",
+          "en": "GLP-1 drugs are changing how Americans eat. Food companies are racing to catch up",
+          "url": "https://www.cnbc.com/2026/03/21/glp-1-diets-restaurants-protein-fiber-weight-loss-drugs.html",
           "hot": false
         }
       ]
