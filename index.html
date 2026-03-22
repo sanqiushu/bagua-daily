@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>八卦日报 | Daily Gossip</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e0e0e0; min-height: 100vh; }
+.container { max-width: 720px; margin: 0 auto; padding: 20px 16px; }
+header { text-align: center; padding: 32px 0 24px; }
+header h1 { font-size: 2rem; background: linear-gradient(135deg, #ff6b6b, #ffa502, #ff6b6b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+header p { color: #888; margin-top: 6px; font-size: 0.9rem; }
+.date-nav { display: flex; align-items: center; justify-content: center; gap: 16px; margin: 20px 0 28px; }
+.date-nav button { background: #1a1a2e; border: 1px solid #333; color: #ccc; padding: 8px 16px; border-radius: 8px; cursor: pointer; font-size: 0.95rem; transition: all 0.2s; }
+.date-nav button:hover { background: #2a2a4e; border-color: #555; }
+.date-display { font-size: 1.2rem; font-weight: 600; min-width: 160px; text-align: center; color: #fff; }
+.section { margin-bottom: 28px; }
+.section-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; padding: 8px 14px; border-radius: 8px; display: inline-block; }
+.section-title.ai { background: #1a1a3e; color: #818cf8; }
+.section-title.crypto { background: #1a2e1a; color: #4ade80; }
+.section-title.finance { background: #2e2a1a; color: #fbbf24; }
+.item { background: #111; border: 1px solid #222; border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; transition: border-color 0.2s; }
+.item:hover { border-color: #444; }
+.item.hot { border-left: 3px solid #ff6b6b; }
+.hot-tag { font-size: 0.75rem; background: #ff6b6b22; color: #ff6b6b; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
+.item-zh { font-size: 0.95rem; line-height: 1.5; color: #e0e0e0; }
+.item-en { font-size: 0.85rem; color: #888; margin-top: 4px; line-height: 1.4; }
+.item a { color: #60a5fa; text-decoration: none; font-size: 0.8rem; margin-top: 6px; display: inline-block; }
+.item a:hover { text-decoration: underline; }
+.empty { text-align: center; color: #555; padding: 60px 0; font-size: 1.1rem; }
+.date-list { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 16px 0; }
+.date-list button { background: #1a1a2e; border: 1px solid #333; color: #aaa; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 0.85rem; }
+.date-list button.active { background: #2a2a5e; border-color: #818cf8; color: #fff; }
+footer { text-align: center; color: #444; font-size: 0.8rem; padding: 32px 0 16px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>📰 八卦日报</h1>
+    <p>AI · Crypto · Finance | 每日速递</p>
+  </header>
+  <div class="date-nav">
+    <button onclick="changeDate(-1)">← 前一天</button>
+    <div class="date-display" id="dateDisplay"></div>
+    <button onclick="changeDate(1)">后一天 →</button>
+  </div>
+  <div class="date-list" id="dateList"></div>
+  <div id="content"><div class="empty">加载中...</div></div>
+  <footer>八卦君 · 信息仅供参考，不构成投资建议</footer>
+</div>
+<script>
+const DATA_DIR = 'data/';
+let currentDate = null;
+let availableDates = [];
+
+async function init() {
+  // Try to load index, fallback to scanning recent dates
+  try {
+    const res = await fetch(DATA_DIR + 'index.json');
+    if (res.ok) { availableDates = await res.json(); }
+  } catch(e) {}
+  
+  if (!availableDates.length) {
+    // Scan last 30 days
+    const today = new Date();
+    for (let i = 0; i < 30; i++) {
+      const d = new Date(today);
+      d.setDate(d.getDate() - i);
+      const ds = d.toISOString().split('T')[0];
+      try {
+        const r = await fetch(DATA_DIR + ds + '.json', { method: 'HEAD' });
+        if (r.ok) availableDates.push(ds);
+      } catch(e) {}
+    }
+  }
+  
+  availableDates.sort((a, b) => b.localeCompare(a));
+  renderDateList();
+  
+  if (availableDates.length) {
+    loadDate(availableDates[0]);
+  } else {
+    document.getElementById('content').innerHTML = '<div class="empty">暂无数据</div>';
+  }
+}
+
+function renderDateList() {
+  const el = document.getElementById('dateList');
+  el.innerHTML = availableDates.map(d => 
+    `<button onclick="loadDate('${d}')" id="btn-${d}">${d}</button>`
+  ).join('');
+}
+
+async function loadDate(dateStr) {
+  currentDate = dateStr;
+  document.getElementById('dateDisplay').textContent = dateStr;
+  
+  // Update active button
+  document.querySelectorAll('.date-list button').forEach(b => b.classList.remove('active'));
+  const btn = document.getElementById('btn-' + dateStr);
+  if (btn) btn.classList.add('active');
+  
+  try {
+    const res = await fetch(DATA_DIR + dateStr + '.json');
+    if (!res.ok) throw new Error('Not found');
+    const data = await res.json();
+    renderContent(data);
+  } catch(e) {
+    document.getElementById('content').innerHTML = '<div class="empty">该日期暂无数据 📭</div>';
+  }
+}
+
+function changeDate(offset) {
+  if (!currentDate) return;
+  const idx = availableDates.indexOf(currentDate);
+  const newIdx = idx - offset; // dates are sorted desc
+  if (newIdx >= 0 && newIdx < availableDates.length) {
+    loadDate(availableDates[newIdx]);
+  }
+}
+
+function renderContent(data) {
+  const el = document.getElementById('content');
+  const catClass = { 'AI': 'ai', 'Crypto': 'crypto', 'Finance': 'finance' };
+  
+  el.innerHTML = data.sections.map(s => `
+    <div class="section">
+      <div class="section-title ${catClass[s.category] || ''}">【${s.category}】</div>
+      ${s.items.map(item => `
+        <div class="item ${item.hot ? 'hot' : ''}">
+          <div class="item-zh">${item.hot ? '🔥 ' : '• '}${item.zh}${item.hot ? '<span class="hot-tag">HOT</span>' : ''}</div>
+          <div class="item-en">${item.en}</div>
+          <a href="${item.url}" target="_blank" rel="noopener">🔗 来源 / Source</a>
+        </div>
+      `).join('')}
+    </div>
+  `).join('');
+}
+
+init();
+</script>
+</body>
+</html>
