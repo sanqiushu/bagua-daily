@@ -5,27 +5,45 @@
       "category": "AI",
       "items": [
         {
+          "zh": "浙大团队破解多模态模型「盲目自信」：先校准置信度，再分配算力丨CVPR&#8217;26",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/03/391014.html",
+          "source": "量子位",
+          "hot": true
+        },
+        {
+          "zh": "阶跃星辰率先适配微信生态，StepClaw“龙虾”即插即养即用",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/03/391010.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "大厂抢郭达雅进行时！DeepSeek核心成员还是个“综艺巨佬”",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/03/390990.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
           "zh": "Are AI tokens the new signing bonus or just a cost of doing business?",
           "en": "Are AI tokens the new signing bonus or just a cost of doing business?",
           "url": "https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/",
-          "hot": true
+          "source": "TechCrunch AI",
+          "hot": false
         },
         {
           "zh": "Publisher pulls horror novel ‘Shy Girl’ over AI concerns",
           "en": "Publisher pulls horror novel ‘Shy Girl’ over AI concerns",
           "url": "https://techcrunch.com/2026/03/21/publisher-pulls-horror-novel-shy-girl-over-ai-concerns/",
+          "source": "TechCrunch AI",
           "hot": false
         },
         {
           "zh": "Delve accused of misleading customers with ‘fake compliance’",
           "en": "Delve accused of misleading customers with ‘fake compliance’",
           "url": "https://techcrunch.com/2026/03/21/delve-accused-of-misleading-customers-with-fake-compliance/",
-          "hot": false
-        },
-        {
-          "zh": "Why Wall Street wasn&#8217;t won over by Nvidia&#8217;s big conference",
-          "en": "Why Wall Street wasn&#8217;t won over by Nvidia&#8217;s big conference",
-          "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
+          "source": "TechCrunch AI",
           "hot": false
         }
       ]
@@ -37,24 +55,21 @@
           "zh": "'Hawk Tuah' girl Hailey Welsh says memecoin implosion 'traumatized' her",
           "en": "'Hawk Tuah' girl Hailey Welsh says memecoin implosion 'traumatized' her",
           "url": "<![CDATA[https://cointelegraph.com/news/hawk-tuah-hailey-welsh-memecoin-traumatized?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+          "source": "CoinTelegraph",
           "hot": true
         },
         {
           "zh": "Resolv Labs’ stablecoin depegs as attacker mints millions of tokens",
           "en": "Resolv Labs’ stablecoin depegs as attacker mints millions of tokens",
           "url": "<![CDATA[https://cointelegraph.com/news/resolv-labs-stablecoin-depegs-attacker-mints-millions-of-tokens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+          "source": "CoinTelegraph",
           "hot": false
         },
         {
           "zh": "Nevada judge temporarily blocks Kalshi from operating in the state",
           "en": "Nevada judge temporarily blocks Kalshi from operating in the state",
           "url": "<![CDATA[https://cointelegraph.com/news/nevada-judge-temporarily-blocks-kalshi-from-operating-in-the-state?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-          "hot": false
-        },
-        {
-          "zh": "CFTC staff clarify expectations on using crypto as collateral",
-          "en": "CFTC staff clarify expectations on using crypto as collateral",
-          "url": "<![CDATA[https://cointelegraph.com/news/cftc-staff-clarify-expectations-crypto-collateral?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+          "source": "CoinTelegraph",
           "hot": false
         }
       ]
@@ -66,12 +81,14 @@
           "zh": "Nissan’s new hybrid is a U.S.-first that mixes EV driving with a gas engine",
           "en": "Nissan’s new hybrid is a U.S.-first that mixes EV driving with a gas engine",
           "url": "https://www.cnbc.com/2026/03/21/nissan-series-hybrid-rogue-suv.html",
+          "source": "CNBC",
           "hot": true
         },
         {
           "zh": "GLP-1 drugs are changing how Americans eat. Food companies are racing to catch up",
           "en": "GLP-1 drugs are changing how Americans eat. Food companies are racing to catch up",
           "url": "https://www.cnbc.com/2026/03/21/glp-1-diets-restaurants-protein-fiber-weight-loss-drugs.html",
+          "source": "CNBC",
           "hot": false
         }
       ]
