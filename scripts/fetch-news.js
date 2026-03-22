@@ -8,24 +8,20 @@ const FEEDS = {
   AI: [
     { name: 'TechCrunch AI', url: 'https://techcrunch.com/category/artificial-intelligence/feed/' },
     { name: 'The Verge AI', url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml' },
-    { name: 'VentureBeat AI', url: 'https://venturebeat.com/category/ai/feed/' },
-    { name: '36氪 AI', url: 'https://36kr.com/feed', lang: 'zh' },
+    { name: '36氪', url: 'https://36kr.com/feed', lang: 'zh' },
     { name: '机器之心', url: 'https://www.jiqizhixin.com/rss', lang: 'zh' },
     { name: '量子位', url: 'https://www.qbitai.com/feed', lang: 'zh' },
   ],
   Crypto: [
-    { name: 'CoinDesk', url: 'https://www.coindesk.com/arc/outboundfeeds/rss/' },
     { name: 'CoinTelegraph', url: 'https://cointelegraph.com/rss' },
-    { name: '金色财经', url: 'https://www.jinse.cn/rss', lang: 'zh' },
-    { name: 'PANews', url: 'https://www.panewslab.com/rss/zh/index.xml', lang: 'zh' },
-    { name: '律动 BlockBeats', url: 'https://www.theblockbeats.info/rss', lang: 'zh' },
+    { name: 'Decrypt', url: 'https://decrypt.co/feed' },
+    { name: 'Odaily星球日报', url: 'https://www.odaily.news/rss', lang: 'zh' },
+    { name: '深潮 TechFlow', url: 'https://www.techflowpost.com/rss', lang: 'zh' },
   ],
   Finance: [
-    { name: 'Reuters Business', url: 'https://www.reutersagency.com/feed/?taxonomy=best-sectors&post_type=best' },
     { name: 'CNBC', url: 'https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10001147' },
     { name: '华尔街见闻', url: 'https://wallstreetcn.com/rss', lang: 'zh' },
-    { name: '财新网', url: 'https://rsshub.app/caixin/latest', lang: 'zh' },
-    { name: '第一财经', url: 'https://rsshub.app/yicai/brief', lang: 'zh' },
+    { name: '新浪财经', url: 'https://finance.sina.com.cn/rss/cjxw.xml', lang: 'zh' },
   ]
 };
 
@@ -36,9 +32,9 @@ function fetch(url) {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         return fetch(res.headers.location).then(resolve).catch(reject);
       }
-      let data = '';
-      res.on('data', c => data += c);
-      res.on('end', () => resolve(data));
+      const chunks = [];
+      res.on('data', c => chunks.push(c));
+      res.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
     });
     req.on('error', reject);
     req.on('timeout', () => { req.destroy(); reject(new Error('timeout')); });
@@ -87,11 +83,14 @@ async function fetchCategory(category, feeds) {
       console.log(`  Fetching ${feed.name}...`);
       const xml = await fetch(feed.url);
       const items = parseItems(xml);
+      let added = 0;
       for (const item of items) {
         if (isRecent(item.date)) {
           allItems.push({ ...item, source: feed.name, lang: feed.lang || 'en' });
+          added++;
         }
       }
+      console.log(`    → ${items.length} parsed, ${added} recent`);
     } catch (e) {
       console.log(`  ⚠ ${feed.name} failed: ${e.message}`);
     }

@@ -68,8 +68,7 @@ footer { text-align: center; color: #444; font-size: 0.8rem; padding: 32px 0 16p
   </header>
 
   <nav class="tab-nav" id="tabNav">
-    <button data-tab="all" class="active" onclick="switchTab('all')"><span class="tab-icon">📰</span>全部</button>
-    <button data-tab="AI" onclick="switchTab('AI')"><span class="tab-icon">🤖</span>AI</button>
+    <button data-tab="AI" class="active" onclick="switchTab('AI')"><span class="tab-icon">🤖</span>AI</button>
     <button data-tab="Crypto" onclick="switchTab('Crypto')"><span class="tab-icon">₿</span>Crypto</button>
     <button data-tab="Finance" onclick="switchTab('Finance')"><span class="tab-icon">💹</span>Finance</button>
   </nav>
@@ -81,8 +80,7 @@ footer { text-align: center; color: #444; font-size: 0.8rem; padding: 32px 0 16p
   </div>
   <div class="date-list" id="dateList"></div>
 
-  <div id="tabAll" class="tab-panel active"></div>
-  <div id="tabAI" class="tab-panel"></div>
+  <div id="tabAI" class="tab-panel active"></div>
   <div id="tabCrypto" class="tab-panel"></div>
   <div id="tabFinance" class="tab-panel"></div>
 
@@ -94,7 +92,7 @@ const DATA_DIR = 'data/';
 let currentDate = null;
 let availableDates = [];
 let currentData = null;
-let activeTab = 'all';
+let activeTab = 'AI';
 
 async function init() {
   try {
@@ -150,16 +148,15 @@ function switchTab(tab) {
   document.querySelectorAll('.tab-nav button').forEach(b => b.classList.remove('active'));
   document.querySelector(`.tab-nav button[data-tab="${tab}"]`).classList.add('active');
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-  const panelId = tab === 'all' ? 'tabAll' : 'tab' + tab;
+  const panelId = 'tab' + tab;
   document.getElementById(panelId).classList.add('active');
 }
 
 function updateTabCounts() {
   if (!currentData) return;
-  const counts = { all: 0, AI: 0, Crypto: 0, Finance: 0 };
+  const counts = { AI: 0, Crypto: 0, Finance: 0 };
   for (const s of currentData.sections) {
     counts[s.category] = (counts[s.category] || 0) + s.items.length;
-    counts.all += s.items.length;
   }
   document.querySelectorAll('.tab-nav button').forEach(b => {
     const tab = b.dataset.tab;
@@ -191,9 +188,6 @@ function renderSection(section) {
 function renderAllTabs() {
   if (!currentData || !currentData.sections.length) { showEmpty(); return; }
 
-  // All tab
-  document.getElementById('tabAll').innerHTML = currentData.sections.map(s => renderSection(s)).join('');
-
   // Category tabs
   const cats = { AI: [], Crypto: [], Finance: [] };
   for (const s of currentData.sections) {
@@ -209,7 +203,7 @@ function renderAllTabs() {
 }
 
 function showEmpty() {
-  ['tabAll', 'tabAI', 'tabCrypto', 'tabFinance'].forEach(id => {
+  ['tabAI', 'tabCrypto', 'tabFinance'].forEach(id => {
     document.getElementById(id).innerHTML = '<div class="empty">暂无数据 📭</div>';
   });
 }
