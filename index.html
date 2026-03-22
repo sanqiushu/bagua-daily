@@ -172,8 +172,8 @@ function updateTabCounts() {
 function renderItems(items) {
   return items.map(item => `
     <div class="item ${item.hot ? 'hot' : ''}">
-      <div class="item-zh">${item.hot ? '🔥 ' : '• '}${item.zh}${item.hot ? '<span class="hot-tag">HOT</span>' : ''}</div>
-      <div class="item-en">${item.en}</div>
+      <div class="item-zh">${item.hot ? '🔥 ' : '• '}${item.zh}${item.hot ? '<span class="hot-tag">HOT</span>' : ''}${item.source ? ' <span style="color:#555;font-size:0.75rem">— ' + item.source + '</span>' : ''}</div>
+      ${item.en ? '<div class="item-en">' + item.en + '</div>' : ''}
       <a href="${item.url}" target="_blank" rel="noopener">🔗 来源 / Source</a>
     </div>
   `).join('');

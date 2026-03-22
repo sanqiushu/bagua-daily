@@ -9,14 +9,23 @@ const FEEDS = {
     { name: 'TechCrunch AI', url: 'https://techcrunch.com/category/artificial-intelligence/feed/' },
     { name: 'The Verge AI', url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml' },
     { name: 'VentureBeat AI', url: 'https://venturebeat.com/category/ai/feed/' },
+    { name: '36氪 AI', url: 'https://36kr.com/feed', lang: 'zh' },
+    { name: '机器之心', url: 'https://www.jiqizhixin.com/rss', lang: 'zh' },
+    { name: '量子位', url: 'https://www.qbitai.com/feed', lang: 'zh' },
   ],
   Crypto: [
     { name: 'CoinDesk', url: 'https://www.coindesk.com/arc/outboundfeeds/rss/' },
     { name: 'CoinTelegraph', url: 'https://cointelegraph.com/rss' },
+    { name: '金色财经', url: 'https://www.jinse.cn/rss', lang: 'zh' },
+    { name: 'PANews', url: 'https://www.panewslab.com/rss/zh/index.xml', lang: 'zh' },
+    { name: '律动 BlockBeats', url: 'https://www.theblockbeats.info/rss', lang: 'zh' },
   ],
   Finance: [
     { name: 'Reuters Business', url: 'https://www.reutersagency.com/feed/?taxonomy=best-sectors&post_type=best' },
     { name: 'CNBC', url: 'https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10001147' },
+    { name: '华尔街见闻', url: 'https://wallstreetcn.com/rss', lang: 'zh' },
+    { name: '财新网', url: 'https://rsshub.app/caixin/latest', lang: 'zh' },
+    { name: '第一财经', url: 'https://rsshub.app/yicai/brief', lang: 'zh' },
   ]
 };
 
@@ -74,7 +83,7 @@ async function fetchCategory(category, feeds) {
       const items = parseItems(xml);
       for (const item of items) {
         if (isRecent(item.date)) {
-          allItems.push({ ...item, source: feed.name });
+          allItems.push({ ...item, source: feed.name, lang: feed.lang || 'en' });
         }
       }
     } catch (e) {
@@ -82,14 +91,17 @@ async function fetchCategory(category, feeds) {
     }
   }
   
-  // Sort by date desc, take top 3-5
+  // Sort by date desc, pick up to 6 with mix of zh/en
   allItems.sort((a, b) => b.date - a.date);
-  const selected = allItems.slice(0, 4);
+  const zhItems = allItems.filter(i => i.lang === 'zh').slice(0, 3);
+  const enItems = allItems.filter(i => i.lang === 'en').slice(0, 3);
+  const selected = [...zhItems, ...enItems].sort((a, b) => b.date - a.date).slice(0, 6);
   
   return selected.map(item => ({
     zh: item.title,
-    en: item.title, // RSS titles are typically English
+    en: item.lang === 'zh' ? '' : item.title,
     url: item.url,
+    source: item.source,
     hot: false
   }));
 }
