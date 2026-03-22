@@ -45,6 +45,11 @@ function fetch(url) {
   });
 }
 
+function stripCDATA(str) {
+  if (!str) return str;
+  return str.replace(/^<!\[CDATA\[/, '').replace(/\]\]>$/, '').trim();
+}
+
 function parseItems(xml) {
   const items = [];
   // Match <item> or <entry> blocks
@@ -52,9 +57,10 @@ function parseItems(xml) {
   const matches = xml.match(itemRegex) || [];
   
   for (const block of matches.slice(0, 10)) {
-    const title = (block.match(/<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/s) || [])[1]?.trim();
-    const link = (block.match(/<link[^>]*href="([^"]+)"/) || block.match(/<link[^>]*>(.*?)<\/link>/) || [])[1]?.trim();
-    const pubDate = (block.match(/<pubDate>(.*?)<\/pubDate>/) || block.match(/<published>(.*?)<\/published>/) || block.match(/<updated>(.*?)<\/updated>/) || [])[1];
+    const title = stripCDATA((block.match(/<title[^>]*>([\s\S]*?)<\/title>/) || [])[1]?.trim());
+    let link = (block.match(/<link[^>]*href="([^"]+)"/) || block.match(/<link[^>]*>([\s\S]*?)<\/link>/) || [])[1]?.trim();
+    link = stripCDATA(link);
+    const pubDate = stripCDATA((block.match(/<pubDate>([\s\S]*?)<\/pubDate>/) || block.match(/<published>([\s\S]*?)<\/published>/) || block.match(/<updated>([\s\S]*?)<\/updated>/) || [])[1]);
     
     if (title && link) {
       items.push({ title: title.replace(/<[^>]+>/g, ''), url: link, date: pubDate ? new Date(pubDate) : new Date() });
