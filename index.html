@@ -32,6 +32,16 @@ header p { color: #888; margin-top: 6px; font-size: 0.9rem; }
 .date-list { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 16px 0; }
 .date-list button { background: #1a1a2e; border: 1px solid #333; color: #aaa; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 0.85rem; }
 .date-list button.active { background: #2a2a5e; border-color: #818cf8; color: #fff; }
+.cat-nav { display: flex; justify-content: center; gap: 10px; margin: 0 0 24px; position: sticky; top: 0; background: #0a0a0ae0; backdrop-filter: blur(10px); padding: 12px 0; z-index: 10; }
+.cat-nav button { padding: 8px 20px; border-radius: 20px; border: 1px solid #333; background: #111; color: #aaa; cursor: pointer; font-size: 0.9rem; font-weight: 600; transition: all 0.2s; }
+.cat-nav button:hover { border-color: #555; color: #ddd; }
+.cat-nav button.active { color: #fff; }
+.cat-nav button[data-cat="all"] { border-color: #555; }
+.cat-nav button[data-cat="all"].active { background: #333; border-color: #888; }
+.cat-nav button[data-cat="AI"].active { background: #1a1a3e; border-color: #818cf8; color: #818cf8; }
+.cat-nav button[data-cat="Crypto"].active { background: #1a2e1a; border-color: #4ade80; color: #4ade80; }
+.cat-nav button[data-cat="Finance"].active { background: #2e2a1a; border-color: #fbbf24; color: #fbbf24; }
+.section.hidden { display: none; }
 footer { text-align: center; color: #444; font-size: 0.8rem; padding: 32px 0 16px; }
 </style>
 </head>
@@ -47,6 +57,12 @@ footer { text-align: center; color: #444; font-size: 0.8rem; padding: 32px 0 16p
     <button onclick="changeDate(1)">后一天 →</button>
   </div>
   <div class="date-list" id="dateList"></div>
+  <nav class="cat-nav" id="catNav">
+    <button data-cat="all" class="active" onclick="filterCat('all')">📰 全部</button>
+    <button data-cat="AI" onclick="filterCat('AI')">🤖 AI</button>
+    <button data-cat="Crypto" onclick="filterCat('Crypto')">₿ Crypto</button>
+    <button data-cat="Finance" onclick="filterCat('Finance')">💹 Finance</button>
+  </nav>
   <div id="content"><div class="empty">加载中...</div></div>
   <footer>八卦君 · 信息仅供参考，不构成投资建议</footer>
 </div>
@@ -121,12 +137,24 @@ function changeDate(offset) {
   }
 }
 
+let activeCategory = 'all';
+
+function filterCat(cat) {
+  activeCategory = cat;
+  document.querySelectorAll('.cat-nav button').forEach(b => b.classList.remove('active'));
+  document.querySelector(`.cat-nav button[data-cat="${cat}"]`).classList.add('active');
+  document.querySelectorAll('.section').forEach(s => {
+    if (cat === 'all') { s.classList.remove('hidden'); }
+    else { s.dataset.cat === cat ? s.classList.remove('hidden') : s.classList.add('hidden'); }
+  });
+}
+
 function renderContent(data) {
   const el = document.getElementById('content');
   const catClass = { 'AI': 'ai', 'Crypto': 'crypto', 'Finance': 'finance' };
   
   el.innerHTML = data.sections.map(s => `
-    <div class="section">
+    <div class="section${activeCategory !== 'all' && activeCategory !== s.category ? ' hidden' : ''}" data-cat="${s.category}">
       <div class="section-title ${catClass[s.category] || ''}">【${s.category}】</div>
       ${s.items.map(item => `
         <div class="item ${item.hot ? 'hot' : ''}">
