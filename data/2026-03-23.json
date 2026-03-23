@@ -1,0 +1,97 @@
+{
+  "date": "2026-03-23",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "AI influencer awards season is upon us",
+          "en": "AI influencer awards season is upon us",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/898781/ai-personality-of-the-year-influencer-contest",
+          "source": "The Verge AI",
+          "hot": true
+        },
+        {
+          "zh": "「食气生化」获超亿元融资，中试装置运行过万小时，五万吨级项目获备案 | 36氪首发",
+          "en": "",
+          "url": "https://36kr.com/p/3727983704243078?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "8点1氪丨上市公司董事长病逝，未成年女儿继承9亿元股票；司美格鲁肽化合物专利到期；于东来回应40亿资产利润分配争议",
+          "en": "",
+          "url": "https://36kr.com/p/3734758253887744?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "Do you want to build a robot snowman?",
+          "en": "Do you want to build a robot snowman?",
+          "url": "https://techcrunch.com/2026/03/22/do-you-want-to-build-a-robot-snowman/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Cursor admits its new coding model was built on top of Moonshot AI’s Kimi",
+          "en": "Cursor admits its new coding model was built on top of Moonshot AI’s Kimi",
+          "url": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "华晨宇进军日化家居赛道，与小阔集团共同创立品牌「重点」｜项目报道",
+          "en": "",
+          "url": "https://36kr.com/p/3733991155400965?f=rss",
+          "source": "36氪",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "NYSE exchanges scrap crypto options cap on 11 Bitcoin, Ether ETFs",
+          "en": "NYSE exchanges scrap crypto options cap on 11 Bitcoin, Ether ETFs",
+          "url": "https://cointelegraph.com/news/nyse-exchanges-scrap-crypto-options-cap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "Bitcoin Price Slides but Holds Up Better Than Stocks as Oil Shock Continues",
+          "en": "Bitcoin Price Slides but Holds Up Better Than Stocks as Oil Shock Continues",
+          "url": "https://decrypt.co/361973/bitcoin-price-holds-up-better-stocks-oil-shock-continues",
+          "source": "Decrypt",
+          "hot": false
+        },
+        {
+          "zh": "Banks push tokenized deposits as onchain cash race intensifies: Report",
+          "en": "Banks push tokenized deposits as onchain cash race intensifies: Report",
+          "url": "https://cointelegraph.com/news/tokenized-deposits-europe-banks-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "The price of menstrual products is skyrocketing from inflation, tariffs",
+          "en": "The price of menstrual products is skyrocketing from inflation, tariffs",
+          "url": "https://www.cnbc.com/2026/03/22/menstrual-products-tampons-feminine-care-prices-inflation.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "Nissan’s new hybrid is a U.S.-first that mixes EV driving with a gas engine",
+          "en": "Nissan’s new hybrid is a U.S.-first that mixes EV driving with a gas engine",
+          "url": "https://www.cnbc.com/2026/03/21/nissan-series-hybrid-rogue-suv.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
