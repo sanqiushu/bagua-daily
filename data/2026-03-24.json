@@ -1,0 +1,104 @@
+{
+  "date": "2026-03-24",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "小米新SU7上市72小时：客流被稀释，要拼产品硬功夫",
+          "en": "",
+          "url": "https://36kr.com/p/3730744534253570?f=rss",
+          "source": "36氪",
+          "hot": true
+        },
+        {
+          "zh": "8点1氪丨13年来首次，国家对油价临时调控；影石回应被大疆起诉；雷军称小米新一代SU7锁单超过3万台",
+          "en": "",
+          "url": "https://36kr.com/p/3736178996658435?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
+          "en": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
+          "url": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Bernie Sanders&#8217; AI &#8216;gotcha&#8217; video flops, but the memes are great",
+          "en": "Bernie Sanders&#8217; AI &#8216;gotcha&#8217; video flops, but the memes are great",
+          "url": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Google’s new Pixel 10 ads made me go ‘Wait, WHAT are they trying to sell?’",
+          "en": "Google’s new Pixel 10 ads made me go ‘Wait, WHAT are they trying to sell?’",
+          "url": "https://www.theverge.com/tech/898992/google-pixel-10-ads-moving-on-stalker-lying-beach-view-100-zoom",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "氪星晚报 ｜阿里明日或将发布重要芯片产品；全球首个脑机接口创新产品获得医保编码；LG电子称今年将全力推进机器人业务",
+          "en": "",
+          "url": "https://36kr.com/p/3735459789242375?f=rss",
+          "source": "36氪",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "Strategy seeks another $44.1B to accelerate Bitcoin buying",
+          "en": "Strategy seeks another $44.1B to accelerate Bitcoin buying",
+          "url": "https://cointelegraph.com/news/strategy-44-billion-plan-fund-bitcoin-buys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "Protesters Rally Outside OpenAI, Anthropic, and xAI Offices Over Industry Concerns",
+          "en": "Protesters Rally Outside OpenAI, Anthropic, and xAI Offices Over Industry Concerns",
+          "url": "https://decrypt.co/362129/protesters-rally-openai-anthropic-xai-offices",
+          "source": "Decrypt",
+          "hot": false
+        },
+        {
+          "zh": "Bitcoin’s battle for $70K continues as data shows traders avoiding bullish positioning",
+          "en": "Bitcoin’s battle for $70K continues as data shows traders avoiding bullish positioning",
+          "url": "https://cointelegraph.com/news/bitcoin-s-battle-for-70k-continues-as-data-shows-traders-avoiding-bullish-positioning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "Estée Lauder is in talks to merge with Puig amid ongoing turnaround plan",
+          "en": "Estée Lauder is in talks to merge with Puig amid ongoing turnaround plan",
+          "url": "https://www.cnbc.com/2026/03/23/este-lauder-puig-merger-talks.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "WNBPA President Nneka Ogwumike says new CBA will have a major impact on players&apos; bank accounts",
+          "en": "WNBPA President Nneka Ogwumike says new CBA will have a major impact on players&apos; bank accounts",
+          "url": "https://www.cnbc.com/2026/03/23/wnbpa-nneka-ogwumike-cba-players-bank-accounts.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "The price of menstrual products is skyrocketing from inflation, tariffs",
+          "en": "The price of menstrual products is skyrocketing from inflation, tariffs",
+          "url": "https://www.cnbc.com/2026/03/22/menstrual-products-tampons-feminine-care-prices-inflation.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
