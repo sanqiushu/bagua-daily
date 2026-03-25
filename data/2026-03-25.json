@@ -1,0 +1,104 @@
+{
+  "date": "2026-03-25",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
+          "en": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
+          "url": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
+          "source": "TechCrunch AI",
+          "hot": true
+        },
+        {
+          "zh": "AI智能体下场：新药开发如何告别单步解题、突破认知盲区？  | 最前线",
+          "en": "",
+          "url": "https://36kr.com/p/3736278401286401?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "8点1氪丨美国提出15点结束冲突方案，拟停火1个月；张雪峰因心源性猝死抢救无效去世；Token中文名定了：词元",
+          "en": "",
+          "url": "https://36kr.com/p/3737612384043270?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "OpenAI关停Sora！25个月从封神到退场",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/03/391799.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "OpenAI’s Sora was the creepiest app on your phone &#8212; now it&#8217;s shutting down",
+          "en": "OpenAI’s Sora was the creepiest app on your phone &#8212; now it&#8217;s shutting down",
+          "url": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Kentucky woman rejects $26M offer to turn her farm into a data center",
+          "en": "Kentucky woman rejects $26M offer to turn her farm into a data center",
+          "url": "https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/",
+          "source": "TechCrunch AI",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "OpenAI to Shut Down Sora Video App, Derailing $1 Billion Deal with Disney",
+          "en": "OpenAI to Shut Down Sora Video App, Derailing $1 Billion Deal with Disney",
+          "url": "https://decrypt.co/362243/openai-shut-down-sora-derailing-1-billion-deal-disney",
+          "source": "Decrypt",
+          "hot": true
+        },
+        {
+          "zh": "Rising US treasury yields, war in Iran, rising inflation risk pressure Bitcoin price",
+          "en": "Rising US treasury yields, war in Iran, rising inflation risk pressure Bitcoin price",
+          "url": "https://cointelegraph.com/news/rising-us-treasury-yields-war-in-iran-rising-inflation-risk-pressure-bitcoin-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        },
+        {
+          "zh": "Here’s what happened in crypto today",
+          "en": "Here’s what happened in crypto today",
+          "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "United ditches more economy seats to make room for bigger premium cabins with new layouts",
+          "en": "United ditches more economy seats to make room for bigger premium cabins with new layouts",
+          "url": "https://www.cnbc.com/2026/03/24/united-airlines-premium-seats.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "Delta suspends &apos;specialty services&apos; perk for members of Congress, cites DHS shutdown",
+          "en": "Delta suspends &apos;specialty services&apos; perk for members of Congress, cites DHS shutdown",
+          "url": "https://www.cnbc.com/2026/03/24/delta-airlines-congress-dhs-shutdown-tsa.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "Jamie Dimon says Iran war makes Middle East peace prospects better in the long term",
+          "en": "Jamie Dimon says Iran war makes Middle East peace prospects better in the long term",
+          "url": "https://www.cnbc.com/2026/03/24/jamie-dimon-iran-war-middle-east-peace-prospects-long-term.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
