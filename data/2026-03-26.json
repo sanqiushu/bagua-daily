@@ -1,0 +1,104 @@
+{
+  "date": "2026-03-26",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "Mercor competitor Deccan AI raises $25M, sources experts from India",
+          "en": "Mercor competitor Deccan AI raises $25M, sources experts from India",
+          "url": "https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce/",
+          "source": "TechCrunch AI",
+          "hot": true
+        },
+        {
+          "zh": "「傲意科技」获1.5亿元C轮融资，海外收入增速反超国内｜36氪首发",
+          "en": "",
+          "url": "https://36kr.com/p/3738341704270083?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "8点1氪丨张雪峰医疗文件疑似泄露，苏州卫生健康委回应；黄仁勋谈死亡：希望在工作中突然离世；OpenAI将停止Sora视频生成服务，精简产品线",
+          "en": "",
+          "url": "https://36kr.com/p/3739006287216903?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "The AI skills gap is here, says AI company, and power users are pulling ahead",
+          "en": "The AI skills gap is here, says AI company, and power users are pulling ahead",
+          "url": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Meta is laying off hundreds of employees as it pours money into AI",
+          "en": "Meta is laying off hundreds of employees as it pours money into AI",
+          "url": "https://www.theverge.com/tech/900946/meta-layoffs-hundreds-employees",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "第一批“首席龙虾官”，月薪6万",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/03/392128.html",
+          "source": "量子位",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "$18.6B in Bitcoin options expire Friday: Should traders prepare for $75K BTC?",
+          "en": "$18.6B in Bitcoin options expire Friday: Should traders prepare for $75K BTC?",
+          "url": "https://cointelegraph.com/news/18-6b-in-bitcoin-options-expire-friday-should-traders-prepare-for-75k-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "Australia Lays Groundwork for Tokenized Asset Markets After RBA Project",
+          "en": "Australia Lays Groundwork for Tokenized Asset Markets After RBA Project",
+          "url": "https://decrypt.co/362391/australia-tokenized-asset-markets-rba-project",
+          "source": "Decrypt",
+          "hot": false
+        },
+        {
+          "zh": "Google Shrinks AI Memory With No Accuracy Loss—But There&#39;s a Catch",
+          "en": "Google Shrinks AI Memory With No Accuracy Loss—But There&#39;s a Catch",
+          "url": "https://decrypt.co/362384/google-shrinks-ai-memory-no-accuracy-loss",
+          "source": "Decrypt",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "JLL CEO says growth is now uncertain in the Middle East",
+          "en": "JLL CEO says growth is now uncertain in the Middle East",
+          "url": "https://www.cnbc.com/2026/03/25/jll-ceo-says-growth-is-now-uncertain-in-the-middle-east.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "Trump says he could send National Guard to airports &apos;for more help&apos;",
+          "en": "Trump says he could send National Guard to airports &apos;for more help&apos;",
+          "url": "https://www.cnbc.com/2026/03/25/trump-airport-security-tsa-national-guard.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "United ditches more economy seats to make room for bigger premium cabins with new layouts",
+          "en": "United ditches more economy seats to make room for bigger premium cabins with new layouts",
+          "url": "https://www.cnbc.com/2026/03/24/united-airlines-premium-seats.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
