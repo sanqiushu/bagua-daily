@@ -1,0 +1,104 @@
+{
+  "date": "2026-03-27",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "Judge sides with Anthropic to temporarily block the Pentagon&#8217;s ban",
+          "en": "Judge sides with Anthropic to temporarily block the Pentagon&#8217;s ban",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/902149/anthropic-dod-pentagon-lawsuit-supply-chain-risk-injunction",
+          "source": "The Verge AI",
+          "hot": true
+        },
+        {
+          "zh": "8点1氪丨雷军辞去金山云董事长；苹果回应iPhone半夜自动打电话；速效救心丸成交额同比增长超10倍",
+          "en": "",
+          "url": "https://36kr.com/p/3740427947426049?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "You can now transfer your chats and personal information from other chatbots directly into Gemini",
+          "en": "You can now transfer your chats and personal information from other chatbots directly into Gemini",
+          "url": "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "David Sacks is no longer the White House AI and Crypto Czar",
+          "en": "David Sacks is no longer the White House AI and Crypto Czar",
+          "url": "https://www.theverge.com/policy/902140/david-sacks-out-ai-crypto-czar",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "浙大博士造出「机器人界的F1」：不卷脑子卷身体，要比博尔特跑得快",
+          "en": "",
+          "url": "https://36kr.com/p/3739769424593154?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "StoReel获3400万美元融资：用AI重构故事生产，打造工具社区与平台双轮驱动的内容生态｜涌现新项目",
+          "en": "",
+          "url": "https://36kr.com/p/3739636054999040?f=rss",
+          "source": "36氪",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "GameStop didn't sell its 4,710 Bitcoin after all, filing shows",
+          "en": "GameStop didn't sell its 4,710 Bitcoin after all, filing shows",
+          "url": "https://cointelegraph.com/news/gamestop-didnt-sell-368m-bitcoin-after-all?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "David Sacks Leaves White House Crypto Role With Key Legislation Still Unresolved",
+          "en": "David Sacks Leaves White House Crypto Role With Key Legislation Still Unresolved",
+          "url": "https://decrypt.co/362531/david-sacks-leaves-white-house-crypto-role-legislation",
+          "source": "Decrypt",
+          "hot": false
+        },
+        {
+          "zh": "SEC is no longer a 'cop on the beat‘ on crypto, says US lawmaker",
+          "en": "SEC is no longer a 'cop on the beat‘ on crypto, says US lawmaker",
+          "url": "https://cointelegraph.com/news/sec-beat-cop-crypto-stephen-lynch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "Target faces a new boycott over ICE response as retailer presses ahead with turnaround",
+          "en": "Target faces a new boycott over ICE response as retailer presses ahead with turnaround",
+          "url": "https://www.cnbc.com/2026/03/26/target-aft-boycott-ice-minneapolis.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "Inifiniti hopes new SUV can turn around fortunes in the U.S.",
+          "en": "Inifiniti hopes new SUV can turn around fortunes in the U.S.",
+          "url": "https://www.cnbc.com/2026/03/26/inifiniti-qx65-suv-nissan.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "MLB faces a historic shift as potential lockout, media rights and other league changes loom",
+          "en": "MLB faces a historic shift as potential lockout, media rights and other league changes loom",
+          "url": "https://www.cnbc.com/2026/03/26/mlb-faces-historic-shift-as-potential-lockout-media-rights-and-league-changes-loom.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
