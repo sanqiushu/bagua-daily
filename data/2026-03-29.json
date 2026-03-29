@@ -1,0 +1,104 @@
+{
+  "date": "2026-03-29",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "Bluesky leans into AI with Attie, an app for building custom feeds",
+          "en": "Bluesky leans into AI with Attie, an app for building custom feeds",
+          "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+          "source": "TechCrunch AI",
+          "hot": true
+        },
+        {
+          "zh": "Stanford study outlines dangers of asking AI chatbots for personal advice",
+          "en": "Stanford study outlines dangers of asking AI chatbots for personal advice",
+          "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Suno leans into customization with v5.5",
+          "en": "Suno leans into customization with v5.5",
+          "url": "https://www.theverge.com/entertainment/903056/suno-ai-music-v5-5-model",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "趋境ATaaS平台发布，打造日均万亿产能的“Token工厂”",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/03/392988.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "中关村论坛“AI2026：向人立心，向实立命”特邀闭门会顺利举办",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/03/392981.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "「一人一天一部剧」时代降临，但AI短剧供给过剩不是末日｜专访巨日禄杰夫",
+          "en": "",
+          "url": "https://36kr.com/p/3738258350817540?f=rss",
+          "source": "36氪",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "Here’s what happened in crypto today",
+          "en": "Here’s what happened in crypto today",
+          "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "Kalshi legal woes grow with Washington state gambling suit",
+          "en": "Kalshi legal woes grow with Washington state gambling suit",
+          "url": "https://cointelegraph.com/news/kalshi-legal-woes-grow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        },
+        {
+          "zh": "Tokenized platform xStocks brings new private shares fund on-chain",
+          "en": "Tokenized platform xStocks brings new private shares fund on-chain",
+          "url": "https://cointelegraph.com/news/tokeniz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "Pricy airfare, airport chaos test travelers&apos; willingness to fly this year",
+          "en": "Pricy airfare, airport chaos test travelers&apos; willingness to fly this year",
+          "url": "https://www.cnbc.com/2026/03/28/tsa-security-airfare-airports.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "A Paramount-Warner Bros. movie slate will need more animated features to compete with Disney and Universal",
+          "en": "A Paramount-Warner Bros. movie slate will need more animated features to compete with Disney and Universal",
+          "url": "https://www.cnbc.com/2026/03/28/paramount-warner-bros-movie-slate-needs-animation.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "Iran war wipes out $100 billion from luxury stocks",
+          "en": "Iran war wipes out $100 billion from luxury stocks",
+          "url": "https://www.cnbc.com/2026/03/27/iran-war-wipes-out-100-billion-from-luxury-stocks.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
