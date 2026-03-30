@@ -1,0 +1,90 @@
+{
+  "date": "2026-03-30",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "「微元合成」获3亿元A+轮融资，联合发布AI生物计算开放合作平台 | 36氪首发",
+          "en": "",
+          "url": "https://36kr.com/p/3744666471088389?f=rss",
+          "source": "36氪",
+          "hot": true
+        },
+        {
+          "zh": "8点1氪丨全国猪价跌破5元创历史新低；雀巢12吨巧克力被盗；起诉小米汽车的“老头乐”企业致歉",
+          "en": "",
+          "url": "https://36kr.com/p/3744669439508484?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "Bluesky’s new app is an AI for customizing your feed",
+          "en": "Bluesky’s new app is an AI for customizing your feed",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/903190/bluesky-attie-ai-custom-feeds",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "Sora’s shutdown could be a reality check moment for AI video",
+          "en": "Sora’s shutdown could be a reality check moment for AI video",
+          "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Claude 90分钟挖穿20年漏洞！5w星“安全”系统跌下神坛",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/03/393186.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "Bluesky leans into AI with Attie, an app for building custom feeds",
+          "en": "Bluesky leans into AI with Attie, an app for building custom feeds",
+          "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+          "source": "TechCrunch AI",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "Here’s what happened in crypto today",
+          "en": "Here’s what happened in crypto today",
+          "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "Walmart-backed OnePay adds tokens in push to serve ‘new to crypto’ customers",
+          "en": "Walmart-backed OnePay adds tokens in push to serve ‘new to crypto’ customers",
+          "url": "https://cointelegraph.com/news/walmart-backed-onepay-adds-a-dozen-new-tokens-in-push-to-serve-new-to-crypto-customers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        },
+        {
+          "zh": "What’s on the Ethereum Roadmap: Glamsterdam, Hegota and Beyond",
+          "en": "What’s on the Ethereum Roadmap: Glamsterdam, Hegota and Beyond",
+          "url": "https://decrypt.co/resources/whats-on-ethereum-roadmap-glamsterdam-hegota-beyond",
+          "source": "Decrypt",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "Logan Paul sold a Pokémon card for more than $16 million. Here&apos;s why investors are watching",
+          "en": "Logan Paul sold a Pokémon card for more than $16 million. Here&apos;s why investors are watching",
+          "url": "https://www.cnbc.com/2026/03/29/pokemon-card-values-rise-logan-paul-pikachu-auction.html",
+          "source": "CNBC",
+          "hot": true
+        }
+      ]
+    }
+  ]
+}
