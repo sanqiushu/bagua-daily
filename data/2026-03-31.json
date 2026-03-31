@@ -1,0 +1,104 @@
+{
+  "date": "2026-03-31",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "“医药界英伟达”，花200亿买中国AI公司的减重药",
+          "en": "",
+          "url": "https://36kr.com/p/3745377703608832?f=rss",
+          "source": "36氪",
+          "hot": true
+        },
+        {
+          "zh": "高端纯电，车企苦寻破局「命门」",
+          "en": "",
+          "url": "https://36kr.com/p/3712239685382280?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "8点1氪丨伊朗议会批准对海峡征收通行费；多品牌电动车将涨价；名创优品回应买盲盒需要会员",
+          "en": "",
+          "url": "https://36kr.com/p/3746104816943617?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "15% of Americans say they&#8217;d be willing to work for an AI boss, according to new poll",
+          "en": "15% of Americans say they&#8217;d be willing to work for an AI boss, according to new poll",
+          "url": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
+          "en": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
+          "url": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "As more Americans adopt AI tools, fewer say they can trust the results",
+          "en": "As more Americans adopt AI tools, fewer say they can trust the results",
+          "url": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
+          "source": "TechCrunch AI",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "US senators float ‘Mined in America Act’ to boost BTC mining, codify reserve",
+          "en": "US senators float ‘Mined in America Act’ to boost BTC mining, codify reserve",
+          "url": "https://cointelegraph.com/news/senators-bill-bitcoin-mining-manufacturing-usa?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "Bitcoin data points to ‘rare’ trading setup for relief rally to $71K",
+          "en": "Bitcoin data points to ‘rare’ trading setup for relief rally to $71K",
+          "url": "https://cointelegraph.com/news/bitcoin-data-points-to-rare-trading-setup-for-relief-rally-to-dollar71k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        },
+        {
+          "zh": "Peter Brandt, Polymarket traders don’t see new Bitcoin highs this year",
+          "en": "Peter Brandt, Polymarket traders don’t see new Bitcoin highs this year",
+          "url": "https://cointelegraph.com/news/peter-brandt-polymarket-traders-new-bitcoin-highs-unlikely-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "JetBlue Airways raises checked bag fees at least $4 as fuel prices soar",
+          "en": "JetBlue Airways raises checked bag fees at least $4 as fuel prices soar",
+          "url": "https://www.cnbc.com/2026/03/30/jetblue-airways-raises-checked-baggage-fees-as-fuel-prices-soar.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "China suppliers warn of higher prices for Americans due to Strait of Hormuz closure",
+          "en": "China suppliers warn of higher prices for Americans due to Strait of Hormuz closure",
+          "url": "https://www.cnbc.com/2026/03/30/china-suppliers-warn-higher-us-prices-hormuz-closure.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "NFL asks prediction market operators to refrain from &apos;objectionable bets&apos;",
+          "en": "NFL asks prediction market operators to refrain from &apos;objectionable bets&apos;",
+          "url": "https://www.cnbc.com/2026/03/30/nfl-asks-prediction-markets-to-refrain-from-objectionable-bets.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
