@@ -1,0 +1,104 @@
+{
+  "date": "2026-04-01",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "36氪首发丨东南亚二手电商「Kitar」完成Pre-A轮超千万美元融资，今年 GMV 将达1亿美金",
+          "en": "",
+          "url": "https://36kr.com/p/3739823544205314?f=rss",
+          "source": "36氪",
+          "hot": true
+        },
+        {
+          "zh": "8点1氪丨Patagonia客服回应收取“地球使用费”；美国佛罗里达州一机场更名为“唐纳德·特朗普国际机场”；清明节有商家推出AI大模型纸扎",
+          "en": "",
+          "url": "https://36kr.com/p/3747503534899976?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "Anthropic is having a month",
+          "en": "Anthropic is having a month",
+          "url": "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
+          "en": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
+          "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Claude Code leak exposes a Tamagotchi-style ‘pet’ and an always-on agent",
+          "en": "Claude Code leak exposes a Tamagotchi-style ‘pet’ and an always-on agent",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "公司注册10天，估值逾10亿美元！理想智驾大牛刷出具身创投新热度",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/03/394149.html",
+          "source": "量子位",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "Watch Out Bitcoin: Cryptography-Breaking Quantum Computers May Be Closer Than Expected, Says Caltech",
+          "en": "Watch Out Bitcoin: Cryptography-Breaking Quantum Computers May Be Closer Than Expected, Says Caltech",
+          "url": "https://decrypt.co/362988/cryptography-breaking-quantum-computers-closer-expected-caltech-bitcoin",
+          "source": "Decrypt",
+          "hot": true
+        },
+        {
+          "zh": "Bitcoin, stocks soar as markets respond to chance of US and Israel-Iran war ending",
+          "en": "Bitcoin, stocks soar as markets respond to chance of US and Israel-Iran war ending",
+          "url": "https://cointelegraph.com/news/bitcoin-stocks-soar-as-markets-respond-to-chance-of-us-and-israel-iran-war-ending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        },
+        {
+          "zh": "Trump says US will leave Iran within 2 to 3 weeks",
+          "en": "Trump says US will leave Iran within 2 to 3 weeks",
+          "url": "https://cointelegraph.com/news/trump-signals-us-withdrawal-iran-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "Nike shares fall 9% on weak outlook, expected 20% sales decline in China",
+          "en": "Nike shares fall 9% on weak outlook, expected 20% sales decline in China",
+          "url": "https://www.cnbc.com/2026/03/31/nike-nke-earnings-q3-2026.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "Tom Brady, famed health nut, explains his junk food endorsements in retirement: &apos;Moderation in all things&apos;",
+          "en": "Tom Brady, famed health nut, explains his junk food endorsements in retirement: &apos;Moderation in all things&apos;",
+          "url": "https://www.cnbc.com/2026/03/31/tom-brady-junk-food-endorsements-retirement.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "Mercedes U.S. CEO sets ambitious sales goal despite &apos;tougher&apos; market than anticipated",
+          "en": "Mercedes U.S. CEO sets ambitious sales goal despite &apos;tougher&apos; market than anticipated",
+          "url": "https://www.cnbc.com/2026/03/31/mercedes-us-ceo-sets-ambitious-sales-goal-despite-tougher-market.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
