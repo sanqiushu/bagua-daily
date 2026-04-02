@@ -1,0 +1,104 @@
+{
+  "date": "2026-04-02",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "8点1氪丨甲骨文凌晨突发邮件裁员3万人；市监局回应张雪机车禁止新手购买；SpaceX据悉秘密提交IPO文件，估值或超过1.75万亿美元",
+          "en": "",
+          "url": "https://36kr.com/p/3748927500387072?f=rss",
+          "source": "36氪",
+          "hot": true
+        },
+        {
+          "zh": "Anthropic took down thousands of GitHub repos trying to yank its leaked source code — a move the company says was an accident",
+          "en": "Anthropic took down thousands of GitHub repos trying to yank its leaked source code — a move the company says was an accident",
+          "url": "https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Meta’s natural gas binge could power South Dakota",
+          "en": "Meta’s natural gas binge could power South Dakota",
+          "url": "https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Cognichip wants AI to design the chips that power AI, and just raised $60M to try",
+          "en": "Cognichip wants AI to design the chips that power AI, and just raised $60M to try",
+          "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "小牛电动胡依林：一家成立12年的两轮电动车厂商决定转型AI，“all in or nothing”",
+          "en": "",
+          "url": "https://36kr.com/p/3748233045541637?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "为啥武汉无人车也“呆”了一次",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/394554.html",
+          "source": "量子位",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "Crypto exchange Bithumb to delay IPO until after 2028: Report",
+          "en": "Crypto exchange Bithumb to delay IPO until after 2028: Report",
+          "url": "https://cointelegraph.com/news/crypto-exchange-bithumb-delay-ipo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "US Treasury seeks public input for state-level stablecoin regulations",
+          "en": "US Treasury seeks public input for state-level stablecoin regulations",
+          "url": "https://cointelegraph.com/news/us-treasury-state-stablecoin-regulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        },
+        {
+          "zh": "These Three Altcoins Just Got Leveraged Crypto ETFs",
+          "en": "These Three Altcoins Just Got Leveraged Crypto ETFs",
+          "url": "https://decrypt.co/363089/volatility-shares-everaged-crypto-etfs-three-altcoins",
+          "source": "Decrypt",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "Tiger Woods won&apos;t captain 2027 Ryder Cup team as golf future remains uncertain",
+          "en": "Tiger Woods won&apos;t captain 2027 Ryder Cup team as golf future remains uncertain",
+          "url": "https://www.cnbc.com/2026/04/01/tiger-woods-golf-future-uncertain-recovery-crash.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "Walmart-owned Sam&apos;s Club raises its annual membership fee to $60",
+          "en": "Walmart-owned Sam&apos;s Club raises its annual membership fee to $60",
+          "url": "https://www.cnbc.com/2026/04/01/sam.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "Wall Street loses patience with Nike as turnaround drags, China weakness deepens",
+          "en": "Wall Street loses patience with Nike as turnaround drags, China weakness deepens",
+          "url": "https://www.cnbc.com/2026/04/01/nike-q3-2026-turnaround-drags-china-sales-slump.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
