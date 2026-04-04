@@ -1,0 +1,104 @@
+{
+  "date": "2026-04-04",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "Anthropic essentially bans OpenClaw from Claude by making subscribers pay extra",
+          "en": "Anthropic essentially bans OpenClaw from Claude by making subscribers pay extra",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
+          "source": "The Verge AI",
+          "hot": true
+        },
+        {
+          "zh": "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead &#8216;special projects&#8217;",
+          "en": "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead &#8216;special projects&#8217;",
+          "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Anthropic buys biotech startup Coefficient Bio in $400M deal: Reports",
+          "en": "Anthropic buys biotech startup Coefficient Bio in $400M deal: Reports",
+          "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "浪潮信息直播发布业界企业级OpenClaw方案“企千虾”",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/395916.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "Sora向左，阿里向右：全能演技派模型登场千问APP",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/395477.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "神州数码2025年营收超1400亿，AI相关业务增长近五成｜最前线",
+          "en": "",
+          "url": "https://36kr.com/p/3751046517129735?f=rss",
+          "source": "36氪",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "Ethereum Foundation nearly reaches 70,000 staked ETH goal",
+          "en": "Ethereum Foundation nearly reaches 70,000 staked ETH goal",
+          "url": "https://cointelegraph.com/news/ethereum-foundation-nearly-reaches-70000-staked-eth-goal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "Charles Schwab Is Gearing Up to Offer Bitcoin, Ethereum Spot Trading",
+          "en": "Charles Schwab Is Gearing Up to Offer Bitcoin, Ethereum Spot Trading",
+          "url": "https://decrypt.co/363336/charles-schwab-bitcoin-ethereum-spot-trading",
+          "source": "Decrypt",
+          "hot": false
+        },
+        {
+          "zh": "FIFA Inks World Cup Prediction Market Deal With ADI Predictstreet",
+          "en": "FIFA Inks World Cup Prediction Market Deal With ADI Predictstreet",
+          "url": "https://decrypt.co/363330/fifa-inks-world-cup-prediction-market-deal-adi-predictstreet",
+          "source": "Decrypt",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "The cost to fly private is up as much as 20% with fuel prices soaring",
+          "en": "The cost to fly private is up as much as 20% with fuel prices soaring",
+          "url": "https://www.cnbc.com/2026/04/03/private-jet-travel-costs-rise-fuel-prices.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "United Airlines hikes checked bag fee by $10 as fuel prices continue to climb",
+          "en": "United Airlines hikes checked bag fee by $10 as fuel prices continue to climb",
+          "url": "https://www.cnbc.com/2026/04/02/united-airlines-raises-checked-bag-fees-fuel-prices-climb.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "United unveils basic Polaris business fare in premium cabin overhaul",
+          "en": "United unveils basic Polaris business fare in premium cabin overhaul",
+          "url": "https://www.cnbc.com/2026/04/03/united-base-polaris-business-class.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
