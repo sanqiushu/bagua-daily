@@ -1,0 +1,97 @@
+{
+  "date": "2026-04-05",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "A folk musician became a target for AI fakes and a copyright troll",
+          "en": "A folk musician became a target for AI fakes and a copyright troll",
+          "url": "https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright",
+          "source": "The Verge AI",
+          "hot": true
+        },
+        {
+          "zh": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
+          "en": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
+          "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "日调用量超万亿破纪录！阿里千问3.6Plus登顶全球模型调用量榜首",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/396346.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "Really, you made this without AI? Prove it",
+          "en": "Really, you made this without AI? Prove it",
+          "url": "https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "19岁，常青藤辍学，这群中国年轻人重构了AI记忆",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/396069.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "联想重新定义“龙虾”",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/396015.html",
+          "source": "量子位",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "Here’s what happened in crypto today",
+          "en": "Here’s what happened in crypto today",
+          "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "Telegram founder Pavel Durov says Iranian government's ban backfired",
+          "en": "Telegram founder Pavel Durov says Iranian government's ban backfired",
+          "url": "https://cointelegraph.com/news/telegram-durov-iran-ban-backfire?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        },
+        {
+          "zh": "Jimmy Song explains why Bitcoin needs a 'conservative' node client",
+          "en": "Jimmy Song explains why Bitcoin needs a 'conservative' node client",
+          "url": "https://cointelegraph.com/news/jimmy-song-bitcoin-conservative-node-client?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "Basic business class is here with new, stripped-down United Polaris fares",
+          "en": "Basic business class is here with new, stripped-down United Polaris fares",
+          "url": "https://www.cnbc.com/2026/04/03/united-base-polaris-business-class.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "The Chinese box office isn&apos;t the Hollywood kingmaker it used to be. Here&apos;s why",
+          "en": "The Chinese box office isn&apos;t the Hollywood kingmaker it used to be. Here&apos;s why",
+          "url": "https://www.cnbc.com/2026/04/04/china-box-office-hollywood-films.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
