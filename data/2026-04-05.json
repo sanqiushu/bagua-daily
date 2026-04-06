@@ -5,45 +5,87 @@
       "category": "AI",
       "items": [
         {
-          "zh": "A folk musician became a target for AI fakes and a copyright troll",
-          "en": "A folk musician became a target for AI fakes and a copyright troll",
-          "url": "https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright",
-          "source": "The Verge AI",
+          "zh": "OpenAI 新模型代号「土豆」曝光，不是 GPT-X！全新预训练架构，Sora 被弃用的原因浮出水面，正面回应与 Anthropic 的竞争",
+          "en": "OpenAI's new model codenamed 'Potato' leaked — not GPT-X. Brand-new pretraining architecture revealed; Sora abandoned as company directly addresses competition with Anthropic",
+          "url": "https://www.qbitai.com/2026/04/396535.html",
+          "source": "量子位",
           "hot": true
         },
         {
-          "zh": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
-          "en": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
-          "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
-          "source": "TechCrunch AI",
-          "hot": false
+          "zh": "Anthropic 收购生物科技公司 Coefficient Bio，交易额达 4 亿美元，加速 AI+生物领域布局",
+          "en": "Anthropic acquires biotech startup Coefficient Bio in $400M deal, accelerating AI+biology strategy",
+          "url": "https://techcrunch.com/2026/04/04/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+          "source": "TechCrunch",
+          "hot": true
         },
         {
-          "zh": "日调用量超万亿破纪录！阿里千问3.6Plus登顶全球模型调用量榜首",
-          "en": "",
+          "zh": "Anthropic 成立政治行动委员会 (PAC)，在与特朗普政府的 AI 政策紧张关系中升级政治活动",
+          "en": "Anthropic launches PAC amid tensions with Trump administration over AI policy",
+          "url": "https://techcrunch.com/2026/04/04/anthropic-ramps-up-its-political-activities-with-a-new-pac/",
+          "source": "TechCrunch",
+          "hot": true
+        },
+        {
+          "zh": "阿里千问 3.6 Plus 日调用量突破 1.4 万亿 Token，登顶全球模型调用量榜首",
+          "en": "Alibaba Qwen 3.6 Plus breaks daily invocation record at 1.4 trillion tokens, tops global model usage chart",
           "url": "https://www.qbitai.com/2026/04/396346.html",
           "source": "量子位",
+          "hot": true
+        },
+        {
+          "zh": "OpenAI COO Brad Lightcap 转任领导「特别项目」，CEO Fidji Simo 因病休假，公司高层再次洗牌",
+          "en": "OpenAI executive shuffle: COO Brad Lightcap moves to 'special projects'; CEO Fidji Simo takes medical leave",
+          "url": "https://techcrunch.com/2026/04/04/openai-executive-shuffle-includes-new-role-for-coo-brad-lightcap-to-lead-special-projects/",
+          "source": "TechCrunch",
           "hot": false
         },
         {
-          "zh": "Really, you made this without AI? Prove it",
-          "en": "Really, you made this without AI? Prove it",
-          "url": "https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content",
-          "source": "The Verge AI",
-          "hot": false
-        },
-        {
-          "zh": "19岁，常青藤辍学，这群中国年轻人重构了AI记忆",
-          "en": "",
-          "url": "https://www.qbitai.com/2026/04/396069.html",
+          "zh": "Django 创始人警告：30 岁程序员受 AI 冲击最大，「快速做原型」的超能力已被 AI 取代",
+          "en": "Django creator warns: 30-year-old developers hit hardest by AI — 'my superpower of rapid prototyping is now available to anyone'",
+          "url": "https://www.qbitai.com/2026/04/395995.html",
           "source": "量子位",
           "hot": false
         },
         {
-          "zh": "联想重新定义“龙虾”",
-          "en": "",
-          "url": "https://www.qbitai.com/2026/04/396015.html",
+          "zh": "中国芯片企业营收创历史新高，AI 热潮与美国出口管制双重驱动",
+          "en": "Chinese chip firms hit record high revenue driven by the AI boom and U.S. export curbs",
+          "url": "https://www.cnbc.com/2026/04/05/chinese-chip-firms-hit-record-high-revenue-driven-by-the-ai-boom-and-us-curbs.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "中国某城市发生大规模 Robotaxi 故障，无人出租车集体瘫痪导致交通堵塞",
+          "en": "Mass robotaxi malfunction halts traffic in Chinese city",
+          "url": "https://www.bbc.co.uk/news/technology",
+          "source": "BBC",
+          "hot": false
+        },
+        {
+          "zh": "AI 公司大量建设天然气发电厂为数据中心供电，环保隐忧浮现",
+          "en": "AI companies are building huge natural gas plants to power data centers — what could go wrong?",
+          "url": "https://techcrunch.com/2026/04/04/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
+          "source": "TechCrunch",
+          "hot": false
+        },
+        {
+          "zh": "Oracle 进行大规模裁员，数千人失业；科技 CEO 越来越爱用 AI 做裁员借口",
+          "en": "Oracle deep cuts: thousands lose their jobs. Tech CEOs increasingly blame AI for mass layoffs",
+          "url": "https://www.bbc.co.uk/news/technology",
+          "source": "BBC",
+          "hot": false
+        },
+        {
+          "zh": "Linux 内核维护者崩溃：AI 每天狂塞 10 份漏洞报告，想摸会鱼都难",
+          "en": "Linux kernel maintainers overwhelmed: AI floods them with 10 vulnerability reports daily",
+          "url": "https://www.qbitai.com/2026/04/396358.html",
           "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "Anthropic 表示 Claude Code 用户需为 OpenClaw 使用额外付费",
+          "en": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
+          "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-usage/",
+          "source": "TechCrunch",
           "hot": false
         }
       ]
@@ -52,23 +94,58 @@
       "category": "Crypto",
       "items": [
         {
-          "zh": "Here’s what happened in crypto today",
-          "en": "Here’s what happened in crypto today",
-          "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "zh": "Drift Protocol 遭 2.8 亿美元攻击，调查显示黑客「数月精心准备」",
+          "en": "Drift Protocol $280M exploit took 'months of deliberate preparation'",
+          "url": "https://cointelegraph.com/news/drift-protocol-280m-exploit-took-months-of-deliberate-preparation",
           "source": "CoinTelegraph",
           "hot": true
         },
         {
-          "zh": "Telegram founder Pavel Durov says Iranian government's ban backfired",
-          "en": "Telegram founder Pavel Durov says Iranian government's ban backfired",
-          "url": "https://cointelegraph.com/news/telegram-durov-iran-ban-backfire?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "zh": "加密行业面临「存在主义」Token 问题：供给远超价值创造速度",
+          "en": "Crypto faces an 'existential' token problem as supply outpaces value creation",
+          "url": "https://cointelegraph.com/news/crypto-faces-existential-token-problem-supply-outpaces-value-creation",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "BTC 空头面临 25 亿美元清算风险（$72K 水平），看跌社交情绪达 5 周新高",
+          "en": "Bitcoin shorts risk $2.5B liquidation at $72K; bearish social chatter reaches 5-week high",
+          "url": "https://cointelegraph.com/news/bitcoin-shorts-risk-2-5-billion-liquidation-at-72k",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "Tether 估值 5000 亿美元融资计划可能因需求不足而推迟",
+          "en": "Tether may delay fundraising if demand falls short at $500B valuation: Report",
+          "url": "https://cointelegraph.com/news/tether-may-delay-fundraising-if-demand-falls-short-at-500b-valuation",
           "source": "CoinTelegraph",
           "hot": false
         },
         {
-          "zh": "Jimmy Song explains why Bitcoin needs a 'conservative' node client",
-          "en": "Jimmy Song explains why Bitcoin needs a 'conservative' node client",
-          "url": "https://cointelegraph.com/news/jimmy-song-bitcoin-conservative-node-client?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "zh": "BTC 富豪交易者 2026 年 Q1 日均损失 3.37 亿美元",
+          "en": "Rich Bitcoin traders lost $337M daily in first quarter of 2026",
+          "url": "https://cointelegraph.com/news/rich-bitcoin-traders-lost-337m-daily-in-first-quarter-of-2026",
+          "source": "CoinTelegraph",
+          "hot": false
+        },
+        {
+          "zh": "内华达州法官延长对 Kalshi 运营禁令，驳回「事件合约」辩护",
+          "en": "Nevada judge extends ban on Kalshi, rejects event contract defense",
+          "url": "https://cointelegraph.com/news/nevada-judge-extends-ban-on-kalshi",
+          "source": "CoinTelegraph",
+          "hot": false
+        },
+        {
+          "zh": "Polymarket 因舆论反弹撤下美国失踪飞行员投注市场",
+          "en": "Polymarket takes down market on missing US pilot after backlash",
+          "url": "https://cointelegraph.com/news/polymarket-takes-down-market-on-missing-us-pilot-after-backlash",
+          "source": "CoinTelegraph",
+          "hot": false
+        },
+        {
+          "zh": "Telegram 创始人 Pavel Durov 称伊朗政府封禁 Telegram 反而适得其反",
+          "en": "Telegram founder Pavel Durov says Iranian government's ban backfired",
+          "url": "https://cointelegraph.com/news/telegram-founder-pavel-durov-says-iranian-governments-ban-backfired",
           "source": "CoinTelegraph",
           "hot": false
         }
@@ -78,17 +155,52 @@
       "category": "Finance",
       "items": [
         {
-          "zh": "Basic business class is here with new, stripped-down United Polaris fares",
-          "en": "Basic business class is here with new, stripped-down United Polaris fares",
-          "url": "https://www.cnbc.com/2026/04/03/united-base-polaris-business-class.html",
+          "zh": "美国 3 月非农就业增加 17.8 万人，超出预期；失业率升至 4.3%",
+          "en": "U.S. payrolls rose by 178,000 in March, more than expected; unemployment at 4.3%",
+          "url": "https://www.cnbc.com/2026/04/04/us-payrolls-rose-by-178000-in-march.html",
           "source": "CNBC",
           "hot": true
         },
         {
-          "zh": "The Chinese box office isn&apos;t the Hollywood kingmaker it used to be. Here&apos;s why",
-          "en": "The Chinese box office isn&apos;t the Hollywood kingmaker it used to be. Here&apos;s why",
-          "url": "https://www.cnbc.com/2026/04/04/china-box-office-hollywood-films.html",
+          "zh": "SpaceX 计划公开上市，估值或达万亿美元，剑指全球第六大上市公司——马斯克的史上最大 IPO 来了",
+          "en": "SpaceX set to be worth $1 trillion with planned public listing — Musk's biggest IPO ever",
+          "url": "https://www.qbitai.com/2026/04/395124.html",
+          "source": "量子位 / BBC",
+          "hot": true
+        },
+        {
+          "zh": "美伊冲突「战争税」开始冲击美国企业和消费者；亚马逊对卖家加征「燃油附加费」",
+          "en": "U.S.-Iran war 'tax' hits American businesses; Amazon adds 'fuel surcharge' for sellers as global energy markets roiled",
+          "url": "https://www.cnbc.com/2026/04/05/us-iran-war-tax-begins-to-hit-american-businesses-and-consumers.html",
           "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "Warsh 提名推进，特朗普的两套美联储计划正走向碰撞",
+          "en": "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course",
+          "url": "https://www.cnbc.com/2026/04/05/warsh-nomination-moves-ahead.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "Apple 50 岁了：前内部人士说 iPhone 制造商「浪费了 5 年 AI 领先优势」，但仍有机会翻盘",
+          "en": "Apple at 50: The iPhone maker 'blew a 5-year lead' on AI, but former insiders say it can still win",
+          "url": "https://www.cnbc.com/2026/04/05/apple-at-50-blew-a-5-year-lead-on-ai.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "巴菲特可能因盖茨与爱泼斯坦的关系而终止对盖茨基金会的捐赠",
+          "en": "Buffett may end donations to Gates charity over Bill's ties to Epstein",
+          "url": "https://www.cnbc.com/2026/04/05/buffett-may-end-donations-to-gates-charity.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "PS5 因全球「压力」涨价 90 英镑",
+          "en": "PS5 price hiked by £90 due to global 'pressures'",
+          "url": "https://www.bbc.co.uk/news/technology",
+          "source": "BBC",
           "hot": false
         }
       ]

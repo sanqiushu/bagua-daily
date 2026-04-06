@@ -5,45 +5,38 @@
       "category": "AI",
       "items": [
         {
-          "zh": "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use",
-          "en": "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use",
-          "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
-          "source": "TechCrunch AI",
+          "zh": "DeepSeek V4 即将发布，将运行在华为昇腾芯片上——阿里、字节、腾讯已大批量订购华为芯片",
+          "en": "DeepSeek V4 imminent, will run on Huawei Ascend chips — Alibaba, ByteDance, Tencent bulk-ordering Huawei chips",
+          "url": "https://www.khaleejtimes.com/business/tech/chinas-deepseek-v4-model-will-run-on-huawei-chips",
+          "source": "The Information / Khaleej Times",
           "hot": true
         },
         {
-          "zh": "Suno is a music copyright nightmare",
-          "en": "Suno is a music copyright nightmare",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers",
-          "source": "The Verge AI",
+          "zh": "马斯克要求参与 SpaceX IPO 的银行、律所和审计机构必须订阅 Grok AI",
+          "en": "Musk forces banks, law firms & auditors working on SpaceX IPO to subscribe to Grok AI",
+          "url": "https://www.pcmag.com/news/musk-forces-banks-to-use-grok-ahead-of-spacex-ipo",
+          "source": "NYT / PCMag",
+          "hot": true
+        },
+        {
+          "zh": "Ledger CTO 警告：AI 正让加密攻击变得更便宜更快，迫使安全体系全面重新审视",
+          "en": "Ledger CTO warns AI is making crypto hacks cheaper and faster, forcing security rethink",
+          "url": "https://www.coindesk.com/tech/2026/04/05/ai-is-making-crypto-s-security-problem-even-worse-ledger-cto-warns",
+          "source": "CoinDesk",
           "hot": false
         },
         {
-          "zh": "Can orbital data centers help justify a massive valuation for SpaceX?",
-          "en": "Can orbital data centers help justify a massive valuation for SpaceX?",
-          "url": "https://techcrunch.com/2026/04/05/can-orbital-data-centers-help-justify-a-massive-valuation-for-spacex/",
-          "source": "TechCrunch AI",
+          "zh": "Bloomberg 深度：「Vibe Coding」成为 AI 编程新潮流——但 AI 生产力内卷可能先把人卷崩",
+          "en": "Bloomberg: 'Vibe Coding' is the new AI trend — but AI productivitymaxxing may burn us out first",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-04-05/what-is-vibe-coding-the-ai-trend-fueling-a-new-kind-of-fomo",
+          "source": "Bloomberg",
           "hot": false
         },
         {
-          "zh": "OpenAI新模型不是GPTX！全新预训练“土豆”曝光，Sora成弃子的原因找到了",
-          "en": "",
-          "url": "https://www.qbitai.com/2026/04/396535.html",
-          "source": "量子位",
-          "hot": false
-        },
-        {
-          "zh": "太初元碁向员工发放百亿算力token并将共建高校AI科教融合学院",
-          "en": "",
-          "url": "https://www.qbitai.com/2026/04/396533.html",
-          "source": "量子位",
-          "hot": false
-        },
-        {
-          "zh": "36氪首发 | 清华系团队研发矿石AI智能分选机，完成近2亿元C轮融资",
-          "en": "",
-          "url": "https://36kr.com/p/3753526848897792?f=rss",
-          "source": "36氪",
+          "zh": "Google 虚拟试穿技术将于 4 月 30 日直接嵌入搜索结果，AI 重塑零售购物体验",
+          "en": "Google's AI virtual try-on tech to launch within search results on April 30, reshaping retail",
+          "url": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
+          "source": "CNBC",
           "hot": false
         }
       ]
@@ -52,24 +45,31 @@
       "category": "Crypto",
       "items": [
         {
-          "zh": "Here’s what happened in crypto today",
-          "en": "Here’s what happened in crypto today",
-          "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source": "CoinTelegraph",
+          "zh": "Drift Protocol 确认 2.7 亿美元攻击为朝鲜情报机构策划——伪装量化交易公司潜伏 6 个月，甚至当面开会+存入 100 万美元",
+          "en": "Drift confirms $270M exploit was a 6-month North Korean intelligence operation — attackers posed as quant firm, met in person & deposited $1M+",
+          "url": "https://www.coindesk.com/markets/2026/04/05/drift-says-usd270-million-exploit-was-a-six-month-north-korean-intelligence-operation",
+          "source": "CoinDesk",
           "hot": true
         },
         {
-          "zh": "Crypto attorney says Drift incident may qualify as 'civil negligence'",
-          "en": "Crypto attorney says Drift incident may qualify as 'civil negligence'",
-          "url": "https://cointelegraph.com/news/crypto-attorney-says-drift-incident-may-qualify-as-civil-negligence?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source": "CoinTelegraph",
+          "zh": "嘉信理财 (Charles Schwab) 确认上半年推出 BTC 和 ETH 现货交易，开放候补名单",
+          "en": "Charles Schwab confirms spot BTC & ETH trading launch in H1 2026, opens waitlist",
+          "url": "https://www.theblock.co/post/396358/charles-schwab-opens-waitlist-for-direct-bitcoin-and-ether-trading-targeting-q2-limited-launch",
+          "source": "The Block / Yahoo Finance",
+          "hot": true
+        },
+        {
+          "zh": "BTC 约 $67,100，窄幅震荡（$65K-$73K），社交媒体看空情绪创近期新高",
+          "en": "BTC around $67,100, range-bound ($65K-$73K); social media bearish sentiment at recent highs",
+          "url": "https://www.coindesk.com/markets/2026/04/05/bitcoin-enters-april-at-its-most-hated-level-since-the-war-began",
+          "source": "CoinDesk",
           "hot": false
         },
         {
-          "zh": "Polymarket odds of US invading Iran this year reach 63% after Trump's post",
-          "en": "Polymarket odds of US invading Iran this year reach 63% after Trump's post",
-          "url": "https://cointelegraph.com/news/polymarket-odds-us-invade-iran-2027-60-trump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source": "CoinTelegraph",
+          "zh": "BNB 报 $592，较去年 10 月高点 $1,375 下跌 57%，Maxwell 升级改善可扩展性",
+          "en": "BNB at $592, down 57% from October peak of $1,375; Maxwell Upgrade improves scalability",
+          "url": "https://www.openpr.com/news/4455246/next-big-cryptocurrency-targets-100x-as-fannie-mae-opens-crypto",
+          "source": "OpenPR / Investing.com",
           "hot": false
         }
       ]
@@ -78,11 +78,32 @@
       "category": "Finance",
       "items": [
         {
-          "zh": "Basic business class is here with new, stripped-down United Polaris fares",
-          "en": "Basic business class is here with new, stripped-down United Polaris fares",
-          "url": "https://www.cnbc.com/2026/04/03/united-base-polaris-business-class.html",
+          "zh": "特朗普「解放日」一周年再加码：对进口品牌药征 100% 关税，钢铝关税同步调整",
+          "en": "Trump doubles down on tariff anniversary: 100% tariff on brand-name pharma imports, steel & aluminum adjustments",
+          "url": "https://www.usatoday.com/story/money/2026/04/05/trumps-tariffs-on-drug-imports-could-strain-affordability/89449699007/",
+          "source": "USA Today / Salon",
+          "hot": true
+        },
+        {
+          "zh": "S&P 500 上周大涨近 6%，终结五周连跌，创去年 11 月以来最佳单周表现；期货今日微弱波动",
+          "en": "S&P 500 surged ~6% last week, snapping 5-week losing streak — best weekly gain since late Nov; futures flat today",
+          "url": "https://www.cnbc.com/2026/04/05/stock-market-today-live-updates.html",
           "source": "CNBC",
           "hot": true
+        },
+        {
+          "zh": "美伊战争进入第 36 天：被击落 F-15E 第二名机组成员获救；油价上行推动期货下滑",
+          "en": "US-Iran war Day 36: second crew member from downed F-15E rescued; rising oil prices weigh on futures",
+          "url": "https://www.cnn.com/2026/04/04/world/live-news/iran-war-us-trump-oil",
+          "source": "CNN / Al Jazeera",
+          "hot": true
+        },
+        {
+          "zh": "纳斯达克推进 23/5 交易计划，并探索市场代币化和单股期权每日到期",
+          "en": "Nasdaq working on 23/5 stock trading, tokenizing markets, and daily single-stock options expirations",
+          "url": "https://www.forbes.com/sites/brettowens/2026/04/05/im-watching-these-6-dividend-stocks-for-big-announcements/",
+          "source": "Forbes",
+          "hot": false
         }
       ]
     }
