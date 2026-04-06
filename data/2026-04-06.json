@@ -1,0 +1,90 @@
+{
+  "date": "2026-04-06",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use",
+          "en": "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use",
+          "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
+          "source": "TechCrunch AI",
+          "hot": true
+        },
+        {
+          "zh": "Suno is a music copyright nightmare",
+          "en": "Suno is a music copyright nightmare",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "Can orbital data centers help justify a massive valuation for SpaceX?",
+          "en": "Can orbital data centers help justify a massive valuation for SpaceX?",
+          "url": "https://techcrunch.com/2026/04/05/can-orbital-data-centers-help-justify-a-massive-valuation-for-spacex/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "OpenAI新模型不是GPTX！全新预训练“土豆”曝光，Sora成弃子的原因找到了",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/396535.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "太初元碁向员工发放百亿算力token并将共建高校AI科教融合学院",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/396533.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "36氪首发 | 清华系团队研发矿石AI智能分选机，完成近2亿元C轮融资",
+          "en": "",
+          "url": "https://36kr.com/p/3753526848897792?f=rss",
+          "source": "36氪",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "Here’s what happened in crypto today",
+          "en": "Here’s what happened in crypto today",
+          "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "Crypto attorney says Drift incident may qualify as 'civil negligence'",
+          "en": "Crypto attorney says Drift incident may qualify as 'civil negligence'",
+          "url": "https://cointelegraph.com/news/crypto-attorney-says-drift-incident-may-qualify-as-civil-negligence?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        },
+        {
+          "zh": "Polymarket odds of US invading Iran this year reach 63% after Trump's post",
+          "en": "Polymarket odds of US invading Iran this year reach 63% after Trump's post",
+          "url": "https://cointelegraph.com/news/polymarket-odds-us-invade-iran-2027-60-trump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "Basic business class is here with new, stripped-down United Polaris fares",
+          "en": "Basic business class is here with new, stripped-down United Polaris fares",
+          "url": "https://www.cnbc.com/2026/04/03/united-base-polaris-business-class.html",
+          "source": "CNBC",
+          "hot": true
+        }
+      ]
+    }
+  ]
+}
