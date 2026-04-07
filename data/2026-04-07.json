@@ -1,0 +1,97 @@
+{
+  "date": "2026-04-07",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "8点1氪丨胖东来再回应“鸡蛋被检出角黄素”；苹果首款折叠屏手机已在试产；2026清明档电影票房已破2.8亿元",
+          "en": "",
+          "url": "https://36kr.com/p/3755994793280000?f=rss",
+          "source": "36氪",
+          "hot": true
+        },
+        {
+          "zh": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
+          "en": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
+          "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Google quietly launched an AI dictation app that works offline",
+          "en": "Google quietly launched an AI dictation app that works offline",
+          "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Iran threatens &#8216;Stargate&#8217; AI data centers",
+          "en": "Iran threatens &#8216;Stargate&#8217; AI data centers",
+          "url": "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "让大模型多模态检索全面超越SOTA！ReCALL框架化解生成式与判别式的范式冲突｜CVPR&#8217;26",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/396863.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "北大团队改造DeepSeek注意力，速度快四倍还不丢精度",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/396841.html",
+          "source": "量子位",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "Jamie Dimon Says AI Will Impact &#39;Virtually Every Function&#39; at JPMorgan Chase",
+          "en": "Jamie Dimon Says AI Will Impact &#39;Virtually Every Function&#39; at JPMorgan Chase",
+          "url": "https://decrypt.co/363441/jamie-dimon-ai-impact-virtually-every-function-jpmorgan",
+          "source": "Decrypt",
+          "hot": true
+        },
+        {
+          "zh": "Here’s what happened in crypto today",
+          "en": "Here’s what happened in crypto today",
+          "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        },
+        {
+          "zh": "Polymarket drops USDC.e for USDC-backed token in exchange overhaul",
+          "en": "Polymarket drops USDC.e for USDC-backed token in exchange overhaul",
+          "url": "https://cointelegraph.com/news/polymarket-replace-usdce-usdc-backed-token-exchange-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "Trump administration finalizes better-than-feared Medicare Advantage payment rate in boost to health insurers",
+          "en": "Trump administration finalizes better-than-feared Medicare Advantage payment rate in boost to health insurers",
+          "url": "https://www.cnbc.com/2026/04/06/trump-medicare-advantage.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "JPMorgan CEO Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
+          "en": "JPMorgan CEO Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
+          "url": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
