@@ -1,0 +1,104 @@
+{
+  "date": "2026-04-08",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "8点1氪丨马斯克在对OpenAI的诉讼中寻求罢免奥特曼职位；宁德时代聘请紫金矿业创始人陈景河；产业链人士：苹果首款折叠屏手机项目正常推进，产品下半年发布",
+          "en": "",
+          "url": "https://36kr.com/p/3757404054930182?f=rss",
+          "source": "36氪",
+          "hot": true
+        },
+        {
+          "zh": "I can&#8217;t help rooting for tiny open source AI model maker Arcee",
+          "en": "I can&#8217;t help rooting for tiny open source AI model maker Arcee",
+          "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "Spotify&#8217;s Prompted Playlists can help you find new podcasts to listen to",
+          "en": "Spotify&#8217;s Prompted Playlists can help you find new podcasts to listen to",
+          "url": "https://www.theverge.com/entertainment/908339/spotify-prompted-playlists-podcasts",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "Firmus, the &#8216;Southgate&#8217; AI data center builder backed by Nvidia, hits $5.5B valuation",
+          "en": "Firmus, the &#8216;Southgate&#8217; AI data center builder backed by Nvidia, hits $5.5B valuation",
+          "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "氪星晚报｜潘兴广场拟94亿欧元现金加股票收购环球音乐集团；高盛策略师：当前科技股估值带来投资机会；中国央行连续第17个月增持黄金",
+          "en": "",
+          "url": "https://36kr.com/p/3756523983536905?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "Meta员工空转AI只为浪费token！烧的多挣的多，日均消耗2万亿",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/397610.html",
+          "source": "量子位",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "Crypto billionaire to prison: CZ’s autobiography revisits turbulent Binance era",
+          "en": "Crypto billionaire to prison: CZ’s autobiography revisits turbulent Binance era",
+          "url": "https://cointelegraph.com/news/crypto-billionaire-cz-autobiography?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "Solana Exchange Stabble Warns Users to Pull Liquidity After North Korean Hacker Scare",
+          "en": "Solana Exchange Stabble Warns Users to Pull Liquidity After North Korean Hacker Scare",
+          "url": "https://decrypt.co/363579/solana-exchange-stabble-warns-users-north-korean-hacker-scare",
+          "source": "Decrypt",
+          "hot": false
+        },
+        {
+          "zh": "Bitcoin wallets absorb 4.37M BTC as network activity flips to 'bull phase’",
+          "en": "Bitcoin wallets absorb 4.37M BTC as network activity flips to 'bull phase’",
+          "url": "https://cointelegraph.com/news/bitcoin-wallets-absorb-4-37m-btc-as-network-activity-flips-to-bull-phase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "Novo Nordisk&apos;s explosive Wegovy pill launch draws a new wave of patients into GLP-1 weight loss treatment",
+          "en": "Novo Nordisk&apos;s explosive Wegovy pill launch draws a new wave of patients into GLP-1 weight loss treatment",
+          "url": "https://www.cnbc.com/2026/04/07/novo-nordisks-wegovy-pill-launch-draws-new-wave-of-patients-to-glp-1s.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "Delta, Southwest raise checked bag fees $10 amid jet fuel price surge, joining other carriers",
+          "en": "Delta, Southwest raise checked bag fees $10 amid jet fuel price surge, joining other carriers",
+          "url": "https://www.cnbc.com/2026/04/07/delta-checked-bag-fees.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "Levi Strauss revenue jumps again, with DTC making up more than half of sales for the first time",
+          "en": "Levi Strauss revenue jumps again, with DTC making up more than half of sales for the first time",
+          "url": "https://www.cnbc.com/2026/04/07/levi-strauss-levi-earnings-q1-2026.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
