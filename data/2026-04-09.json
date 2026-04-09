@@ -1,0 +1,104 @@
+{
+  "date": "2026-04-09",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "8点1氪丨张雪机车LOGO被指抄袭；水贝商户称白银销量暴跌90%；GoPro将全球裁员23%",
+          "en": "",
+          "url": "https://36kr.com/p/3758836635730432?f=rss",
+          "source": "36氪",
+          "hot": true
+        },
+        {
+          "zh": "Gemini gets notebooks to help you organize projects",
+          "en": "Gemini gets notebooks to help you organize projects",
+          "url": "https://www.theverge.com/tech/909031/google-gemini-notebooks-notebooklm",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "AI agent Poke makes setting up automations as easy as sending a text",
+          "en": "AI agent Poke makes setting up automations as easy as sending a text",
+          "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "OpenAI made economic proposals — here’s what DC thinks of them",
+          "en": "OpenAI made economic proposals — here’s what DC thinks of them",
+          "url": "https://www.theverge.com/column/908880/openai-made-economic-proposals-heres-what-dc-thinks-of-them",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "武大文科教授硬核跨界AI：半年项目量猛涨4000%，重构AI图表生产力",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/398001.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "氪星晚报｜星巴克中国发布“千店千面”战略；TikTok宣布将投资10亿欧元，在芬兰建第二座数据中心；谷歌CEO皮查伊：2027年将是AI重塑生产方式的关键拐点",
+          "en": "",
+          "url": "https://36kr.com/p/3756524566610437?f=rss",
+          "source": "36氪",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "Here’s what happened in crypto today",
+          "en": "Here’s what happened in crypto today",
+          "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "Bitcoin Depot ATM Operator Says $3.6 Million in BTC Stolen in Corporate Hack",
+          "en": "Bitcoin Depot ATM Operator Says $3.6 Million in BTC Stolen in Corporate Hack",
+          "url": "https://decrypt.co/363734/bitcoin-depot-atm-operator-3-6-million-btc-stolen-security-breach",
+          "source": "Decrypt",
+          "hot": false
+        },
+        {
+          "zh": "Researchers Propose New Way to Manage Financial Risk When AI Agents Fumble Trades",
+          "en": "Researchers Propose New Way to Manage Financial Risk When AI Agents Fumble Trades",
+          "url": "https://decrypt.co/363727/agentic-risk-standard-ai-research-finance-trades",
+          "source": "Decrypt",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "Constellation Brands, U.S. maker of Modelo and Corona, withdraws 2028 guidance due to uncertainty",
+          "en": "Constellation Brands, U.S. maker of Modelo and Corona, withdraws 2028 guidance due to uncertainty",
+          "url": "https://www.cnbc.com/2026/04/08/constellation-brands-stz-q4-2026-earnings.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "Delta CEO says airline will &apos;meaningfully&apos; cut growth plans, sees $300 million boost from its refinery",
+          "en": "Delta CEO says airline will &apos;meaningfully&apos; cut growth plans, sees $300 million boost from its refinery",
+          "url": "https://www.cnbc.com/2026/04/08/delta-air-lines-q1-2026-earnings.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "Jeff Shell leaves Paramount after allegations of SEC violations; company calls claims &apos;baseless&apos;",
+          "en": "Jeff Shell leaves Paramount after allegations of SEC violations; company calls claims &apos;baseless&apos;",
+          "url": "https://www.cnbc.com/2026/04/08/jeff-shell-paramount.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
