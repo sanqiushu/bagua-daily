@@ -1,0 +1,104 @@
+{
+  "date": "2026-04-10",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "8点1氪｜“张雪峰.skill”上线GitHub引争议；康师傅“再来一瓶”被曝多店不兑换；微信回应“夫妻用AI写公众号年赚200万”",
+          "en": "",
+          "url": "https://36kr.com/p/3760260422648327?f=rss",
+          "source": "36氪",
+          "hot": true
+        },
+        {
+          "zh": "ChatGPT has a new $100 per month Pro subscription",
+          "en": "ChatGPT has a new $100 per month Pro subscription",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/909599/chatgpt-pro-subscription-new",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "Florida launches investigation into OpenAI",
+          "en": "Florida launches investigation into OpenAI",
+          "url": "https://www.theverge.com/policy/909557/openai-florida-investigation",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "ChatGPT finally offers $100/month Pro plan",
+          "en": "ChatGPT finally offers $100/month Pro plan",
+          "url": "https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/",
+          "source": "TechCrunch AI",
+          "hot": false
+        },
+        {
+          "zh": "欣旺达装车特斯拉，供应全球车型｜36氪独家",
+          "en": "",
+          "url": "https://36kr.com/p/3759598959969030?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "氪星晚报｜李佳琦回应“缺席”直播：没有退休；市场消息： 获高盛投资的 “GO” 打车应用计划今年在日本上市",
+          "en": "",
+          "url": "https://36kr.com/p/3759461864424195?f=rss",
+          "source": "36氪",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "&#39;Operation Atlantic&#39;: US and UK Team With Firms to Trace, Freeze Millions in Stolen Crypto",
+          "en": "&#39;Operation Atlantic&#39;: US and UK Team With Firms to Trace, Freeze Millions in Stolen Crypto",
+          "url": "https://decrypt.co/363878/operation-atlantic-us-uk-agencies-trace-freeze-millions-stolen-crypto",
+          "source": "Decrypt",
+          "hot": true
+        },
+        {
+          "zh": "TD Cuts Bitcoin Giant Strategy&#39;s Price Target, Calls Ethereum Treasury Sharplink a ‘Buy’",
+          "en": "TD Cuts Bitcoin Giant Strategy&#39;s Price Target, Calls Ethereum Treasury Sharplink a ‘Buy’",
+          "url": "https://decrypt.co/363902/td-cuts-bitcoin-giant-strategy-price-target-ethereum-treasury-sharplink-buy",
+          "source": "Decrypt",
+          "hot": false
+        },
+        {
+          "zh": "&#39;AI Should Advance Mankind, Not Destroy It&#39;: Why Florida Is Taking Aim at OpenAI",
+          "en": "&#39;AI Should Advance Mankind, Not Destroy It&#39;: Why Florida Is Taking Aim at OpenAI",
+          "url": "https://decrypt.co/363880/ai-advance-mankind-not-destroy-why-florida-investigating-openai",
+          "source": "Decrypt",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "Amazon debuts Masters coverage, becoming the golf tournament&apos;s fourth-ever media partner",
+          "en": "Amazon debuts Masters coverage, becoming the golf tournament&apos;s fourth-ever media partner",
+          "url": "https://www.cnbc.com/2026/04/09/amazon-masters-coverage-media-partner-streaming.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "Disney plans layoffs of as many as 1,000 employees",
+          "en": "Disney plans layoffs of as many as 1,000 employees",
+          "url": "https://www.cnbc.com/2026/04/09/disney-layoffs-ceo-josh-damaro.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "American Airlines makes bag fees even more expensive for basic economy tickets",
+          "en": "American Airlines makes bag fees even more expensive for basic economy tickets",
+          "url": "https://www.cnbc.com/2026/04/09/american-airlines-bag-fees-basic-economy.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
