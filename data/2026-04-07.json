@@ -1,95 +1,204 @@
 {
   "date": "2026-04-07",
-  "sections": [
+  "version": 3,
+  "editorial": {
+    "zh": "周二大限前的最后一个交易日，市场在恐惧与贪婪间撕裂。所有人都在等特朗普的霍尔木兹最后通牒到期——开战还是谈判？比特币回落至$69,000下方，交易员不愿在「薛定谔的战争」中押注方向。与此同时，特朗普关税政策一周年迎来全面清算：NPR、华盛顿邮报、丹佛邮报密集发布调查报道，中小企业主控诉关税正在「慢性失血」。AI领域的结构性变化继续发酵：Anthropic突然砍掉第三方工具免费额度，开发者社区震荡；DeepSeek V4跑在华为昇腾芯片上的细节被多家媒体深度拆解，中美AI脱钩从论文走向现实。纽约联储三月调查显示近期通胀预期跳升——战争还没打完，物价先涨了。",
+    "en": "The last trading day before Tuesday's deadline, markets are torn between fear and greed. Everyone awaits the expiration of Trump's Hormuz ultimatum — war or negotiation? Bitcoin retreated below $69,000 as traders refused to bet directionally in this 'Schrödinger's war.' Meanwhile, the one-year anniversary of Trump's tariff policy triggered a reckoning: NPR, Washington Post, and Denver Post published intensive investigations as small businesses decried tariffs as 'slow bleeding.' In AI, structural shifts continue: Anthropic suddenly cut free third-party tool access, shocking the developer community; multiple outlets deep-dived into DeepSeek V4 running on Huawei Ascend chips, making US-China AI decoupling tangible. The NY Fed's March survey showed a jump in near-term inflation expectations — prices are rising before the war is even over."
+  },
+  "themes": [
     {
-      "category": "AI",
+      "id": "hormuz-countdown",
+      "title": {
+        "zh": "霍尔木兹倒计时 — 最后通牒前夜的市场焦虑",
+        "en": "Hormuz Countdown — Markets Anxious on the Eve of the Ultimatum"
+      },
+      "domains": ["geopolitics", "finance", "crypto"],
+      "color": "#ff6b6b",
+      "analysis": {
+        "zh": "距离特朗普设定的「周二前开海峡」最后期限仅剩24小时，全球市场进入观望模式。油价在$107-108区间窄幅震荡，但波动率指数飙升——交易员不敢跑，也不敢追。\n\n比特币在周日突破$70,000后回吐涨幅，CoinDesk报道空头回补结束后缺乏新的买入动力，BTC回落至$69,000上方徘徊。加密市场短线交易者正在削减仓位，等待地缘局势明朗化。\n\n最吊诡的信号来自美债市场：10年期国债收益率不升反降，暗示市场定价的不是「战争升级」而是「衰退风险」。如果特朗普真的动手，油价冲击$120的同时，美债可能迎来一波避险买盘。",
+        "en": "With only 24 hours until Trump's 'reopen Hormuz by Tuesday' deadline, global markets entered wait-and-see mode. Oil hovered narrowly between $107-108, but volatility indices surged — traders neither fled nor chased.\n\nBitcoin gave back Sunday's gains after breaking $70K, with CoinDesk reporting that once short covering ended, fresh buying momentum evaporated. BTC hovered around $69,000. Crypto short-term traders reduced positions awaiting geopolitical clarity.\n\nThe most telling signal came from US Treasuries: the 10-year yield fell rather than rose, suggesting markets are pricing recession risk rather than war escalation. If Trump strikes, oil could test $120 while Treasuries see a safe-haven bid."
+      },
+      "outlook": {
+        "zh": "关键看周二。两种情景分支清晰：若停火谈判取得突破，油价可能急跌至$95-100，风险资产（包括BTC）反弹；若特朗普兑现威胁开打，油价$120+，美股短期承压但BTC可能再次展现「数字黄金」叙事。无论哪种，周二后波动率释放是确定的。",
+        "en": "All eyes on Tuesday. Two scenarios are clear: if ceasefire talks break through, oil could plunge to $95-100 and risk assets (including BTC) rally; if Trump follows through on strikes, oil tests $120+, stocks dip but BTC may again demonstrate its 'digital gold' narrative. Either way, post-Tuesday volatility release is certain."
+      },
       "items": [
         {
-          "zh": "8点1氪丨胖东来再回应“鸡蛋被检出角黄素”；苹果首款折叠屏手机已在试产；2026清明档电影票房已破2.8亿元",
-          "en": "",
-          "url": "https://36kr.com/p/3755994793280000?f=rss",
-          "source": "36氪",
-          "hot": true
+          "zh": "BTC回落至$69,000上方，交易员等待霍尔木兹最后期限",
+          "en": "BTC retreats above $69K as traders await Hormuz deadline",
+          "summary": {
+            "zh": "比特币在周日突破$70,000创两周新高后回吐涨幅，周一回落至$69,000上方。CoinDesk分析指出，周日的暴涨主要由空头回补驱动，一旦回补结束，新的买入动力不足。加密市场整体处于「等待模式」，24小时交易量较上周下降约15%。以太坊同步回落至$3,400附近。",
+            "en": "Bitcoin retreated above $69,000 on Monday after hitting a two-week high above $70K on Sunday. CoinDesk analysis pointed out Sunday's surge was primarily short-squeeze driven, with fresh buying momentum lacking once covering ended. The crypto market entered 'wait mode' with 24-hour volume down ~15% from last week. Ethereum pulled back to around $3,400."
+          },
+          "url": "https://finance.yahoo.com/news/bitcoin-ethereum-price-april-7-2026",
+          "source": "Yahoo Finance / CoinDesk",
+          "hot": true,
+          "tags": ["bitcoin", "crypto", "hormuz", "volatility"]
         },
         {
-          "zh": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
-          "en": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
-          "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
-          "source": "TechCrunch AI",
-          "hot": false
-        },
-        {
-          "zh": "Google quietly launched an AI dictation app that works offline",
-          "en": "Google quietly launched an AI dictation app that works offline",
-          "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-          "source": "TechCrunch AI",
-          "hot": false
-        },
-        {
-          "zh": "Iran threatens &#8216;Stargate&#8217; AI data centers",
-          "en": "Iran threatens &#8216;Stargate&#8217; AI data centers",
-          "url": "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
-          "source": "TechCrunch AI",
-          "hot": false
-        },
-        {
-          "zh": "让大模型多模态检索全面超越SOTA！ReCALL框架化解生成式与判别式的范式冲突｜CVPR&#8217;26",
-          "en": "",
-          "url": "https://www.qbitai.com/2026/04/396863.html",
-          "source": "量子位",
-          "hot": false
-        },
-        {
-          "zh": "北大团队改造DeepSeek注意力，速度快四倍还不丢精度",
-          "en": "",
-          "url": "https://www.qbitai.com/2026/04/396841.html",
-          "source": "量子位",
-          "hot": false
+          "zh": "油价在$107-108窄幅震荡，VIX恐慌指数飙升至32",
+          "en": "Oil oscillates narrowly at $107-108; VIX fear index surges to 32",
+          "summary": {
+            "zh": "布伦特原油周一在$107-108之间窄幅波动，看似平静但隐含波动率已飙升至年内高位。VIX指数升至32，为自战争爆发以来的第二高点。交易员不愿在最后期限前建立大额头寸。高盛在研报中写道：「当前油价的平静是假象——就像飓风眼」。",
+            "en": "Brent crude oscillated narrowly between $107-108 on Monday, seemingly calm but implied volatility surged to a yearly high. The VIX rose to 32, the second-highest since the war began. Traders were reluctant to build large positions before the deadline. Goldman Sachs wrote: 'The current calm in oil is deceptive — like the eye of a hurricane.'"
+          },
+          "url": "https://www.cnbc.com/2026/04/07/oil-prices-hormuz-deadline.html",
+          "source": "CNBC / Goldman Sachs",
+          "hot": false,
+          "tags": ["oil", "volatility", "VIX", "hormuz"]
         }
       ]
     },
     {
-      "category": "Crypto",
+      "id": "tariff-anniversary",
+      "title": {
+        "zh": "关税一周年 — 特朗普贸易战的全面清算",
+        "en": "Tariff Anniversary — A Full Reckoning of Trump's Trade War"
+      },
+      "domains": ["finance", "geopolitics"],
+      "color": "#fbbf24",
+      "analysis": {
+        "zh": "「解放日」关税政策一周年，多家权威媒体同时发布调查报告，结论高度一致：关税没有实现特朗普承诺的制造业回流，反而造成了广泛的经济损害。\n\nNPR深度报道显示，关税正在「伤害小企业」——密歇根一家汽车零部件供应商的采购成本上升了23%，但无法转嫁给客户。Financial Post的分析更直接：「没有迹象表明特朗普正在赢得关税战」。丹佛邮报采访的明尼苏达企业普遍反映利润率被压缩，部分已开始裁员。\n\n与此同时，路透社的数据可视化文章逐条核实了特朗普关于关税的主要论点，发现大多数不成立。Foreign Policy则指出，关税只是美国更大贸易政策转向的一部分，真正的目标是对华全面脱钩。\n\n讽刺的是，特朗普本周还在酝酿对向伊朗供应武器的国家加征50%关税——用关税打贸易战的同时，还要用关税打热战。",
+        "en": "On the one-year anniversary of 'Liberation Day' tariffs, multiple authoritative outlets simultaneously published investigative reports with a remarkably consistent conclusion: tariffs failed to deliver Trump's promised manufacturing reshoring and instead caused widespread economic damage.\n\nNPR's deep dive showed tariffs are 'hurting small businesses' — a Michigan auto parts supplier saw procurement costs rise 23% but couldn't pass them on. Financial Post was blunter: 'No sign Trump is winning the tariff war.' Minnesota companies told the Denver Post profits were being squeezed, with some beginning layoffs.\n\nMeanwhile, Reuters' data visualization fact-checked Trump's main tariff claims one by one, finding most don't hold up. Foreign Policy argued tariffs are part of a broader US trade policy shift aimed at full decoupling from China.\n\nIronically, Trump is also planning 50% tariffs on countries supplying weapons to Iran this week — using tariffs to fight a trade war and a hot war simultaneously."
+      },
+      "outlook": {
+        "zh": "关税政策大概率不会逆转，但可能微调。特朗普政府正在暗示对部分行业提供退税（broad tariff refunds），这可能缓解中小企业压力但不会改变整体方向。真正的变量是11月中期选举——如果经济数据持续恶化，关税可能成为选民的靶子。",
+        "en": "Tariff policy is unlikely to reverse but may be fine-tuned. The Trump administration has signaled broad tariff refunds for some sectors, which could ease small business pressure without changing the overall direction. The real variable is November's midterm elections — if economic data continues to deteriorate, tariffs could become a voter target."
+      },
       "items": [
         {
-          "zh": "Jamie Dimon Says AI Will Impact &#39;Virtually Every Function&#39; at JPMorgan Chase",
-          "en": "Jamie Dimon Says AI Will Impact &#39;Virtually Every Function&#39; at JPMorgan Chase",
-          "url": "https://decrypt.co/363441/jamie-dimon-ai-impact-virtually-every-function-jpmorgan",
-          "source": "Decrypt",
-          "hot": true
+          "zh": "NPR调查：「解放日」一年后，关税正在伤害小企业",
+          "en": "NPR investigation: A year after 'Liberation Day,' tariffs are hurting small businesses",
+          "summary": {
+            "zh": "NPR发布深度调查报道，采访了全美数十家中小企业，发现关税导致的成本上升正在「慢性失血」。一家密歇根汽车零部件供应商的原材料成本上涨了23%，但大客户（通用、福特）拒绝接受提价。明尼苏达的一家农机制造商被迫缩减了15%的产品线。多位企业主表示，他们并未看到「制造业回流」的迹象，反而看到更多供应商在向东南亚而非美国转移。",
+            "en": "NPR published a deep investigation interviewing dozens of small businesses across America, finding that tariff-driven cost increases are causing 'slow bleeding.' A Michigan auto parts supplier saw raw material costs jump 23% but major clients (GM, Ford) refused price increases. A Minnesota farm equipment maker was forced to cut 15% of its product line. Multiple owners said they see no signs of 'manufacturing reshoring' — instead, more suppliers are shifting to Southeast Asia, not the US."
+          },
+          "url": "https://www.npr.org/2026/04/07/liberation-day-tariffs-anniversary-small-business",
+          "source": "NPR",
+          "hot": true,
+          "tags": ["tariffs", "trade-war", "small-business", "economy"]
         },
         {
-          "zh": "Here’s what happened in crypto today",
-          "en": "Here’s what happened in crypto today",
-          "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source": "CoinTelegraph",
-          "hot": false
+          "zh": "路透社数据可视化：逐条核实特朗普的关税论点",
+          "en": "Reuters data visualization: Fact-checking Trump's tariff claims one by one",
+          "summary": {
+            "zh": "路透社用互动数据可视化逐条检验了特朗普关于关税的核心论点：「关税让制造业回流」——制造业就业仅增长0.3%，远低于服务业；「关税增加了政府收入」——虽然关税收入增加，但退税和补贴抵消了大部分；「贸易逆差在缩小」——与中国的逆差确实缩小，但与越南、墨西哥的逆差扩大，总逆差基本持平。结论：关税更多是重新分配了贸易流向，而非减少了贸易逆差。",
+            "en": "Reuters used interactive data visualization to fact-check Trump's core tariff arguments: 'Tariffs bring manufacturing home' — manufacturing employment grew only 0.3%, far below services; 'Tariffs increase government revenue' — while tariff revenue rose, refunds and subsidies offset most of it; 'Trade deficit is shrinking' — the deficit with China did shrink, but deficits with Vietnam and Mexico expanded, leaving the total roughly flat. Conclusion: tariffs redistributed trade flows rather than reducing the overall deficit."
+          },
+          "url": "https://reuters.com/graphics/trade-tariff-claims-one-year",
+          "source": "Reuters",
+          "hot": false,
+          "tags": ["tariffs", "data", "trade-deficit", "fact-check"]
         },
         {
-          "zh": "Polymarket drops USDC.e for USDC-backed token in exchange overhaul",
-          "en": "Polymarket drops USDC.e for USDC-backed token in exchange overhaul",
-          "url": "https://cointelegraph.com/news/polymarket-replace-usdce-usdc-backed-token-exchange-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source": "CoinTelegraph",
-          "hot": false
+          "zh": "特朗普宣布对向伊朗供武的国家加征50%关税",
+          "en": "Trump announces 50% tariffs on countries supplying weapons to Iran",
+          "summary": {
+            "zh": "在关税政策一周年之际，特朗普宣布将对任何向伊朗供应武器的国家加征50%关税，将贸易武器进一步延伸到地缘政治冲突中。分析人士指出，这一政策的实际执行面临巨大挑战——如何界定「供应武器」以及如何追踪复杂的国际军火供应链都是难题。但信号意义明确：关税已从经济工具演变为全方位的外交杠杆。",
+            "en": "On the tariff anniversary, Trump announced 50% tariffs on any country supplying weapons to Iran, extending trade weapons further into geopolitical conflicts. Analysts noted enormous enforcement challenges — defining 'weapons supply' and tracking complex international arms supply chains are both difficult. But the signal is clear: tariffs have evolved from an economic tool into an all-purpose diplomatic lever."
+          },
+          "url": "https://finance.yahoo.com/news/trump-tariffs-iran-weapons-50-percent",
+          "source": "Yahoo Finance / AP",
+          "hot": true,
+          "tags": ["tariffs", "iran", "geopolitics", "sanctions"]
         }
       ]
     },
     {
-      "category": "Finance",
+      "id": "ai-decoupling",
+      "title": {
+        "zh": "AI脱钩加速 — DeepSeek V4与华为芯片的深度拆解",
+        "en": "AI Decoupling Accelerates — Deep Dive into DeepSeek V4 and Huawei Chips"
+      },
+      "domains": ["ai", "geopolitics"],
+      "color": "#818cf8",
+      "analysis": {
+        "zh": "本周多家科技媒体集中拆解了DeepSeek V4运行在华为昇腾950PR芯片上的技术细节，这标志着中美AI脱钩从「可能发生」变为「正在发生」。\n\nTrendForce的深度分析揭示了关键架构：昇腾950PR的单精度浮点算力达到1.56 PFLOPS，虽然仍落后NVIDIA H100约20%，但已足以支撑大规模训练。DeepSeek团队通过创新的混合精度训练策略弥补了硬件差距。\n\nDigitimes进一步指出，DeepSeek V4不仅是技术突破，更是战略信号——它证明中国AI公司可以在没有NVIDIA芯片的情况下训练前沿模型。这对美国的芯片出口管制政策构成了直接挑战。\n\nBBC的报道从更宏观的视角总结：「中国在一个AI赛道上领先，美国在另一个——但任何一方都可能随时超越。」中美AI竞争正在从单一维度（模型性能）转向多维度（芯片自主、数据生态、应用落地）。",
+        "en": "Multiple tech outlets deep-dived into the technical details of DeepSeek V4 running on Huawei Ascend 950PR chips this week, marking US-China AI decoupling's shift from 'possible' to 'happening.'\n\nTrendForce's analysis revealed key architecture: Ascend 950PR delivers 1.56 PFLOPS single-precision, about 20% behind NVIDIA H100, but sufficient for large-scale training. DeepSeek's team bridged the hardware gap through innovative mixed-precision training strategies.\n\nDigitimes further noted DeepSeek V4 is not just a technical breakthrough but a strategic signal — proving Chinese AI companies can train frontier models without NVIDIA chips. This directly challenges US chip export controls.\n\nBBC's broader perspective summarized: 'China is winning one AI race, the US another — but either might pull ahead.' US-China AI competition is shifting from a single dimension (model performance) to multiple dimensions (chip sovereignty, data ecosystems, application deployment)."
+      },
+      "outlook": {
+        "zh": "短期内，NVIDIA的市场地位仍然稳固——全球80%以上的AI训练仍依赖其GPU。但华为昇腾的进步速度超出预期，如果昇腾960（预计2026下半年）再缩小一半性能差距，中美AI芯片脱钩将从量变到质变。投资者需要开始对冲「NVIDIA不再是唯一选择」的情景。",
+        "en": "Near-term, NVIDIA's market position remains solid — over 80% of global AI training still relies on its GPUs. But Huawei Ascend's improvement pace exceeds expectations. If Ascend 960 (expected H2 2026) closes another half of the performance gap, US-China AI chip decoupling reaches a tipping point. Investors should start hedging for scenarios where 'NVIDIA is no longer the only option.'"
+      },
       "items": [
         {
-          "zh": "Trump administration finalizes better-than-feared Medicare Advantage payment rate in boost to health insurers",
-          "en": "Trump administration finalizes better-than-feared Medicare Advantage payment rate in boost to health insurers",
-          "url": "https://www.cnbc.com/2026/04/06/trump-medicare-advantage.html",
-          "source": "CNBC",
-          "hot": true
+          "zh": "TrendForce深度拆解：DeepSeek V4如何在华为昇腾950PR上突破美国芯片封锁",
+          "en": "TrendForce deep dive: How DeepSeek V4 breaks through US chip blockade on Huawei Ascend 950PR",
+          "summary": {
+            "zh": "TrendForce发布长文，详细拆解了DeepSeek V4的训练架构。昇腾950PR的BF16算力约为NVIDIA H100的80%，但DeepSeek团队通过三项关键创新弥补差距：定制化的混合精度训练策略、优化的通信拓扑减少了40%的芯片间数据传输延迟、以及与华为联合开发的专用编译器。文章指出，这套方案虽然训练效率仍比NVIDIA方案低约15%，但已经「足够好」——对于一个受制裁国家的AI公司来说，这是历史性的突破。",
+            "en": "TrendForce published a detailed teardown of DeepSeek V4's training architecture. Ascend 950PR's BF16 performance is about 80% of NVIDIA H100, but DeepSeek bridged the gap through three key innovations: customized mixed-precision training, optimized communication topology reducing inter-chip data transfer latency by 40%, and a co-developed specialized compiler with Huawei. While training efficiency remains ~15% below NVIDIA solutions, it's 'good enough' — a historic breakthrough for an AI company in a sanctioned country."
+          },
+          "url": "https://trendforce.com/news/2026/04/07/decoding-deepseek-v4-huawei-ascend-950pr",
+          "source": "TrendForce",
+          "hot": true,
+          "tags": ["DeepSeek", "Huawei", "AI-chips", "decoupling"]
         },
         {
-          "zh": "JPMorgan CEO Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
-          "en": "JPMorgan CEO Jamie Dimon in annual letter cites risks in geopolitics, AI and private markets",
-          "url": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
-          "source": "CNBC",
-          "hot": false
+          "zh": "BBC分析：中美在不同AI赛道各自领先，但格局随时可能翻转",
+          "en": "BBC analysis: China and US lead in different AI races, but the landscape could flip anytime",
+          "summary": {
+            "zh": "BBC发布了一篇平衡性分析文章，指出中美AI竞争的格局比「谁领先」更复杂。美国在前沿模型（GPT、Claude）和芯片设计上领先；中国在AI应用落地、开源模型（DeepSeek）和数据规模上有优势。文章引述多位专家观点认为，AI竞争的决定因素正在从「模型性能」转向「生态系统完整性」，而在这个维度上，中美各有短板。",
+            "en": "BBC published a balanced analysis noting the US-China AI competition is more complex than 'who's ahead.' The US leads in frontier models (GPT, Claude) and chip design; China has advantages in AI application deployment, open-source models (DeepSeek), and data scale. Experts cited argue the decisive factor is shifting from 'model performance' to 'ecosystem completeness,' where both sides have weaknesses."
+          },
+          "url": "https://www.bbc.com/news/articles/china-us-ai-race-2026",
+          "source": "BBC",
+          "hot": false,
+          "tags": ["AI-race", "China", "US", "geopolitics"]
+        },
+        {
+          "zh": "Anthropic突然砍掉第三方工具免费额度，开发者社区震荡",
+          "en": "Anthropic suddenly cuts free third-party tool access, developer community in shock",
+          "summary": {
+            "zh": "Axios报道，Anthropic本周宣布大幅削减第三方开发者通过Claude API使用工具调用（tool use）的免费额度。此前开发者可以免费使用一定量的工具调用功能，现在全部转为付费。消息一出，开发者社区反应强烈——部分独立开发者表示这将迫使他们迁移到其他平台。分析认为这是Anthropic在IPO前优化收入结构的举措，但时机选择颇为尴尬。",
+            "en": "Axios reported Anthropic announced significant cuts to free third-party developer tool-use access via the Claude API this week. Previously developers could use a certain amount of tool calling for free; now it's all paid. The developer community reacted strongly — some indie developers said this would force migration to other platforms. Analysts see this as Anthropic optimizing revenue ahead of its IPO, though the timing is awkward."
+          },
+          "url": "https://www.axios.com/2026/04/06/anthropic-cuts-third-party-usage",
+          "source": "Axios",
+          "hot": true,
+          "tags": ["Anthropic", "Claude", "API", "developer"]
+        }
+      ]
+    },
+    {
+      "id": "inflation-watch",
+      "title": {
+        "zh": "通胀警报 — 纽约联储调查与战前物价压力",
+        "en": "Inflation Alert — NY Fed Survey and Pre-War Price Pressures"
+      },
+      "domains": ["finance"],
+      "color": "#4ade80",
+      "analysis": {
+        "zh": "纽约联储三月消费者预期调查揭示了一个令人担忧的信号：一年期通胀预期从2月的3.1%跳升至3.6%，三年期预期也从2.9%升至3.2%。这还是在伊朗战争全面爆发之前的数据。\n\n芝加哥联储主席Goolsbee本周发出警告：通胀风险上升，但认为经济尚未进入衰退。他的言下之意是——联储不急于降息。事实上，市场对今年降息的预期已从年初的3次下调至1次，部分交易员甚至开始定价加息可能。\n\n叠加伊朗战争推高的能源价格（油价自战前的$75涨至$107），以及关税持续推高进口商品价格，美国正面临一个「三重通胀挤压」：能源成本 + 关税成本 + 供应链扰动。这对消费者和企业的实际购买力构成了严峻挑战。",
+        "en": "The NY Fed's March consumer expectations survey revealed a worrying signal: one-year inflation expectations jumped from 3.1% in February to 3.6%, with three-year expectations rising from 2.9% to 3.2%. This was data collected before the full-scale Iran war.\n\nChicago Fed President Goolsbee warned this week that inflation risks are rising but stopped short of calling a recession. His implication: the Fed is in no hurry to cut rates. Indeed, market expectations for rate cuts this year have dropped from three at the start of the year to one, with some traders even pricing in potential hikes.\n\nCombined with war-driven energy prices (oil from $75 pre-war to $107) and tariffs continuing to push up import costs, the US faces a 'triple inflation squeeze': energy costs + tariff costs + supply chain disruption. This poses a serious challenge to real purchasing power for consumers and businesses."
+      },
+      "outlook": {
+        "zh": "本周三将公布联储三月会议纪要，市场密切关注官员对战争风险的评估。如果纪要显示多数官员担忧通胀而非增长，降息预期将进一步推后。更远看，如果油价持续高于$100，6月CPI很可能突破4%，届时联储可能被迫在「抗通胀」和「防衰退」之间做出艰难选择。",
+        "en": "Wednesday's release of March Fed meeting minutes will be closely watched for officials' assessment of war risks. If minutes show most officials concerned about inflation rather than growth, rate cut expectations will be pushed further back. Longer-term, if oil stays above $100, June CPI could breach 4%, potentially forcing the Fed into a painful choice between fighting inflation and preventing recession."
+      },
+      "items": [
+        {
+          "zh": "纽约联储三月调查：近期通胀预期大幅跳升至3.6%",
+          "en": "NY Fed March survey: Near-term inflation expectations jump sharply to 3.6%",
+          "summary": {
+            "zh": "纽约联储发布的三月消费者预期调查显示，一年期通胀中位预期从2.83%升至3.58%，创2024年10月以来最大单月涨幅。消费者对食品和汽油价格的预期涨幅尤为显著。调查还显示，家庭对未来收入增长的预期有所下降，暗示消费者信心正在被通胀预期侵蚀。",
+            "en": "The NY Fed's March consumer expectations survey showed median one-year inflation expectations rising from 2.83% to 3.58%, the largest monthly jump since October 2024. Expectations for food and gasoline price increases were particularly notable. The survey also showed declining expectations for future income growth, suggesting consumer confidence is being eroded by inflation expectations."
+          },
+          "url": "https://reuters.com/business/ny-fed-march-survey-inflation-expectations-jump",
+          "source": "Reuters / NY Fed",
+          "hot": true,
+          "tags": ["inflation", "Fed", "consumer", "survey"]
+        },
+        {
+          "zh": "芝加哥联储Goolsbee警告通胀风险上升，但否认衰退",
+          "en": "Chicago Fed's Goolsbee warns of rising inflation risk but denies recession",
+          "summary": {
+            "zh": "芝加哥联储主席Goolsbee在演讲中表示，当前通胀风险「明显偏向上行」，但强调经济基本面仍然稳健——劳动市场就业增长良好，消费支出虽有放缓但未出现断崖。他暗示联储将「保持耐心」，不会在通胀走高的情况下急于降息。这番言论被市场解读为鸽派立场的进一步退却。",
+            "en": "Chicago Fed President Goolsbee said in a speech that inflation risks are 'clearly skewed to the upside' but emphasized economic fundamentals remain sound — labor market job growth is solid, and consumer spending has slowed but hasn't collapsed. He implied the Fed would 'remain patient' and not rush to cut rates with inflation rising. Markets interpreted this as a further retreat from dovish positioning."
+          },
+          "url": "https://www.freep.com/story/money/2026/04/07/chicago-fed-goolsbee-inflation-recession",
+          "source": "Detroit Free Press / Chicago Fed",
+          "hot": false,
+          "tags": ["Fed", "inflation", "rates", "Goolsbee"]
         }
       ]
     }

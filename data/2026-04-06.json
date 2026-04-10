@@ -1,109 +1,343 @@
 {
   "date": "2026-04-06",
-  "sections": [
+  "version": 3,
+  "editorial": {
+    "zh": "四月第一个周一，全球市场屏息以待。霍尔木兹海峡危机在周末骤然升级——特朗普用粗口威胁伊朗，要求周二前重开海峡否则轰炸电厂和桥梁，油价应声冲上$110后因停火谈判传闻回落。但最吊诡的是：BTC 反而突破$70,000，创两周新高。战争恐惧非但没有压垮风险资产，反而挤爆了空头仓位。与此同时，AI 芯片供应链正在发生结构性位移：DeepSeek V4 确认跑在华为昇腾上，Samsung 和 Mistral 秘密会面谈芯片合作，中美在AI基础设施上的脱钩已从软件层蔓延到硬件层。OpenAI 即将发布 ChatGPT 5.5 和桌面超级应用，Anthropic 则砍掉了第三方工具的免费额度引发社区震荡。摩根大通 CEO Jamie Dimon 的年度股东信一语中的：地缘政治、AI 和私募市场是当前三大系统性风险——而这三条线今天恰好完美交织。",
+    "en": "As the first Monday of April dawns, global markets hold their breath. The Strait of Hormuz crisis escalated dramatically over the weekend — Trump issued an expletive-laden ultimatum demanding Iran reopen the strait by Tuesday or face strikes on power plants and bridges. Oil surged above $110 before retreating on ceasefire talk rumors. The twist: Bitcoin broke above $70,000 to a two-week high, as war fears squeezed shorts rather than crushing risk assets. Meanwhile, the AI chip supply chain is undergoing a structural shift — DeepSeek V4 confirmed running on Huawei Ascend chips, Samsung and Mistral held secret talks on chip partnerships, and US-China decoupling has spread from software to hardware. OpenAI is preparing ChatGPT 5.5 and a desktop super app, while Anthropic's decision to cut free third-party tool access sent shockwaves through the developer community. JPMorgan CEO Jamie Dimon's annual letter nailed it: geopolitics, AI, and private markets are today's three systemic risks — and all three converge perfectly today."
+  },
+  "themes": [
     {
-      "category": "AI",
+      "id": "hormuz-crisis",
+      "title": {
+        "zh": "霍尔木兹海峡摊牌 — 战争边缘的油价与市场",
+        "en": "Strait of Hormuz Showdown — Oil Prices and Markets on the Brink"
+      },
+      "domains": ["geopolitics", "finance", "crypto"],
+      "color": "#ff6b6b",
+      "analysis": {
+        "zh": "这是一场教科书级的地缘政治危机升级。特朗普在周日发布了充满粗口的社交媒体帖子，威胁如果伊朗不在周二前重开霍尔木兹海峡，美军将轰炸伊朗的电厂和桥梁，甚至扬言「他们整个国家都会消失」。伊朗方面以嘲讽回应：「我们把钥匙弄丢了」。\n\n从市场影响看，这场危机正在制造一个高度反直觉的局面：\n\n1. **油价剧烈波动但未失控** — 布伦特原油一度冲上$110，但随后因美伊45天停火谈判的传闻回落至$107附近。纽约时报分析指出，市场已经对特朗普「在威胁和外交之间反复横跳」的模式产生了耐受性，油价对其言论的边际反应正在递减。\n2. **比特币反而暴涨** — BTC突破$70,000创两周新高，空头在12小时内被清算的规模是多头的近3倍。Bloomberg 观察到，BTC 正在展现「战时避险资产」的属性。\n3. **能源危机的二阶效应** — 《卫报》的一篇深度报道揭示了一个被忽视的维度：伊朗战争引发的能源危机正在迫使部分国家重新依赖煤炭，全球能源转型进程面临倒退风险。\n\n关键变量是周二的最后期限。如果特朗普兑现威胁，油价可能冲击$120-130；如果出现谈判突破，则可能快速回落至$95-100。无论哪种情景，波动率本身就是当前最确定的交易。",
+        "en": "This is a textbook geopolitical crisis escalation. Trump posted an expletive-laden social media tirade Sunday, threatening to bomb Iran's power plants and bridges if the Strait of Hormuz isn't reopened by Tuesday, even claiming 'their whole country is gone.' Iran mocked back: 'We've lost the keys.'\n\nThe market impact is creating a highly counterintuitive picture:\n\n1. **Oil volatile but not unhinged** — Brent crude briefly hit $110 before pulling back to ~$107 on rumors of a 45-day US-Iran ceasefire negotiation. The NYT notes markets have developed tolerance for Trump's pattern of oscillating between threats and diplomacy, with diminishing marginal oil price reactions.\n2. **Bitcoin actually surged** — BTC broke above $70,000 to a two-week high, with short liquidations outpacing longs nearly 3:1 in 12 hours. Bloomberg observed BTC exhibiting 'wartime store of value' properties.\n3. **Second-order energy effects** — A Guardian deep dive reveals an overlooked dimension: the energy crisis from the Iran war is forcing some countries back toward coal, threatening to reverse global energy transition progress.\n\nThe key variable is Tuesday's deadline. If Trump follows through, oil could test $120-130; a negotiation breakthrough could quickly pull it back to $95-100. Either way, volatility itself is the most certain trade right now."
+      },
+      "outlook": {
+        "zh": "短期看，周二最后期限是分水岭。停火谈判传闻给了市场一丝喘息，但特朗普的不可预测性意味着任何情景都可能在24小时内翻转。中期看，即便达成临时停火，霍尔木兹海峡的风险溢价已经永久性地嵌入了油价结构——$90以下的油价在2026年内可能再也看不到了。",
+        "en": "Near-term, Tuesday's deadline is the watershed. Ceasefire rumors offer brief relief, but Trump's unpredictability means any scenario could flip within 24 hours. Medium-term, even a temporary ceasefire won't remove the risk premium now permanently embedded in oil prices — sub-$90 Brent may not return in 2026."
+      },
       "items": [
         {
-          "zh": "DeepSeek V4 即将发布，将运行在华为昇腾芯片上——阿里、字节、腾讯已大批量订购华为芯片",
-          "en": "DeepSeek V4 imminent, will run on Huawei Ascend chips — Alibaba, ByteDance, Tencent bulk-ordering Huawei chips",
-          "url": "https://www.khaleejtimes.com/business/tech/chinas-deepseek-v4-model-will-run-on-huawei-chips",
-          "source": "The Information / Khaleej Times",
-          "hot": true
+          "zh": "特朗普发布粗口威胁：周二前不开海峡就炸电厂和桥梁",
+          "en": "Trump issues expletive-laden ultimatum: reopen Hormuz by Tuesday or power plants and bridges get bombed",
+          "summary": {
+            "zh": "特朗普在 Truth Social 上发布了充满粗口的帖子，威胁伊朗如果不在周二前完全重开霍尔木兹海峡，美军将对伊朗电厂和桥梁发动轰炸。他在接受 ABC 采访时更进一步表示「如果伊朗不达成协议，他们整个国家就没了」。这番言论出现在被击落的 F-15E 第二名机组成员获救之后，被外界解读为特朗普在军事胜利后更加有恃无恐。然而彭博社指出，这种「最后通牒」策略的风险在于：它大幅压缩了谈判空间，使得和平解决的窗口越来越窄。",
+            "en": "Trump posted an expletive-laden tirade on Truth Social threatening to bomb Iranian power plants and bridges unless the Strait of Hormuz is fully reopened by Tuesday. In an ABC interview, he went further: 'If Iran doesn't make a deal, their whole country is gone.' The escalation came after the successful rescue of the second F-15E crew member, interpreted as emboldening Trump. Bloomberg noted this 'ultimatum' strategy carries serious risks by drastically narrowing the window for a peaceful resolution."
+          },
+          "url": "https://nytimes.com/live/2026/04/05/world/iran-war-trump-news",
+          "source": "NYT / Bloomberg / Time",
+          "hot": true,
+          "tags": ["war", "oil", "geopolitics", "hormuz"]
         },
         {
-          "zh": "马斯克要求参与 SpaceX IPO 的银行、律所和审计机构必须订阅 Grok AI",
-          "en": "Musk forces banks, law firms & auditors working on SpaceX IPO to subscribe to Grok AI",
-          "url": "https://www.pcmag.com/news/musk-forces-banks-to-use-grok-ahead-of-spacex-ipo",
-          "source": "NYT / PCMag",
-          "hot": true
+          "zh": "伊朗嘲讽回应「钥匙丢了」，油价在$107-110区间剧烈波动",
+          "en": "Iran mocks Trump with 'we've lost the keys' jibe; oil seesaws between $107-110",
+          "summary": {
+            "zh": "面对特朗普的威胁，伊朗方面以嘲讽回应「我们把钥匙弄丢了」。油价在周末经历了剧烈波动：布伦特原油一度冲上$110后因停火谈判传闻回落至$107左右。BBC 报道指出，WTI原油也经历了类似波动，一度跌至$109后反弹。纽约时报分析认为，市场已经对特朗普在外交和威胁之间反复横跳的模式产生了「信号疲劳」——投资者越来越难以判断哪些威胁会真正执行。这种不确定性本身就是最大的风险因子。",
+            "en": "In response to Trump's threats, Iran mocked 'we've lost the keys.' Oil prices saw dramatic swings over the weekend: Brent crude hit $110 before pulling back to ~$107 on ceasefire talk rumors. BBC reported WTI also whipsawed, dipping to $109 before rebounding. The NYT analysis suggests markets have developed 'signal fatigue' with Trump's oscillation between diplomacy and threats — investors increasingly struggle to distinguish actionable threats from negotiating bluster. This uncertainty itself is the biggest risk factor."
+          },
+          "url": "https://bbc.com/news/articles/c8dl7g6e59eo",
+          "source": "BBC / NYT / Business Insider",
+          "hot": true,
+          "tags": ["oil", "iran", "energy", "volatility"]
         },
         {
-          "zh": "Ledger CTO 警告：AI 正让加密攻击变得更便宜更快，迫使安全体系全面重新审视",
-          "en": "Ledger CTO warns AI is making crypto hacks cheaper and faster, forcing security rethink",
-          "url": "https://www.coindesk.com/tech/2026/04/05/ai-is-making-crypto-s-security-problem-even-worse-ledger-cto-warns",
-          "source": "CoinDesk",
-          "hot": false
+          "zh": "BTC 突破 $70,000 创两周新高，空头被大规模清算",
+          "en": "Bitcoin breaks $70,000 to two-week high as shorts get massively squeezed",
+          "summary": {
+            "zh": "比特币在周一亚洲时段突破 $70,000，创3月25日以来新高。CoinDesk 报道称，美伊45天停火谈判的传闻是主要催化剂，空头在12小时内被清算的规模是多头的近3倍。Bloomberg 的观察更为深远：尽管特朗普持续升级对伊朗的威胁，BTC 反而上涨，显示出越来越强的「战时价值存储」属性——与传统避险资产黄金的行为模式趋同。过去一周 ETH 也表现强劲，涨幅6.8%，跑赢标普500和黄金。",
+            "en": "Bitcoin broke above $70,000 during Asian trading Monday, hitting a high not seen since March 25. CoinDesk reported that rumors of US-Iran 45-day ceasefire talks catalyzed the move, with short liquidations outpacing longs nearly 3:1 in 12 hours. Bloomberg's deeper observation: despite Trump's escalating Iran threats, BTC rose rather than fell, exhibiting increasingly strong 'wartime store of value' properties that converge with gold's behavior pattern. ETH also surged 6.8% over the week, outperforming the S&P 500 and gold."
+          },
+          "url": "https://www.coindesk.com/markets/2026/04/06/bitcoin-reclaims-usd69-000-as-ceasefire-talks-surface-and-crypto-shorts-get-squeezed",
+          "source": "CoinDesk / Bloomberg",
+          "hot": true,
+          "tags": ["bitcoin", "war", "safe-haven", "liquidation"]
         },
         {
-          "zh": "Bloomberg 深度：「Vibe Coding」成为 AI 编程新潮流——但 AI 生产力内卷可能先把人卷崩",
-          "en": "Bloomberg: 'Vibe Coding' is the new AI trend — but AI productivitymaxxing may burn us out first",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-04-05/what-is-vibe-coding-the-ai-trend-fueling-a-new-kind-of-fomo",
-          "source": "Bloomberg",
-          "hot": false
-        },
-        {
-          "zh": "Google 虚拟试穿技术将于 4 月 30 日直接嵌入搜索结果，AI 重塑零售购物体验",
-          "en": "Google's AI virtual try-on tech to launch within search results on April 30, reshaping retail",
-          "url": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
-          "source": "CNBC",
-          "hot": false
+          "zh": "伊朗战争如何让世界重新依赖煤炭",
+          "en": "How Trump's Iran war could push the world back toward coal",
+          "summary": {
+            "zh": "《卫报》的一篇深度报道揭示了伊朗战争的一个被忽视的二阶效应：由于油价持续高企且天然气供应链受阻，部分发展中国家正在重新评估对煤炭的依赖。文章引用多个南亚和东南亚国家的能源政策转向作为证据，指出霍尔木兹海峡危机每持续一个月，全球能源转型就可能倒退半年。这对「绿色AI」议题也有直接影响——数据中心的能源成本正因战争而螺旋上升。",
+            "en": "A Guardian deep dive reveals an overlooked second-order effect of the Iran war: with oil prices persistently high and natural gas supply chains disrupted, some developing nations are reassessing coal dependence. The article cites energy policy pivots in South and Southeast Asian countries, arguing that each month the Hormuz crisis persists could set global energy transition back by six months. This directly impacts the 'green AI' debate — data center energy costs are spiraling due to the war."
+          },
+          "url": "https://theguardian.com/business/2026/apr/05/coal-reliance-iran-war-fossil-fuels",
+          "source": "The Guardian",
+          "hot": false,
+          "tags": ["energy-transition", "coal", "climate", "data-centers"]
         }
       ]
     },
     {
-      "category": "Crypto",
+      "id": "ai-chip-decoupling",
+      "title": {
+        "zh": "AI 芯片脱钩加速 — DeepSeek × 华为 × Samsung × Mistral",
+        "en": "AI Chip Decoupling Accelerates — DeepSeek × Huawei × Samsung × Mistral"
+      },
+      "domains": ["ai", "geopolitics"],
+      "color": "#818cf8",
+      "analysis": {
+        "zh": "本周AI芯片领域发生了两件结构性大事，它们指向同一个方向：全球AI基础设施正在从「NVIDIA一家独大」走向「多极分化」。\n\n**第一条线：中国的「去英伟达化」。** DeepSeek V4 确认将运行在华为昇腾950PR芯片上——这是首个在国产芯片上训练的前沿AI模型。阿里、字节、腾讯已大批量下单华为AI芯片。目前昇腾950PR的性能被评估为介于NVIDIA H100和H200之间，主要瓶颈不是设计而是产能——SMIC的先进制程和高带宽内存（HBM）供应安全仍是关键变量。值得注意的是，DeepSeek团队声称已通过软件优化弥补了相当一部分硬件差距，这验证了中国AI「以算法补芯片」策略的可行性。\n\n**第二条线：欧洲的自主布局。** Samsung与法国AI独角兽Mistral AI在华城半导体基地秘密会面，讨论AI内存和芯片供应链合作。外界分析认为Mistral可能正在考虑设计自有AI芯片以减少对NVIDIA的依赖——如果属实，这将是继Google（TPU）、Amazon（Trainium/Inferentia）之后又一个大玩家选择自研路线。\n\n**数据支撑：** HBM芯片价格在过去6个月翻倍，AI驱动的需求正在暴露半导体供应链的脆弱性。Micron股价因AI内存需求预期而大涨，但供应端的集中度风险不容忽视。",
+        "en": "Two structural developments in AI chips this week point in the same direction: global AI infrastructure is moving from 'NVIDIA monopoly' to 'multipolar fragmentation.'\n\n**Line 1: China's de-NVIDIA strategy.** DeepSeek V4 confirmed running on Huawei Ascend 950PR chips — the first frontier AI model trained on domestic Chinese silicon. Alibaba, ByteDance, and Tencent have placed bulk orders. The Ascend 950PR is rated between NVIDIA's H100 and H200, with the bottleneck being production capacity rather than design — SMIC's advanced process and HBM supply security remain critical variables. Notably, DeepSeek claims software optimizations have bridged a significant portion of the hardware gap, validating China's 'compensate chips with algorithms' strategy.\n\n**Line 2: Europe's self-reliance push.** Samsung and France's Mistral AI held a secret meeting at Samsung's Hwaseong semiconductor HQ to discuss AI memory and chip supply chain cooperation. Analysts believe Mistral may be considering designing its own AI chips to reduce NVIDIA dependence — if true, this joins Google (TPU), Amazon (Trainium/Inferentia) in the custom silicon trend.\n\n**Data point:** HBM chip prices have doubled in 6 months, with AI-driven demand exposing semiconductor supply chain fragility. Micron's stock surged on AI memory demand expectations, but supply concentration risks deserve attention."
+      },
+      "outlook": {
+        "zh": "2026年正在成为AI芯片多极化的元年。中国的国产替代不再是「备胎」而是「主线」，欧洲也在酝酿自主方案。NVIDIA的垄断地位不会在短期内被颠覆，但其定价权正在被侵蚀。投资视角上，华为（非上市）的昇腾生态成熟度、Samsung的HBM产能扩张、以及TSMC在先进封装上的领先地位，是未来12个月最值得追踪的三条线索。",
+        "en": "2026 is becoming the inaugural year of AI chip multipolarity. China's domestic alternatives are shifting from 'backup' to 'primary,' and Europe is brewing its own solutions. NVIDIA's monopoly won't be toppled short-term, but its pricing power is being eroded. From an investment lens, Huawei's (unlisted) Ascend ecosystem maturity, Samsung's HBM capacity expansion, and TSMC's advanced packaging leadership are the three threads most worth tracking over the next 12 months."
+      },
       "items": [
         {
-          "zh": "Drift Protocol 确认 2.7 亿美元攻击为朝鲜情报机构策划——伪装量化交易公司潜伏 6 个月，甚至当面开会+存入 100 万美元",
-          "en": "Drift confirms $270M exploit was a 6-month North Korean intelligence operation — attackers posed as quant firm, met in person & deposited $1M+",
-          "url": "https://www.coindesk.com/markets/2026/04/05/drift-says-usd270-million-exploit-was-a-six-month-north-korean-intelligence-operation",
-          "source": "CoinDesk",
-          "hot": true
+          "zh": "DeepSeek V4 确认运行在华为昇腾芯片上，中国AI「去英伟达化」标志性事件",
+          "en": "DeepSeek V4 confirmed on Huawei Ascend chips — landmark moment in China's de-NVIDIA strategy",
+          "summary": {
+            "zh": "据 The Information 报道，DeepSeek 即将发布的 V4 模型将在华为昇腾950PR芯片上训练和推理，这是首个在国产芯片上运行的前沿AI模型。阿里巴巴、字节跳动、腾讯已大批量订购华为AI芯片（数千块规模）。昇腾950PR性能介于NVIDIA H100和H200之间，主要瓶颈在SMIC产能和HBM供应。DeepSeek团队表示通过软件优化（算子融合、混合精度训练等）弥补了相当部分硬件差距。这标志着中国AI产业从「被动依赖」转向「主动构建」国产基础设施。",
+            "en": "Per The Information, DeepSeek's forthcoming V4 model will train and run inference on Huawei Ascend 950PR chips — the first frontier AI model on domestic Chinese silicon. Alibaba, ByteDance, and Tencent have placed bulk orders (thousands of units). The 950PR sits between NVIDIA's H100 and H200 in performance, bottlenecked by SMIC production capacity and HBM supply rather than design. DeepSeek claims software optimizations (operator fusion, mixed-precision training) have bridged a significant gap. This marks China's AI industry shifting from passive dependence to active construction of domestic infrastructure."
+          },
+          "url": "https://techwireasia.com/2026/04/deepseek-v4-points-to-growing-use-of-huawei-chips-in-ai-models",
+          "source": "The Information / TechWire Asia / Reuters",
+          "hot": true,
+          "tags": ["deepseek", "huawei", "chips", "china-ai", "decoupling"]
         },
         {
-          "zh": "嘉信理财 (Charles Schwab) 确认上半年推出 BTC 和 ETH 现货交易，开放候补名单",
-          "en": "Charles Schwab confirms spot BTC & ETH trading launch in H1 2026, opens waitlist",
-          "url": "https://www.theblock.co/post/396358/charles-schwab-opens-waitlist-for-direct-bitcoin-and-ether-trading-targeting-q2-limited-launch",
-          "source": "The Block / Yahoo Finance",
-          "hot": true
+          "zh": "Samsung 与 Mistral AI 秘密会面，探讨AI芯片和内存合作",
+          "en": "Samsung and Mistral AI hold secret talks on AI chip and memory partnership",
+          "summary": {
+            "zh": "Samsung Electronics 与法国AI公司 Mistral AI 在Samsung华城半导体总部进行了闭门会议，讨论AI内存供应和半导体供应链合作。由于会面地点是Samsung半导体指挥中心，外界推测合作方向包括：为Mistral定制HBM内存方案、探索联合设计AI推理芯片。如果Mistral选择自研芯片路线，将继Google TPU、Amazon Trainium后，成为又一个大型AI玩家选择脱离纯NVIDIA依赖。",
+            "en": "Samsung Electronics and French AI firm Mistral AI held a closed-door meeting at Samsung's Hwaseong semiconductor HQ to discuss AI memory supply and chip supply chain cooperation. Given the meeting venue — Samsung's semiconductor command center — analysts speculate the partnership may involve custom HBM memory solutions for Mistral and joint exploration of AI inference chip design. If Mistral pursues custom silicon, it would join Google (TPU) and Amazon (Trainium) as another major AI player reducing pure NVIDIA dependency."
+          },
+          "url": "https://www.sammobile.com/news/somethings-cooking-between-samsung-and-europes-hottest-ai-startup/",
+          "source": "SamMobile / Mathrubhumi",
+          "hot": true,
+          "tags": ["samsung", "mistral", "hbm", "europe-ai", "supply-chain"]
         },
         {
-          "zh": "BTC 约 $67,100，窄幅震荡（$65K-$73K），社交媒体看空情绪创近期新高",
-          "en": "BTC around $67,100, range-bound ($65K-$73K); social media bearish sentiment at recent highs",
-          "url": "https://www.coindesk.com/markets/2026/04/05/bitcoin-enters-april-at-its-most-hated-level-since-the-war-began",
-          "source": "CoinDesk",
-          "hot": false
+          "zh": "HBM 芯片价格六个月翻倍，AI需求暴露供应链脆弱性",
+          "en": "HBM chip prices double in 6 months as AI demand exposes supply chain fragility",
+          "summary": {
+            "zh": "高带宽内存（HBM）芯片价格在过去六个月内翻倍，主要由AI训练和推理的爆发式需求驱动。Micron因此股价大涨，但分析师警告供应端的高度集中（Samsung、SK Hynix、Micron三家垄断）加上地缘政治冲击（美国出口管制、伊朗战争推高能源成本），正在使半导体供应链变得极度脆弱。这直接影响AI公司的成本结构——训练一个前沿大模型的硬件成本可能在2026年底前再涨50%。",
+            "en": "High-Bandwidth Memory (HBM) chip prices have doubled over the past six months, driven by explosive AI training and inference demand. Micron's stock surged accordingly, but analysts warn that extreme supply concentration (Samsung, SK Hynix, Micron oligopoly) combined with geopolitical shocks (US export controls, Iran war-driven energy costs) is making the semiconductor supply chain acutely fragile. This directly impacts AI companies' cost structures — hardware costs for training a frontier model could rise another 50% by end of 2026."
+          },
+          "url": "https://www.whalesbook.com/news/English/tech/AI-Demand-for-HBM-Chips-Doubles-Prices-Exposes-Supply-Chain-Fragility/69d34b4c31d4f2ab480a5a13",
+          "source": "Whalesbook / IndexBox",
+          "hot": false,
+          "tags": ["hbm", "memory", "supply-chain", "cost"]
         },
         {
-          "zh": "BNB 报 $592，较去年 10 月高点 $1,375 下跌 57%，Maxwell 升级改善可扩展性",
-          "en": "BNB at $592, down 57% from October peak of $1,375; Maxwell Upgrade improves scalability",
-          "url": "https://www.openpr.com/news/4455246/next-big-cryptocurrency-targets-100x-as-fannie-mae-opens-crypto",
-          "source": "OpenPR / Investing.com",
-          "hot": false
+          "zh": "NVIDIA 继续押注：澳大利亚AI基础设施公司Firmus估值接近70亿美元",
+          "en": "NVIDIA doubles down: Australian AI infra firm Firmus valued near $7 billion",
+          "summary": {
+            "zh": "在英伟达的新一轮投资中，澳大利亚AI基础设施公司Firmus估值接近70亿美元。这显示尽管面临中国和欧洲的「去英伟达化」趋势，NVIDIA正通过投资全球AI基础设施公司来巩固其生态系统护城河——不仅卖芯片，还要通过资本纽带绑定客户。",
+            "en": "In NVIDIA's latest investment round, Australian AI infrastructure company Firmus reached a valuation near $7 billion. This shows that despite the 'de-NVIDIA' trends in China and Europe, NVIDIA is fortifying its ecosystem moat by investing in global AI infrastructure companies — not just selling chips, but binding customers through capital ties."
+          },
+          "url": "https://36kr.com/newsflashes/3755111672496649?f=rss",
+          "source": "36Kr",
+          "hot": false,
+          "tags": ["nvidia", "infrastructure", "investment", "australia"]
         }
       ]
     },
     {
-      "category": "Finance",
+      "id": "ai-platform-wars",
+      "title": {
+        "zh": "AI 平台战争升级 — 超级应用、收费变局与能效突破",
+        "en": "AI Platform Wars Escalate — Super Apps, Pricing Shakeups, and Efficiency Breakthroughs"
+      },
+      "domains": ["ai"],
+      "color": "#a78bfa",
+      "analysis": {
+        "zh": "AI 平台之间的竞争在本周进入了新阶段，三个维度同时发生剧变：\n\n**产品维度：超级应用化。** OpenAI 即将发布 ChatGPT 5.5 和一个全新的桌面「超级应用」，将 ChatGPT、Codex 和 Atlas 浏览器整合为一体。这是对Anthropic日益激烈竞争的直接回应。同时，ChatGPT 已经上线了 DoorDash、Spotify、Uber 等第三方应用集成，向「AI操作系统」的方向迈出了关键一步。AI产品不再只是聊天窗口，而是正在成为连接数字生活的中枢。\n\n**商业维度：Anthropic的收费变局引发震荡。** Anthropic 宣布 Claude 订阅用户不能再通过 OpenClaw 等第三方工具使用免费额度，必须单独付费或使用 API key。这一决定在开发者社区引发强烈反弹，尤其是在加密AI agent领域——大量自动化应用依赖第三方框架调用Claude。BBC一篇报道指出，OpenClaw在中国引发的「养龙虾」热潮体现了AI agent的惊人扩张速度，也解释了为什么Anthropic的基础设施不堪重负。\n\n**技术维度：百倍能效突破。** ScienceDaily报道了一项可能改变AI能源格局的研究：新方法将AI能耗降低100倍的同时还提升了准确率。考虑到AI目前已消耗美国10%以上的电力，且伊朗战争推高能源成本，这类效率突破的战略价值远超学术意义。",
+        "en": "Competition between AI platforms entered a new phase this week, with upheaval across three dimensions:\n\n**Product: Super app convergence.** OpenAI is preparing ChatGPT 5.5 and a new desktop 'super app' merging ChatGPT, Codex, and the Atlas browser. This directly responds to intensifying competition from Anthropic. Meanwhile, ChatGPT has launched DoorDash, Spotify, Uber, and other third-party app integrations — a crucial step toward becoming an 'AI operating system.' AI products are no longer just chat windows; they're becoming hubs connecting digital life.\n\n**Business: Anthropic's pricing shakeup sends shockwaves.** Anthropic announced Claude subscribers can no longer use free credits through third-party tools like OpenClaw, requiring separate payment or API keys. This triggered strong pushback in the developer community, especially in crypto AI agent space — many automated applications depend on third-party frameworks for Claude access. A BBC report notes OpenClaw's 'raise lobsters' frenzy in China illustrates AI agents' explosive growth, explaining why Anthropic's infrastructure is under strain.\n\n**Technology: 100x efficiency breakthrough.** ScienceDaily reported research that could reshape AI's energy landscape: a new approach cuts AI energy use by 100x while improving accuracy. Given that AI already consumes over 10% of US electricity and the Iran war is driving up energy costs, such efficiency breakthroughs carry strategic value far beyond academia."
+      },
+      "outlook": {
+        "zh": "AI平台正在经历从「技术演示」到「商业操作系统」的关键转型。2026年下半年的决定性因素不是哪个模型在benchmark上更高——Gemma 4的31B模型已经证明开源小模型可以击败昂贵的大模型——而是谁能建立最有粘性的应用生态。OpenAI的超级应用策略、Anthropic的开发者生态（尽管收费风波）、Google的搜索+AI整合，三条路线将在Q3见分晓。",
+        "en": "AI platforms are undergoing a critical transition from 'tech demo' to 'commercial operating system.' The decisive factor for H2 2026 isn't which model scores highest on benchmarks — Gemma 4's 31B model already proved open-source small models can beat expensive large ones — but who builds the stickiest application ecosystem. OpenAI's super app strategy, Anthropic's developer ecosystem (despite the pricing backlash), and Google's search+AI integration — these three approaches will be tested in Q3."
+      },
       "items": [
         {
-          "zh": "特朗普「解放日」一周年再加码：对进口品牌药征 100% 关税，钢铝关税同步调整",
-          "en": "Trump doubles down on tariff anniversary: 100% tariff on brand-name pharma imports, steel & aluminum adjustments",
-          "url": "https://www.usatoday.com/story/money/2026/04/05/trumps-tariffs-on-drug-imports-could-strain-affordability/89449699007/",
-          "source": "USA Today / Salon",
-          "hot": true
+          "zh": "OpenAI 即将发布 ChatGPT 5.5 和桌面超级应用，整合 Codex 和浏览器",
+          "en": "OpenAI to launch ChatGPT 5.5 and unified desktop super app merging Codex and browser",
+          "summary": {
+            "zh": "OpenAI 计划发布桌面超级应用，将 ChatGPT、Codex（代码助手）和 Atlas 浏览器整合为一体。同时 ChatGPT 5.5 也在路上。这是OpenAI对Anthropic竞争压力的直接回应——Claude Code 的崛起正在侵蚀OpenAI在开发者市场的份额。超级应用策略的核心逻辑是：通过整合工具链提升用户切换成本，把AI从「工具」变成「平台」。",
+            "en": "OpenAI plans a desktop super app merging ChatGPT, Codex (code assistant), and the Atlas browser into one unified product. ChatGPT 5.5 is also incoming. This directly responds to Anthropic's competitive pressure — Claude Code's rise is eroding OpenAI's developer market share. The super app strategy's core logic: integrate the toolchain to raise switching costs, transforming AI from a 'tool' into a 'platform.'"
+          },
+          "url": "https://geeky-gadgets.com/anthropic-openai-competition",
+          "source": "Geeky Gadgets",
+          "hot": true,
+          "tags": ["openai", "chatgpt", "super-app", "competition"]
         },
         {
-          "zh": "S&P 500 上周大涨近 6%，终结五周连跌，创去年 11 月以来最佳单周表现；期货今日微弱波动",
-          "en": "S&P 500 surged ~6% last week, snapping 5-week losing streak — best weekly gain since late Nov; futures flat today",
-          "url": "https://www.cnbc.com/2026/04/05/stock-market-today-live-updates.html",
+          "zh": "Anthropic 砍掉第三方工具免费额度，Claude 用户使用 OpenClaw 需额外付费",
+          "en": "Anthropic cuts third-party tool credits — Claude users must pay extra for OpenClaw",
+          "summary": {
+            "zh": "4月4日起，Claude Pro 和 Max 订阅用户不能再通过 OpenClaw 等第三方框架使用订阅包含的额度，必须使用独立 API key 或额外付费。Benzinga 报道称这是因为第三方调用造成的系统负载已经严重影响了直接用户的体验。在加密AI agent领域反响尤为强烈——大量自动化交易和DeFi应用依赖这一路径。BBC报道OpenClaw在中国引发的「养龙虾」热潮则解释了需求侧的爆发性增长。",
+            "en": "From April 4, Claude Pro and Max subscribers can no longer use subscription credits through third-party frameworks like OpenClaw, requiring separate API keys or extra payment. Benzinga reports this was triggered by third-party call volumes severely degrading direct user experience. The reaction was particularly strong in the crypto AI agent space — many automated trading and DeFi applications relied on this pathway. BBC's coverage of OpenClaw's 'raise lobsters' craze in China explains the explosive demand growth."
+          },
+          "url": "https://benzinga.com/markets/tech/26/04/51650402/claude-subscriptions-will-no-longer-cover-usage-on-third-party-tools-anthropic-cuts-openclaw-access-amid-surging-ai-demand",
+          "source": "Benzinga / PCMag / BBC",
+          "hot": true,
+          "tags": ["anthropic", "claude", "openclaw", "pricing", "ai-agent"]
+        },
+        {
+          "zh": "AI 能耗突破：新方法将能耗降低100倍同时提升准确率",
+          "en": "AI energy breakthrough: new method cuts energy use 100x while improving accuracy",
+          "summary": {
+            "zh": "ScienceDaily 报道了一项具有里程碑意义的研究：研究人员开发出一种全新的AI计算方法，可以将能耗降低最高100倍，同时还提升了模型准确率。目前AI已消耗美国10%以上的电力且需求仍在加速增长。在伊朗战争推高全球能源成本的背景下，这类效率突破的时机极为关键——它可能改变AI公司疯狂建设天然气发电厂来供电数据中心的路径依赖。",
+            "en": "ScienceDaily reports a milestone study: researchers developed a new AI computation method that cuts energy consumption by up to 100x while actually improving model accuracy. AI already consumes over 10% of US electricity with demand accelerating. Against the backdrop of the Iran war driving up global energy costs, the timing of such an efficiency breakthrough is critical — it could alter the path dependency of AI companies frantically building natural gas power plants for data centers."
+          },
+          "url": "https://www.sciencedaily.com/releases/2026/04/260405003952.htm",
+          "source": "ScienceDaily",
+          "hot": false,
+          "tags": ["energy", "efficiency", "research", "sustainability"]
+        },
+        {
+          "zh": "2026年4月AI模型排行：Gemma 4 31B 以1/50成本击败GPT-5.2",
+          "en": "April 2026 AI rankings: Gemma 4 31B beats GPT-5.2 at 1/50th the cost",
+          "summary": {
+            "zh": "最新基准测试排行显示AI竞争格局正在剧变：Google的开源模型 Gemma 4 31B 在多项测试中击败了 GPT-5.2（成本仅为1/50）和 Gemini 3 Pro（成本仅为1/15），GLM-5 在 SWE-bench 上与 Claude Opus 4.6 仅差3分，Kimi K2 Thinking 领跑开源 SWE-rebench，DeepSeek V3.2 以1/50成本达到 GPT-5.4 90%的质量。闭源模型的优势正在收窄至安全微调和多模态成熟度。",
+            "en": "The latest benchmark rankings reveal a dramatically shifting AI landscape: Google's open-source Gemma 4 31B beats GPT-5.2 (at 1/50th cost) and Gemini 3 Pro (at 1/15th cost) on multiple benchmarks, GLM-5 is within 3 points of Claude Opus 4.6 on SWE-bench, Kimi K2 Thinking leads open-source SWE-rebench, and DeepSeek V3.2 achieves 90% of GPT-5.4 quality at 1/50th cost. Closed-source advantages are narrowing to safety fine-tuning and multimodal maturity."
+          },
+          "url": "https://www.buildfastwithai.com/blogs/best-ai-models-april-2026",
+          "source": "BuildFastWithAI",
+          "hot": false,
+          "tags": ["benchmarks", "open-source", "gemma", "cost-efficiency"]
+        }
+      ]
+    },
+    {
+      "id": "crypto-institutional-wave",
+      "title": {
+        "zh": "加密市场的冰与火 — 机构狂买、国家级黑客、监管新篇",
+        "en": "Crypto's Fire and Ice — Institutional Buying Spree, State Hackers, and Regulatory Milestones"
+      },
+      "domains": ["crypto", "finance"],
+      "color": "#4ade80",
+      "analysis": {
+        "zh": "本周加密市场呈现出极度分裂的图景——一边是机构资金以前所未有的速度涌入，另一边是安全威胁升级到国家级别。\n\n**机构端的疯狂买入：** Tom Lee 的 BitMine Immersion Technologies 上周购入71,252枚ETH（约1.5亿美元），是去年12月以来最大单周买入量，其ETH持仓已接近ETH总供应量的4%（价值103亿美元）。Strategy（前MicroStrategy）同期增持4,871枚BTC（3.3亿美元），尽管Q1账面浮亏高达145亿美元。这两家公司的行为模式一致：无视短期波动，按照长期论文持续加仓。这种「企业国库配置」策略正在从比特币扩展到以太坊。\n\n**安全端的国家级威胁：** Drift Protocol 2.85亿美元被盗事件的更多细节浮出水面——研究人员警告朝鲜IT工作者已在DeFi协议中潜伏多年，不仅是Drift这一个案例。11个国家和区块链分析公司正在联合打击朝鲜加密犯罪网络。这对整个DeFi行业的信任模型构成根本性挑战。\n\n**监管端的分化：** 俄罗斯正在推动加密货币市场正式立法，日本已认可28个平台上超过100种代币。全球监管正从「对抗」转向「规范化」——问题不再是「要不要监管」，而是「怎么监管」。",
+        "en": "The crypto market this week presents an extremely bifurcated picture — institutional capital is flowing in at unprecedented speed on one side, while security threats have escalated to nation-state level on the other.\n\n**Institutional buying frenzy:** Tom Lee's BitMine Immersion Technologies purchased 71,252 ETH (~$150M) last week, its largest weekly haul since December, pushing ETH holdings to nearly 4% of total supply ($10.3B). Strategy (ex-MicroStrategy) added 4,871 BTC ($330M) despite $14.5B in Q1 paper losses. Both exhibit the same pattern: ignoring short-term volatility, accumulating per long-term thesis. This 'corporate treasury allocation' strategy is expanding from Bitcoin to Ethereum.\n\n**Nation-state security threat:** More details on Drift Protocol's $285M exploit emerged — researchers warn North Korean IT workers have been infiltrating DeFi protocols for years, not just Drift. 11 nations and blockchain analytics firms are jointly combating NK crypto crime networks. This fundamentally challenges DeFi's trust model.\n\n**Regulatory divergence:** Russia is formalizing crypto market legislation, Japan has recognized 100+ tokens across 28 platforms. Global regulation is shifting from 'opposition' to 'normalization' — the question is no longer 'whether to regulate' but 'how.'"
+      },
+      "outlook": {
+        "zh": "加密市场正在经历「机构化」和「安全危机」的双重洗礼。短期内，BTC能否站稳$70,000取决于霍尔木兹海峡局势的演变。中期看，BitMine等机构的ETH大规模买入可能正在创造一个「供应紧缩」效应——当4%的流通供应被一家公司持有时，ETH的价格底部可能已经形成。但朝鲜黑客的系统性渗透是悬在DeFi头上的达摩克利斯之剑，行业急需重建信任基础设施。",
+        "en": "The crypto market is undergoing a dual baptism of 'institutionalization' and 'security crisis.' Near-term, BTC's ability to hold $70,000 depends on the Hormuz situation. Medium-term, BitMine's massive ETH accumulation may be creating a 'supply squeeze' — when 4% of circulating supply is held by one firm, ETH's price floor may already be established. But North Korean hackers' systemic infiltration is a Sword of Damocles over DeFi, demanding urgent trust infrastructure rebuilding."
+      },
+      "items": [
+        {
+          "zh": "BitMine 单周买入7.1万枚ETH（1.5亿美元），持仓接近ETH总供应4%",
+          "en": "BitMine buys 71,252 ETH ($150M) in one week, holdings approach 4% of total ETH supply",
+          "summary": {
+            "zh": "Tom Lee 旗下的上市公司 BitMine Immersion Technologies 上周购入71,252枚ETH（约1.5亿美元），创去年12月以来最大单周买入量。其总ETH持仓价值已达103亿美元，接近以太坊总供应量的4%。Lee表示「ETH上周涨6.8%，跑赢标普500和黄金，在战时仍是强劲的价值存储」。这种企业级的大规模ETH配置正在改变以太坊的供需结构。",
+            "en": "Tom Lee's publicly-traded BitMine Immersion Technologies purchased 71,252 ETH (~$150M) last week, the largest weekly haul since December, pushing total holdings to $10.3B — nearly 4% of total ETH supply. Lee stated 'with a 6.8% gain outperforming both S&P 500 and gold, Ethereum remains a strong wartime store of value.' This corporate-scale ETH accumulation is fundamentally altering Ethereum's supply-demand structure."
+          },
+          "url": "https://decrypt.co/363378/tom-lee-bitmine-4-percent-ethereum-supply-eth-price-weekly-high",
+          "source": "Decrypt / The Block",
+          "hot": true,
+          "tags": ["ethereum", "institutional", "bitmine", "tom-lee"]
+        },
+        {
+          "zh": "Strategy Q1 浮亏145亿美元，仍追加3.3亿美元购入BTC",
+          "en": "Strategy posts $14.5B Q1 unrealized loss, still adds $330M in BTC",
+          "summary": {
+            "zh": "Strategy（前MicroStrategy）披露2026年Q1比特币持仓浮亏达145亿美元，产生了24.2亿美元的递延税资产。但公司未停止买入——同期新增4,871枚BTC（3.3亿美元），总持仓达766,970枚。这种「越跌越买」的策略建立在一个核心信念上：BTC的长期价值远高于当前价格，账面浮亏不影响持有逻辑。",
+            "en": "Strategy (ex-MicroStrategy) disclosed $14.5B in unrealized Bitcoin losses for Q1 2026, generating a $2.42B deferred tax asset. Yet the company didn't stop buying — it added 4,871 BTC ($330M) in the same period, bringing total holdings to 766,970 BTC. This 'buy the dip harder' strategy rests on a core conviction: BTC's long-term value far exceeds current prices, and paper losses don't alter the holding thesis."
+          },
+          "url": "https://www.theblock.co/post/396408/strategy-14-5-billion-unrealized-loss-bitcoin-holdings-q1-2026",
+          "source": "The Block / CoinTelegraph",
+          "hot": true,
+          "tags": ["strategy", "bitcoin", "corporate-treasury", "conviction"]
+        },
+        {
+          "zh": "朝鲜IT工作者已在DeFi协议中潜伏多年，Drift只是冰山一角",
+          "en": "North Korean IT workers infiltrated DeFi protocols for years — Drift was just the tip of the iceberg",
+          "summary": {
+            "zh": "安全研究人员警告，朝鲜相关的IT工作者已在多个DeFi协议和加密公司中潜伏多年，Drift Protocol的2.85亿美元被盗事件只是冰山一角。攻击者通过精心伪造的简历和数月的社会工程学渗透获取内部权限。11个国家和区块链分析公司已组建联合任务组（MSMT）打击朝鲜加密犯罪网络。这迫使行业重新审视招聘流程和权限管理——传统的KYC框架在面对国家级威胁时几乎形同虚设。",
+            "en": "Security researchers warn North Korean-linked IT workers have been quietly integrating into multiple DeFi protocols and crypto firms for years — Drift Protocol's $285M exploit was just the tip of the iceberg. Attackers used meticulously forged résumés and months of social engineering to gain internal access. 11 nations and blockchain analytics firms have formed a joint task force (MSMT) to combat NK crypto crime networks. This forces the industry to fundamentally rethink hiring processes and access controls — traditional KYC frameworks are nearly useless against nation-state threats."
+          },
+          "url": "https://cryptonews.net/news/security/32660206",
+          "source": "CryptoNews / CryptoTimes / BitPinas",
+          "hot": true,
+          "tags": ["security", "north-korea", "defi", "social-engineering"]
+        },
+        {
+          "zh": "俄罗斯推动加密市场正式立法，日本已认可100+代币",
+          "en": "Russia formalizes crypto legislation; Japan recognizes 100+ tokens across 28 platforms",
+          "summary": {
+            "zh": "俄罗斯正在推动全新的加密货币市场立法，旨在将此前灰色地带的交易行为正式纳入监管框架。与此同时，日本已在28个受监管平台上认可了超过100种加密代币。这两个案例代表了全球监管趋势的转向：从「对抗/忽视」走向「规范化/合法化」。对行业而言，这意味着合规成本上升但市场确定性也在提高——长期利好机构参与。",
+            "en": "Russia is advancing new cryptocurrency market legislation to bring previously grey-area trading under formal regulatory oversight. Meanwhile, Japan has recognized over 100 crypto tokens across 28 regulated platforms. These cases represent a global regulatory shift from 'opposition/neglect' to 'normalization/legalization.' For the industry, this means rising compliance costs but also increased market certainty — a long-term positive for institutional participation."
+          },
+          "url": "https://news.bitcoin.com/russia-moves-to-formalize-cryptocurrency-market-with-new-legislation/",
+          "source": "Bitcoin.com / Bitcoin.com (Japan)",
+          "hot": false,
+          "tags": ["regulation", "russia", "japan", "compliance"]
+        }
+      ]
+    },
+    {
+      "id": "dimon-systemic-risks",
+      "title": {
+        "zh": "Jamie Dimon 的警报 — 华尔街眼中的三重系统性风险",
+        "en": "Jamie Dimon's Warning — Wall Street's View of Triple Systemic Risk"
+      },
+      "domains": ["finance", "ai", "geopolitics"],
+      "color": "#fbbf24",
+      "analysis": {
+        "zh": "摩根大通CEO Jamie Dimon的年度股东信通常被视为华尔街对全球经济的「年度体检报告」。今年的信中，Dimon直指三大系统性风险：地缘政治、AI、和私募市场——巧合的是，这恰好对应了今天其他四个主题的核心驱动力。\n\n**地缘政治风险：** Dimon在美国建国250周年之际呼吁重新回归美国核心价值观，这一表态被解读为对特朗普激进外交政策的委婉批评。霍尔木兹海峡危机、关税「解放日」一周年加码（100%药品关税），以及全球贸易体系的碎片化，都在验证Dimon的担忧。\n\n**AI风险：** Dimon将AI列为系统性风险而非仅仅是增长机遇，这在华尔街CEO中颇为罕见。结合本周AI能耗已超美国10%电力、律师用LLM制造虚假案例引用（全球已超1200起）等事件，AI的「双刃剑」特性正在从抽象警告变为具体危害。\n\n**私募市场风险：** 这是最被忽视但可能最危险的维度。随着DeFi的机构化（华尔街$3300亿资产正在上链）和私募信贷的膨胀，流动性错配和估值不透明的风险正在累积。当这些风险与地缘冲突和AI驱动的市场波动叠加时，系统性脆弱性会被放大。",
+        "en": "JPMorgan CEO Jamie Dimon's annual shareholder letter is typically viewed as Wall Street's 'annual health check' on the global economy. This year, Dimon flagged three systemic risks: geopolitics, AI, and private markets — which coincidentally correspond to the core drivers of today's other four themes.\n\n**Geopolitical risk:** Dimon called for recommitment to American ideals on the nation's 250th anniversary, interpreted as veiled criticism of Trump's aggressive foreign policy. The Hormuz crisis, Liberation Day tariff anniversary escalation (100% pharma tariffs), and global trade fragmentation all validate his concerns.\n\n**AI risk:** Dimon listing AI as a systemic risk rather than merely a growth opportunity is unusual among Wall Street CEOs. Combined with this week's revelations that AI consumes over 10% of US electricity and lawyers generating fake case citations with LLMs (1,200+ incidents globally), AI's 'double-edged sword' nature is shifting from abstract warning to concrete harm.\n\n**Private market risk:** The most overlooked yet potentially most dangerous dimension. As DeFi institutionalizes (Wall Street's $330B in assets moving on-chain) and private credit expands, liquidity mismatch and valuation opacity risks are accumulating. When these combine with geopolitical conflict and AI-driven market volatility, systemic fragility amplifies."
+      },
+      "outlook": {
+        "zh": "Dimon的信往往具有12-18个月的预测价值。他上次集中警告地缘风险是在2024年初信中——随后中东局势确实急剧恶化。这次三重风险叠加的警告值得认真对待。对投资者的启示：在不确定性极高的环境中，现金和高流动性资产的配置比例应当提升，而非追逐高波动的机会。关税方面，尽管特朗普暗示可能对被最高法院判定违法的关税进行退款，但政策不确定性仍将在Q2持续压制企业资本支出。",
+        "en": "Dimon's letters typically have 12-18 month predictive value. His last concentrated geopolitical warning came in early 2024 — the Middle East situation indeed deteriorated sharply afterward. This triple-risk warning deserves serious attention. Investor implication: in an environment of extreme uncertainty, cash and high-liquidity asset allocation should increase rather than chasing high-volatility opportunities. On tariffs, while the Trump administration hinted at refunding tariffs ruled illegal by the Supreme Court, policy uncertainty will continue suppressing corporate capex through Q2."
+      },
+      "items": [
+        {
+          "zh": "JPMorgan CEO Dimon 年度股东信：地缘政治、AI和私募市场是三大系统性风险",
+          "en": "JPMorgan CEO Dimon's annual letter: geopolitics, AI, and private markets are three systemic risks",
+          "summary": {
+            "zh": "Jamie Dimon 在年度股东信中以美国建国250周年为背景，呼吁重新回归美国核心价值观，同时将地缘政治不确定性、AI的双面性、以及私募市场的不透明性列为当前三大系统性风险。这封信被广泛解读为对特朗普激进政策的委婉批评。值得注意的是，Dimon将AI同时列为机遇和风险——这与他以往更偏乐观的立场有所不同，暗示摩根大通内部对AI的评估已经变得更加审慎。",
+            "en": "Jamie Dimon framed his annual letter around America's 250th anniversary, calling for recommitment to core ideals while flagging geopolitical uncertainty, AI's dual nature, and private market opacity as three systemic risks. The letter was widely read as veiled Trump policy criticism. Notably, Dimon listed AI as both opportunity and risk — a shift from his previously more optimistic stance, suggesting JPMorgan's internal AI assessment has become more cautious."
+          },
+          "url": "https://www.cnbc.com/2026/04/06/jpmorgan-ceo-jamie-dimon-annual-letter-risks.html",
           "source": "CNBC",
-          "hot": true
+          "hot": true,
+          "tags": ["jpmorgan", "dimon", "systemic-risk", "wall-street"]
         },
         {
-          "zh": "美伊战争进入第 36 天：被击落 F-15E 第二名机组成员获救；油价上行推动期货下滑",
-          "en": "US-Iran war Day 36: second crew member from downed F-15E rescued; rising oil prices weigh on futures",
-          "url": "https://www.cnn.com/2026/04/04/world/live-news/iran-war-us-trump-oil",
-          "source": "CNN / Al Jazeera",
-          "hot": true
+          "zh": "关税「解放日」一周年：特朗普加码，分析师呼吁转向战略贸易",
+          "en": "Tariff Liberation Day anniversary: Trump doubles down as analysts call for strategic trade",
+          "summary": {
+            "zh": "特朗普「解放日」关税政策一周年之际，他不但没有收手反而继续加码——100%品牌药关税、钢铝关税调整。但市场反应已经从恐慌转向麻木：标普500上周大涨6%。分析师和贸易专家正在呼吁从「全面关税」转向「战略贸易」——即针对特定领域和国家制定差异化政策。与此同时，特朗普政府暗示可能对被最高法院判定违法的关税进行退款，这可能为企业释放数百万美元的现金流。",
+            "en": "On the anniversary of Trump's Liberation Day tariffs, he doubled down — 100% branded pharma tariffs, steel and aluminum adjustments. But market reaction has shifted from panic to numbness: the S&P 500 surged 6% last week. Analysts are calling for a pivot from 'blanket tariffs' to 'strategic trade' — differentiated policies for specific sectors and countries. Meanwhile, the Trump administration hinted at refunding tariffs ruled illegal by the Supreme Court, potentially releasing millions in cash flow for companies."
+          },
+          "url": "https://www.salon.com/2026/04/05/a-year-later-trump-doubles-down-on-tariffs/",
+          "source": "Salon / Yahoo Finance / Politico",
+          "hot": false,
+          "tags": ["tariffs", "trade", "liberation-day", "policy"]
         },
         {
-          "zh": "纳斯达克推进 23/5 交易计划，并探索市场代币化和单股期权每日到期",
-          "en": "Nasdaq working on 23/5 stock trading, tokenizing markets, and daily single-stock options expirations",
-          "url": "https://www.forbes.com/sites/brettowens/2026/04/05/im-watching-these-6-dividend-stocks-for-big-announcements/",
-          "source": "Forbes",
-          "hot": false
+          "zh": "DeFi 面临3300亿美元信任考验：华尔街上链遭遇安全困境",
+          "en": "DeFi faces $330B trust test as Wall Street moves on-chain",
+          "summary": {
+            "zh": "CryptoSlate 的深度分析指出，传统金融正在加速进入代币化资产、延长交易时间和区块链结算领域——但这给DeFi带来了一个「3300亿美元的信任考验」。华尔街机构级资金的进入要求DeFi具备机构级的安全、合规和可审计性，而朝鲜黑客事件恰恰暴露了这些方面的严重不足。DeFi最大的优势——可组合性——也是其最大的风险敞口。",
+            "en": "CryptoSlate's deep analysis notes that traditional finance is rapidly moving into tokenized assets, extended trading hours, and blockchain settlement — but this presents DeFi with a '$330B trust test.' Wall Street's institutional capital demands institutional-grade security, compliance, and auditability from DeFi, and the North Korean hacker incidents exposed severe deficiencies in exactly these areas. DeFi's greatest advantage — composability — is also its greatest risk exposure."
+          },
+          "url": "https://cryptoslate.com/wall-street-blockchain-defi-on-chain-capital",
+          "source": "CryptoSlate",
+          "hot": false,
+          "tags": ["defi", "wall-street", "trust", "institutional"]
+        },
+        {
+          "zh": "律师用LLM制造虚假案例引用：全球已超1200起，美国800起",
+          "en": "Lawyers fabricating case citations with LLMs: 1,200+ incidents globally, 800 in US courts",
+          "summary": {
+            "zh": "NPR 报道并引用 HEC Paris 研究人员的统计：全球已有约1200起律师使用大语言模型生成虚假案例引用的事件，其中800起发生在美国法院，已引发纪律处分和罚款。这是AI「幻觉」问题在高风险专业领域造成具体伤害的最大规模案例，也印证了Dimon将AI列为系统性风险的判断——当专业人士不加验证地信任AI输出时，后果可能是灾难性的。",
+            "en": "NPR reports, citing HEC Paris researchers: roughly 1,200 incidents of lawyers using LLMs to generate fabricated case citations have been tallied globally — 800 in US courts — triggering disciplinary actions and fines. This is the largest-scale case of AI 'hallucination' causing concrete harm in a high-stakes profession, validating Dimon's classification of AI as systemic risk — when professionals trust AI output without verification, consequences can be catastrophic."
+          },
+          "url": "https://letsdatascience.com/news/lawyers-generate-fake-case-citations-with-llms-2ec17bb1",
+          "source": "NPR / Let's Data Science",
+          "hot": false,
+          "tags": ["ai-hallucination", "legal", "risk", "trust"]
         }
       ]
     }

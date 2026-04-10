@@ -3,75 +3,166 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>八卦日报 | Daily Gossip</title>
+<title>弈观 | YiGuan</title>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e0e0e0; min-height: 100vh; }
-.container { max-width: 760px; margin: 0 auto; padding: 20px 16px; }
-header { text-align: center; padding: 32px 0 20px; }
-header h1 { font-size: 2rem; background: linear-gradient(135deg, #ff6b6b, #ffa502, #ff6b6b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-header p { color: #888; margin-top: 6px; font-size: 0.9rem; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; background: #0a0a0a; color: #d4d4d4; min-height: 100vh; line-height: 1.7; }
+::selection { background: #ff6b6b44; color: #fff; }
+a { color: #60a5fa; text-decoration: none; transition: color 0.2s; }
+a:hover { color: #93c5fd; text-decoration: underline; }
 
-/* Tab Nav */
-.tab-nav { display: flex; justify-content: center; gap: 0; margin: 20px 0 0; border-bottom: 2px solid #222; position: sticky; top: 0; background: #0a0a0a; z-index: 10; padding-top: 8px; }
-.tab-nav button { padding: 12px 24px; border: none; background: none; color: #666; cursor: pointer; font-size: 1rem; font-weight: 600; position: relative; transition: color 0.2s; border-bottom: 3px solid transparent; margin-bottom: -2px; }
-.tab-nav button:hover { color: #aaa; }
+/* Container */
+.container { max-width: 780px; margin: 0 auto; padding: 24px 20px 40px; }
+
+/* Header */
+header { text-align: center; padding: 40px 0 12px; border-bottom: 1px solid #1a1a1a; margin-bottom: 24px; }
+header h1 { font-size: 2.2rem; background: linear-gradient(135deg, #ff6b6b, #ffa502, #ff6b6b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: 2px; }
+header .subtitle { color: #666; margin-top: 6px; font-size: 0.9rem; letter-spacing: 1px; }
+
+/* Date nav */
+.date-nav { display: flex; align-items: center; justify-content: center; gap: 16px; margin: 0 0 8px; }
+.date-nav button { background: #141414; border: 1px solid #2a2a2a; color: #888; padding: 8px 18px; border-radius: 8px; cursor: pointer; font-size: 0.9rem; transition: all 0.2s; }
+.date-nav button:hover { background: #1e1e1e; border-color: #444; color: #ccc; }
+.date-display { font-size: 1.3rem; font-weight: 700; min-width: 170px; text-align: center; color: #fff; }
+.date-list { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 4px 0 20px; }
+.date-list button { background: #141414; border: 1px solid #222; color: #666; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-size: 0.82rem; transition: all 0.2s; }
+.date-list button:hover { border-color: #444; color: #aaa; }
+.date-list button.active { background: #1a1a3e; border-color: #818cf8; color: #c4b5fd; }
+
+/* Editorial / Daily Brief */
+.editorial { background: linear-gradient(135deg, #111 0%, #0f0f1a 100%); border: 1px solid #1e1e2e; border-radius: 12px; padding: 28px 24px; margin: 24px 0; position: relative; overflow: hidden; }
+.editorial::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #ff6b6b, #ffa502, #818cf8, #4ade80); }
+.editorial-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 2px; color: #ff6b6b; font-weight: 700; margin-bottom: 12px; }
+.editorial-zh { font-size: 1rem; line-height: 1.85; color: #d4d4d4; margin-bottom: 16px; }
+.editorial-en { font-size: 0.88rem; line-height: 1.75; color: #777; font-style: italic; }
+
+/* V3 Theme nav */
+.theme-nav { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 20px 0 8px; padding: 12px 0; position: sticky; top: 0; background: #0a0a0a; z-index: 10; border-bottom: 1px solid #1a1a1a; }
+.theme-nav button { padding: 8px 16px; border: 1px solid #2a2a2a; background: #111; color: #888; cursor: pointer; font-size: 0.82rem; font-weight: 600; border-radius: 20px; transition: all 0.25s; white-space: nowrap; }
+.theme-nav button:hover { border-color: #555; color: #ccc; background: #1a1a1a; }
+.theme-nav button.active { color: #fff; }
+.theme-nav .domain-tag { font-size: 0.68rem; padding: 1px 6px; border-radius: 3px; margin-left: 4px; opacity: 0.7; background: #1a1a2e; color: #888; }
+
+/* V2 Tab nav (for legacy) */
+.tab-nav { display: flex; justify-content: center; gap: 0; margin: 16px 0 0; border-bottom: 2px solid #1a1a1a; position: sticky; top: 0; background: #0a0a0a; z-index: 10; padding-top: 8px; }
+.tab-nav button { padding: 12px 28px; border: none; background: none; color: #555; cursor: pointer; font-size: 0.95rem; font-weight: 600; position: relative; transition: color 0.2s; border-bottom: 3px solid transparent; margin-bottom: -2px; }
+.tab-nav button:hover { color: #999; }
 .tab-nav button.active { color: #fff; }
-.tab-nav button[data-tab="all"].active { border-bottom-color: #ff6b6b; color: #ff6b6b; }
 .tab-nav button[data-tab="AI"].active { border-bottom-color: #818cf8; color: #818cf8; }
 .tab-nav button[data-tab="Crypto"].active { border-bottom-color: #4ade80; color: #4ade80; }
 .tab-nav button[data-tab="Finance"].active { border-bottom-color: #fbbf24; color: #fbbf24; }
-.tab-nav .tab-icon { margin-right: 6px; }
 
-/* Date Nav */
-.date-nav { display: flex; align-items: center; justify-content: center; gap: 16px; margin: 20px 0 8px; }
-.date-nav button { background: #1a1a2e; border: 1px solid #333; color: #ccc; padding: 8px 16px; border-radius: 8px; cursor: pointer; font-size: 0.95rem; transition: all 0.2s; }
-.date-nav button:hover { background: #2a2a4e; border-color: #555; }
-.date-display { font-size: 1.2rem; font-weight: 600; min-width: 160px; text-align: center; color: #fff; }
-.date-list { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 8px 0 20px; }
-.date-list button { background: #1a1a2e; border: 1px solid #333; color: #aaa; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 0.85rem; }
-.date-list button.active { background: #2a2a5e; border-color: #818cf8; color: #fff; }
+/* Theme panel */
+.theme-panel { display: none; animation: fadeIn 0.3s ease; }
+.theme-panel.active { display: block; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 
-/* Tab content */
+/* Tab panel */
 .tab-panel { display: none; }
 .tab-panel.active { display: block; }
 
 /* Section */
-.section { margin-bottom: 28px; }
-.section-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 12px; padding: 8px 14px; border-radius: 8px; display: inline-block; }
-.section-title.ai { background: #1a1a3e; color: #818cf8; }
-.section-title.crypto { background: #1a2e1a; color: #4ade80; }
-.section-title.finance { background: #2e2a1a; color: #fbbf24; }
+.section { margin: 32px 0; }
+.section-header { margin-bottom: 20px; padding-bottom: 14px; border-bottom: 1px solid #1a1a1a; }
+.section-cat { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; font-weight: 700; margin-bottom: 6px; }
+.section-cat.ai { color: #818cf8; }
+.section-cat.crypto { color: #4ade80; }
+.section-cat.finance { color: #fbbf24; }
+.section-title-zh { font-size: 1.2rem; font-weight: 700; color: #f0f0f0; margin-bottom: 4px; }
+.section-title-en { font-size: 0.85rem; color: #666; }
 
-/* Items */
-.item { background: #111; border: 1px solid #222; border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; transition: border-color 0.2s; }
-.item:hover { border-color: #444; }
-.item.hot { border-left: 3px solid #ff6b6b; }
-.hot-tag { font-size: 0.75rem; background: #ff6b6b22; color: #ff6b6b; padding: 2px 8px; border-radius: 4px; margin-left: 6px; }
-.item-zh { font-size: 0.95rem; line-height: 1.5; color: #e0e0e0; }
-.item-en { font-size: 0.85rem; color: #888; margin-top: 4px; line-height: 1.4; }
-.item a { color: #60a5fa; text-decoration: none; font-size: 0.8rem; margin-top: 6px; display: inline-block; }
-.item a:hover { text-decoration: underline; }
-.empty { text-align: center; color: #555; padding: 60px 0; font-size: 1.1rem; }
+/* Theme header */
+.theme-header { margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid #1a1a1a; }
+.theme-domains { display: flex; gap: 6px; margin-bottom: 8px; flex-wrap: wrap; }
+.theme-domain { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700; padding: 2px 10px; border-radius: 4px; background: #1a1a2e; }
+.theme-domain.ai { color: #818cf8; background: #818cf811; border: 1px solid #818cf833; }
+.theme-domain.crypto { color: #4ade80; background: #4ade8011; border: 1px solid #4ade8033; }
+.theme-domain.finance { color: #fbbf24; background: #fbbf2411; border: 1px solid #fbbf2433; }
+.theme-domain.geopolitics { color: #ff6b6b; background: #ff6b6b11; border: 1px solid #ff6b6b33; }
+.theme-title-zh { font-size: 1.3rem; font-weight: 700; color: #f0f0f0; margin-bottom: 4px; line-height: 1.4; }
+.theme-title-en { font-size: 0.88rem; color: #666; }
 
-/* Tab count badge */
-.tab-count { font-size: 0.75rem; background: #333; color: #aaa; padding: 1px 7px; border-radius: 10px; margin-left: 6px; }
+/* Analysis block */
+.analysis { background: #111; border-left: 3px solid #333; border-radius: 0 8px 8px 0; padding: 20px 22px; margin-bottom: 24px; }
+.analysis-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 2px; color: #888; font-weight: 600; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+.analysis-label::before { content: ''; display: inline-block; width: 4px; height: 4px; background: #888; border-radius: 50%; }
+.analysis-zh { font-size: 0.94rem; line-height: 1.85; color: #c8c8c8; margin-bottom: 14px; white-space: pre-line; }
+.analysis-en { font-size: 0.85rem; line-height: 1.75; color: #666; white-space: pre-line; }
+.analysis.ai { border-left-color: #818cf8; }
+.analysis.crypto { border-left-color: #4ade80; }
+.analysis.finance { border-left-color: #fbbf24; }
 
-footer { text-align: center; color: #444; font-size: 0.8rem; padding: 32px 0 16px; }
+/* Outlook block */
+.outlook { background: linear-gradient(135deg, #0f1218 0%, #111118 100%); border: 1px solid #1e2030; border-radius: 10px; padding: 18px 22px; margin-bottom: 24px; position: relative; }
+.outlook::before { content: ''; position: absolute; top: 0; left: 20px; right: 20px; height: 1px; background: linear-gradient(90deg, transparent, #fbbf2444, transparent); }
+.outlook-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 2px; color: #fbbf24; font-weight: 600; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+.outlook-label::before { content: ''; display: inline-block; width: 0; height: 0; border-left: 5px solid #fbbf24; border-top: 3px solid transparent; border-bottom: 3px solid transparent; }
+.outlook-zh { font-size: 0.9rem; line-height: 1.85; color: #c8c8c8; margin-bottom: 12px; }
+.outlook-en { font-size: 0.83rem; line-height: 1.75; color: #666; }
+
+/* News item */
+.news-item { background: #0f0f0f; border: 1px solid #1a1a1a; border-radius: 10px; padding: 20px 22px; margin-bottom: 14px; transition: border-color 0.2s, background 0.2s; }
+.news-item:hover { border-color: #2a2a2a; background: #121212; }
+.news-item.hot { border-left: 3px solid #ff6b6b; }
+.news-item-header { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 8px; }
+.hot-tag { font-size: 0.68rem; background: #ff6b6b22; color: #ff6b6b; padding: 2px 8px; border-radius: 4px; flex-shrink: 0; margin-top: 2px; font-weight: 600; letter-spacing: 1px; }
+.news-title-zh { font-size: 1rem; font-weight: 600; color: #e8e8e8; line-height: 1.5; }
+.news-title-en { font-size: 0.85rem; color: #777; margin-bottom: 10px; }
+.news-summary-zh { font-size: 0.9rem; line-height: 1.8; color: #b0b0b0; margin-bottom: 10px; }
+.news-summary-en { font-size: 0.83rem; line-height: 1.7; color: #666; margin-bottom: 12px; }
+.news-meta { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+.news-source { font-size: 0.78rem; color: #555; }
+.news-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.news-tag { font-size: 0.7rem; background: #1a1a2e; color: #888; padding: 2px 8px; border-radius: 4px; }
+.news-link { font-size: 0.82rem; color: #60a5fa; }
+
+/* Expand/collapse for item summaries */
+.summary-toggle { font-size: 0.82rem; color: #818cf8; cursor: pointer; background: none; border: none; padding: 4px 0; margin-bottom: 8px; font-family: inherit; }
+.summary-toggle:hover { color: #a5b4fc; }
+.summary-content { overflow: hidden; transition: max-height 0.3s ease; }
+.summary-content.collapsed { max-height: 0; }
+.summary-content.expanded { max-height: 2000px; }
+
+/* Analysis toggle */
+.analysis-toggle { font-size: 0.82rem; color: #fbbf24; cursor: pointer; background: none; border: none; padding: 4px 0; margin-bottom: 8px; font-family: inherit; display: block; }
+.analysis-toggle:hover { color: #fcd34d; }
+
+/* V1 fallback (old format) */
+.v1-item { background: #111; border: 1px solid #222; border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; }
+.v1-item.hot { border-left: 3px solid #ff6b6b; }
+.v1-zh { font-size: 0.95rem; line-height: 1.5; color: #e0e0e0; }
+.v1-en { font-size: 0.85rem; color: #888; margin-top: 4px; }
+
+/* Empty state */
+.empty { text-align: center; color: #444; padding: 60px 0; font-size: 1.05rem; }
+
+/* Footer */
+footer { text-align: center; color: #333; font-size: 0.78rem; padding: 40px 0 20px; border-top: 1px solid #111; margin-top: 32px; }
+footer a { color: #444; }
+
+/* Mobile */
+@media (max-width: 640px) {
+  .container { padding: 16px 14px 32px; }
+  header h1 { font-size: 1.8rem; }
+  .tab-nav button { padding: 10px 16px; font-size: 0.88rem; }
+  .theme-nav { gap: 6px; }
+  .theme-nav button { padding: 6px 12px; font-size: 0.78rem; }
+  .editorial { padding: 20px 16px; }
+  .analysis { padding: 16px 14px; }
+  .outlook { padding: 14px 16px; }
+  .news-item { padding: 16px 14px; }
+  .date-nav button { padding: 6px 12px; font-size: 0.85rem; }
+  .date-display { font-size: 1.1rem; min-width: 140px; }
+  .theme-title-zh { font-size: 1.1rem; }
+}
 </style>
 </head>
 <body>
 <div class="container">
   <header>
-    <h1>📰 八卦日报</h1>
-    <p>AI · Crypto · Finance | 每日速递</p>
+    <h1>弈观</h1>
+    <p class="subtitle">AI · Crypto · Finance | 每日博弈观局</p>
   </header>
-
-  <nav class="tab-nav" id="tabNav">
-    <button data-tab="AI" class="active" onclick="switchTab('AI')"><span class="tab-icon">🤖</span>AI</button>
-    <button data-tab="Crypto" onclick="switchTab('Crypto')"><span class="tab-icon">₿</span>Crypto</button>
-    <button data-tab="Finance" onclick="switchTab('Finance')"><span class="tab-icon">💹</span>Finance</button>
-  </nav>
 
   <div class="date-nav">
     <button onclick="changeDate(-1)">← 前一天</button>
@@ -80,11 +171,14 @@ footer { text-align: center; color: #444; font-size: 0.8rem; padding: 32px 0 16p
   </div>
   <div class="date-list" id="dateList"></div>
 
-  <div id="tabAI" class="tab-panel active"></div>
-  <div id="tabCrypto" class="tab-panel"></div>
-  <div id="tabFinance" class="tab-panel"></div>
+  <div id="editorial"></div>
+  <div id="navArea"></div>
+  <div id="contentArea"></div>
 
-  <footer>八卦君 · 信息仅供参考，不构成投资建议</footer>
+  <footer>
+    弈观 · 信息仅供参考，不构成投资建议<br>
+    Powered by Deep Research · <a href="https://github.com/sanqiushu/bagua-daily" target="_blank">GitHub</a>
+  </footer>
 </div>
 
 <script>
@@ -92,6 +186,7 @@ const DATA_DIR = 'data/';
 let currentDate = null;
 let availableDates = [];
 let currentData = null;
+let activeTheme = null;
 let activeTab = 'AI';
 
 async function init() {
@@ -115,14 +210,14 @@ async function init() {
 }
 
 function renderDateList() {
-  document.getElementById('dateList').innerHTML = availableDates.map(d =>
+  document.getElementById('dateList').innerHTML = availableDates.slice(0, 14).map(d =>
     `<button onclick="loadDate('${d}')" id="btn-${d}">${d}</button>`
   ).join('');
 }
 
 async function loadDate(dateStr) {
   currentDate = dateStr;
-  document.getElementById('dateDisplay').textContent = dateStr;
+  document.getElementById('dateDisplay').textContent = formatDate(dateStr);
   document.querySelectorAll('.date-list button').forEach(b => b.classList.remove('active'));
   const btn = document.getElementById('btn-' + dateStr);
   if (btn) btn.classList.add('active');
@@ -131,9 +226,14 @@ async function loadDate(dateStr) {
     const res = await fetch(DATA_DIR + dateStr + '.json');
     if (!res.ok) throw new Error();
     currentData = await res.json();
-    renderAllTabs();
-    updateTabCounts();
+    renderPage();
   } catch(e) { showEmpty(); }
+}
+
+function formatDate(ds) {
+  const d = new Date(ds + 'T00:00:00');
+  const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  return `${ds} ${days[d.getDay()]}`;
 }
 
 function changeDate(offset) {
@@ -143,69 +243,338 @@ function changeDate(offset) {
   if (newIdx >= 0 && newIdx < availableDates.length) loadDate(availableDates[newIdx]);
 }
 
+function escHtml(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function renderPage() {
+  if (!currentData) { showEmpty(); return; }
+
+  const version = currentData.version || 1;
+
+  // Editorial
+  const editEl = document.getElementById('editorial');
+  if (version >= 2 && currentData.editorial) {
+    editEl.innerHTML = `
+      <div class="editorial">
+        <div class="editorial-label">Daily Brief / 今日概览</div>
+        <div class="editorial-zh">${escHtml(currentData.editorial.zh)}</div>
+        <div class="editorial-en">${escHtml(currentData.editorial.en)}</div>
+      </div>`;
+  } else {
+    editEl.innerHTML = '';
+  }
+
+  if (version >= 3 && currentData.themes) {
+    renderV3(currentData);
+  } else if (version === 2) {
+    renderV2Legacy(currentData);
+  } else {
+    renderV1Legacy(currentData);
+  }
+}
+
+// ============ V3: Theme-based layout ============
+function renderV3(data) {
+  const navEl = document.getElementById('navArea');
+  const contentEl = document.getElementById('contentArea');
+  const themes = data.themes || [];
+
+  if (!themes.length) { showEmpty(); return; }
+
+  // Theme nav
+  activeTheme = themes[0].id;
+  navEl.innerHTML = `<div class="theme-nav" id="themeNav">
+    ${themes.map((t, i) => {
+      const color = t.color || '#818cf8';
+      return `<button data-theme="${t.id}" ${i===0?'class="active"':''} onclick="switchTheme('${t.id}')"
+        style="--theme-color:${color}">${escHtml(t.title.zh.split('—')[0].split('·')[0].trim())}</button>`;
+    }).join('')}
+  </div>`;
+
+  // Theme panels
+  contentEl.innerHTML = themes.map((theme, ti) => `
+    <div class="theme-panel ${ti===0?'active':''}" id="theme-${theme.id}">
+      ${renderV3Theme(theme)}
+    </div>
+  `).join('');
+
+  // Apply active colors
+  updateThemeColors();
+}
+
+function switchTheme(themeId) {
+  activeTheme = themeId;
+  document.querySelectorAll('.theme-nav button').forEach(b => b.classList.remove('active'));
+  document.querySelector(`.theme-nav button[data-theme="${themeId}"]`).classList.add('active');
+  document.querySelectorAll('.theme-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('theme-' + themeId).classList.add('active');
+  updateThemeColors();
+}
+
+function updateThemeColors() {
+  document.querySelectorAll('.theme-nav button.active').forEach(btn => {
+    const color = btn.style.getPropertyValue('--theme-color');
+    btn.style.borderColor = color;
+    btn.style.color = color;
+    btn.style.background = color + '11';
+  });
+  document.querySelectorAll('.theme-nav button:not(.active)').forEach(btn => {
+    btn.style.borderColor = '#2a2a2a';
+    btn.style.color = '#888';
+    btn.style.background = '#111';
+  });
+}
+
+function renderV3Theme(theme) {
+  const color = theme.color || '#818cf8';
+  let html = '<div class="section">';
+
+  // Theme header with domain tags
+  html += `<div class="theme-header">
+    <div class="theme-domains">
+      ${(theme.domains || []).map(d => `<span class="theme-domain ${d}">${d}</span>`).join('')}
+    </div>
+    <div class="theme-title-zh">${escHtml(theme.title.zh)}</div>
+    <div class="theme-title-en">${escHtml(theme.title.en)}</div>
+  </div>`;
+
+  // Analysis
+  if (theme.analysis) {
+    const aid = 'analysis-' + theme.id;
+    html += `
+      <div class="analysis" style="border-left-color:${color}">
+        <div class="analysis-label">Deep Analysis / 深度分析</div>
+        <button class="analysis-toggle" onclick="toggleBlock('${aid}', this, 'analysis')">展开分析 / Expand Analysis ▾</button>
+        <div id="${aid}" class="summary-content collapsed">
+          <div class="analysis-zh">${escHtml(theme.analysis.zh)}</div>
+          <div class="analysis-en">${escHtml(theme.analysis.en)}</div>
+        </div>
+      </div>`;
+  }
+
+  // Outlook
+  if (theme.outlook) {
+    const oid = 'outlook-' + theme.id;
+    html += `
+      <div class="outlook">
+        <div class="outlook-label">Outlook / 趋势展望</div>
+        <button class="analysis-toggle" onclick="toggleBlock('${oid}', this, 'outlook')">展开展望 / Expand Outlook ▾</button>
+        <div id="${oid}" class="summary-content collapsed">
+          <div class="outlook-zh">${escHtml(theme.outlook.zh)}</div>
+          <div class="outlook-en">${escHtml(theme.outlook.en)}</div>
+        </div>
+      </div>`;
+  }
+
+  // Items
+  for (let i = 0; i < theme.items.length; i++) {
+    const item = theme.items[i];
+    const itemId = `item-${theme.id}-${i}`;
+    const hasSummary = item.summary && (item.summary.zh || item.summary.en);
+
+    html += `
+      <div class="news-item ${item.hot ? 'hot' : ''}">
+        <div class="news-item-header">
+          ${item.hot ? '<span class="hot-tag">HOT</span>' : ''}
+          <div class="news-title-zh">${escHtml(item.zh)}</div>
+        </div>
+        ${item.en ? `<div class="news-title-en">${escHtml(item.en)}</div>` : ''}`;
+
+    if (hasSummary) {
+      html += `
+        <button class="summary-toggle" onclick="toggleSummary('${itemId}', this)">展开详情 / Read More ▾</button>
+        <div id="${itemId}" class="summary-content collapsed">
+          ${item.summary.zh ? `<div class="news-summary-zh">${escHtml(item.summary.zh)}</div>` : ''}
+          ${item.summary.en ? `<div class="news-summary-en">${escHtml(item.summary.en)}</div>` : ''}
+        </div>`;
+    }
+
+    html += `
+        <div class="news-meta">
+          <span class="news-source">${escHtml(item.source)}</span>
+          <span>
+            ${(item.tags || []).map(t => `<span class="news-tag">${escHtml(t)}</span>`).join('')}
+            <a class="news-link" href="${escHtml(item.url)}" target="_blank" rel="noopener">Source &rarr;</a>
+          </span>
+        </div>
+      </div>`;
+  }
+
+  html += '</div>';
+  return html;
+}
+
+// ============ V2: Legacy category tabs ============
+function renderV2Legacy(data) {
+  const navEl = document.getElementById('navArea');
+  const contentEl = document.getElementById('contentArea');
+  activeTab = 'AI';
+
+  navEl.innerHTML = `<nav class="tab-nav" id="tabNav">
+    <button data-tab="AI" class="active" onclick="switchTab('AI')">AI</button>
+    <button data-tab="Crypto" onclick="switchTab('Crypto')">Crypto</button>
+    <button data-tab="Finance" onclick="switchTab('Finance')">Finance</button>
+  </nav>`;
+
+  const cats = { AI: null, Crypto: null, Finance: null };
+  for (const s of (data.sections || [])) {
+    if (cats.hasOwnProperty(s.category)) cats[s.category] = s;
+  }
+
+  let html = '';
+  for (const [cat, section] of Object.entries(cats)) {
+    html += `<div id="tab${cat}" class="tab-panel ${cat==='AI'?'active':''}">`;
+    if (!section || !section.items || !section.items.length) {
+      html += '<div class="empty">暂无该分类内容</div>';
+    } else {
+      html += renderV2Section(section);
+    }
+    html += '</div>';
+  }
+  contentEl.innerHTML = html;
+}
+
 function switchTab(tab) {
   activeTab = tab;
   document.querySelectorAll('.tab-nav button').forEach(b => b.classList.remove('active'));
   document.querySelector(`.tab-nav button[data-tab="${tab}"]`).classList.add('active');
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-  const panelId = 'tab' + tab;
-  document.getElementById(panelId).classList.add('active');
+  document.getElementById('tab' + tab).classList.add('active');
 }
 
-function updateTabCounts() {
-  if (!currentData) return;
-  const counts = { AI: 0, Crypto: 0, Finance: 0 };
-  for (const s of currentData.sections) {
-    counts[s.category] = (counts[s.category] || 0) + s.items.length;
-  }
-  document.querySelectorAll('.tab-nav button').forEach(b => {
-    const tab = b.dataset.tab;
-    const existing = b.querySelector('.tab-count');
-    if (existing) existing.remove();
-    if (counts[tab]) b.innerHTML += `<span class="tab-count">${counts[tab]}</span>`;
-  });
-}
+function renderV2Section(section) {
+  const catClass = section.category.toLowerCase();
+  let html = '<div class="section">';
 
-function renderItems(items) {
-  return items.map(item => `
-    <div class="item ${item.hot ? 'hot' : ''}">
-      <div class="item-zh">${item.hot ? '🔥 ' : '• '}${item.zh}${item.hot ? '<span class="hot-tag">HOT</span>' : ''}${item.source ? ' <span style="color:#555;font-size:0.75rem">— ' + item.source + '</span>' : ''}</div>
-      ${item.en ? '<div class="item-en">' + item.en + '</div>' : ''}
-      <a href="${item.url}" target="_blank" rel="noopener">🔗 来源 / Source</a>
-    </div>
-  `).join('');
-}
-
-function renderSection(section) {
-  const catClass = { AI: 'ai', Crypto: 'crypto', Finance: 'finance' };
-  return `
-    <div class="section">
-      <div class="section-title ${catClass[section.category] || ''}">【${section.category}】</div>
-      ${renderItems(section.items)}
-    </div>`;
-}
-
-function renderAllTabs() {
-  if (!currentData || !currentData.sections.length) { showEmpty(); return; }
-
-  // Category tabs
-  const cats = { AI: [], Crypto: [], Finance: [] };
-  for (const s of currentData.sections) {
-    if (cats[s.category]) cats[s.category].push(s);
+  if (section.title) {
+    html += `
+      <div class="section-header">
+        <div class="section-cat ${catClass}">${section.category}</div>
+        <div class="section-title-zh">${escHtml(section.title.zh)}</div>
+        <div class="section-title-en">${escHtml(section.title.en)}</div>
+      </div>`;
   }
 
-  for (const [cat, sections] of Object.entries(cats)) {
-    const el = document.getElementById('tab' + cat);
-    el.innerHTML = sections.length
-      ? sections.map(s => renderItems(s.items)).join('')
-      : '<div class="empty">暂无该分类新闻 📭</div>';
+  if (section.analysis) {
+    html += `
+      <div class="analysis ${catClass}">
+        <div class="analysis-label">Deep Analysis / 深度分析</div>
+        <div class="analysis-zh">${escHtml(section.analysis.zh)}</div>
+        <div class="analysis-en">${escHtml(section.analysis.en)}</div>
+      </div>`;
+  }
+
+  for (let i = 0; i < section.items.length; i++) {
+    const item = section.items[i];
+    const itemId = `item-${section.category}-${i}`;
+    const hasSummary = item.summary && (item.summary.zh || item.summary.en);
+
+    html += `
+      <div class="news-item ${item.hot ? 'hot' : ''}">
+        <div class="news-item-header">
+          ${item.hot ? '<span class="hot-tag">HOT</span>' : ''}
+          <div class="news-title-zh">${escHtml(item.zh)}</div>
+        </div>
+        ${item.en ? `<div class="news-title-en">${escHtml(item.en)}</div>` : ''}`;
+
+    if (hasSummary) {
+      html += `
+        <button class="summary-toggle" onclick="toggleSummary('${itemId}', this)">展开详情 / Read More ▾</button>
+        <div id="${itemId}" class="summary-content collapsed">
+          ${item.summary.zh ? `<div class="news-summary-zh">${escHtml(item.summary.zh)}</div>` : ''}
+          ${item.summary.en ? `<div class="news-summary-en">${escHtml(item.summary.en)}</div>` : ''}
+        </div>`;
+    }
+
+    html += `
+        <div class="news-meta">
+          <span class="news-source">${escHtml(item.source)}</span>
+          <span>
+            ${(item.tags || []).map(t => `<span class="news-tag">${escHtml(t)}</span>`).join('')}
+            <a class="news-link" href="${escHtml(item.url)}" target="_blank" rel="noopener">Source &rarr;</a>
+          </span>
+        </div>
+      </div>`;
+  }
+
+  html += '</div>';
+  return html;
+}
+
+// ============ V1: Legacy simple format ============
+function renderV1Legacy(data) {
+  const navEl = document.getElementById('navArea');
+  const contentEl = document.getElementById('contentArea');
+  activeTab = 'AI';
+
+  navEl.innerHTML = `<nav class="tab-nav" id="tabNav">
+    <button data-tab="AI" class="active" onclick="switchTab('AI')">AI</button>
+    <button data-tab="Crypto" onclick="switchTab('Crypto')">Crypto</button>
+    <button data-tab="Finance" onclick="switchTab('Finance')">Finance</button>
+  </nav>`;
+
+  const cats = { AI: null, Crypto: null, Finance: null };
+  for (const s of (data.sections || [])) {
+    if (cats.hasOwnProperty(s.category)) cats[s.category] = s;
+  }
+
+  let html = '';
+  for (const [cat, section] of Object.entries(cats)) {
+    html += `<div id="tab${cat}" class="tab-panel ${cat==='AI'?'active':''}">`;
+    if (!section || !section.items || !section.items.length) {
+      html += '<div class="empty">暂无该分类内容</div>';
+    } else {
+      html += section.items.map(item => `
+        <div class="v1-item ${item.hot ? 'hot' : ''}">
+          <div class="v1-zh">${item.hot ? '<span class="hot-tag">HOT</span> ' : ''}${escHtml(item.zh)}${item.source ? ' <span style="color:#555;font-size:0.75rem">— ' + escHtml(item.source) + '</span>' : ''}</div>
+          ${item.en ? '<div class="v1-en">' + escHtml(item.en) + '</div>' : ''}
+          <a href="${escHtml(item.url)}" target="_blank" rel="noopener" style="font-size:0.82rem;margin-top:6px;display:inline-block;">Source &rarr;</a>
+        </div>
+      `).join('');
+    }
+    html += '</div>';
+  }
+  contentEl.innerHTML = html;
+}
+
+// ============ Toggle helpers ============
+function toggleSummary(id, btn) {
+  const el = document.getElementById(id);
+  if (el.classList.contains('collapsed')) {
+    el.classList.remove('collapsed');
+    el.classList.add('expanded');
+    btn.textContent = '收起详情 / Collapse ▴';
+  } else {
+    el.classList.remove('expanded');
+    el.classList.add('collapsed');
+    btn.textContent = '展开详情 / Read More ▾';
+  }
+}
+
+function toggleBlock(id, btn, type) {
+  const el = document.getElementById(id);
+  const labels = {
+    analysis: { expand: '展开分析 / Expand Analysis ▾', collapse: '收起分析 / Collapse Analysis ▴' },
+    outlook: { expand: '展开展望 / Expand Outlook ▾', collapse: '收起展望 / Collapse Outlook ▴' },
+  };
+  const l = labels[type] || labels.analysis;
+  if (el.classList.contains('collapsed')) {
+    el.classList.remove('collapsed');
+    el.classList.add('expanded');
+    btn.textContent = l.collapse;
+  } else {
+    el.classList.remove('expanded');
+    el.classList.add('collapsed');
+    btn.textContent = l.expand;
   }
 }
 
 function showEmpty() {
-  ['tabAI', 'tabCrypto', 'tabFinance'].forEach(id => {
-    document.getElementById(id).innerHTML = '<div class="empty">暂无数据 📭</div>';
-  });
+  document.getElementById('editorial').innerHTML = '';
+  document.getElementById('navArea').innerHTML = '';
+  document.getElementById('contentArea').innerHTML = '<div class="empty">暂无数据</div>';
 }
 
 init();

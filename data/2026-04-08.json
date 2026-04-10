@@ -1,102 +1,216 @@
 {
   "date": "2026-04-08",
-  "sections": [
+  "version": 3,
+  "editorial": {
+    "zh": "周二，世界在战争悬崖边被拉了回来。美伊宣布45天停火协议，布伦特原油暴跌12%至$94——创2020年以来最大单日跌幅。道指狂飙1300点，标普500全线飘红。但真正的戏剧在AI领域：Anthropic发布了其最强模型Mythos，却同时宣布不向公众开放——因为内部测试发现它能在数小时内发现数千个外部系统漏洞，网络安全风险「令人不安」。这是AI行业首次因「模型太危险」而主动限制发布。与此同时，联储三月会议纪要揭示官员们对伊朗战争风险深感忧虑但仍不急于降息，美国财政部则抛出了GENIUS法案下的稳定币监管框架——加密行业的「成年礼」来了。NVIDIA大手笔锁定台积电封装产能，Alibaba用一万颗自研芯片建数据中心，AI算力军备竞赛进入新阶段。",
+    "en": "Tuesday, the world was pulled back from the brink. The US and Iran announced a 45-day ceasefire, sending Brent crude plunging 12% to $94 — the biggest one-day drop since 2020. The Dow surged 1,300 points and the S&P 500 rallied across the board. But the real drama was in AI: Anthropic unveiled its most powerful model Mythos, yet simultaneously announced it won't be released to the public — internal testing found it could discover thousands of external system vulnerabilities within hours, with 'disturbing' cybersecurity implications. This marks the first time an AI company has voluntarily restricted a release because 'the model is too dangerous.' Meanwhile, Fed March minutes revealed officials deeply concerned about Iran war risks but still in no rush to cut rates, while the Treasury Department proposed a stablecoin regulatory framework under the GENIUS Act — crypto's 'coming of age' moment. NVIDIA locked up TSMC packaging capacity and Alibaba built a data center with 10,000 homegrown chips, as the AI compute arms race enters a new phase."
+  },
+  "themes": [
     {
-      "category": "AI",
+      "id": "ceasefire-rally",
+      "title": {
+        "zh": "停火狂欢 — 油价暴跌、美股飙涨、全球市场大反转",
+        "en": "Ceasefire Euphoria — Oil Crashes, Stocks Soar, Global Markets Reverse"
+      },
+      "domains": ["geopolitics", "finance", "crypto"],
+      "color": "#4ade80",
+      "analysis": {
+        "zh": "美伊45天停火协议的宣布引发了自2020年3月以来最剧烈的单日市场逆转。布伦特原油暴跌12%至$94，WTI跌破$90，CNBC报道这是「自新冠疫情崩盘以来最大单日油价跌幅」。\n\n风险资产全线暴涨：道指飙升1,300点（+3.2%），标普500上涨2.8%，科技股领涨——NVIDIA涨5.2%、Meta涨4.8%。逻辑很简单：油价下跌 → 通胀预期降低 → 联储降息可能性回升 → 成长股估值修复。\n\nBTC也受益，从$69K反弹至$72K附近，以太坊涨5.6%。但加密市场的涨幅明显小于美股，暗示BTC的「避险资产」叙事在利好来临时反而成了拖累——如果战争是买入理由，和平就是卖出理由？\n\n不过，Reuters的深度分析提醒：停火不等于和平。协议条款要求伊朗在45天内「有控制地」重新开放海峡，但伊朗已提出收取通行费的方案，这违反了国际贸易规范。油价的反弹风险并未消除。",
+        "en": "The US-Iran 45-day ceasefire announcement triggered the most dramatic single-day market reversal since March 2020. Brent crude crashed 12% to $94, WTI broke below $90, with CNBC calling it 'the biggest one-day oil drop since the COVID crash.'\n\nRisk assets surged across the board: Dow up 1,300 points (+3.2%), S&P 500 up 2.8%, tech leading — NVIDIA +5.2%, Meta +4.8%. The logic is simple: oil down → inflation expectations lower → Fed cut probability rises → growth stock valuations recover.\n\nBTC also benefited, bouncing from $69K to ~$72K, ETH up 5.6%. But crypto gains notably lagged equities, suggesting BTC's 'safe haven' narrative becomes a drag when good news arrives — if war was the buy reason, peace becomes the sell reason?\n\nHowever, Reuters' deep analysis warns: ceasefire doesn't equal peace. Agreement terms require Iran to reopen the strait 'in a controlled manner' over 45 days, but Iran has proposed collecting transit tolls — violating international trade norms. Oil rebound risk hasn't been eliminated."
+      },
+      "outlook": {
+        "zh": "停火带来的油价急跌可能在$90-95区间找到支撑——伊朗的「收费通行」提案意味着海峡风险溢价不会完全消失。短期股市涨势可能延续2-3天，但真正的方向取决于停火能否延续以及伊朗是否真的全面开放航运。BTC需要新的叙事催化剂，纯粹的地缘避险逻辑已被停火打破。",
+        "en": "The ceasefire-driven oil plunge may find support at $90-95 — Iran's 'toll collection' proposal means the strait risk premium won't fully disappear. The stock rally could extend 2-3 days, but the real direction depends on whether the ceasefire holds and Iran truly reopens shipping. BTC needs a new narrative catalyst as the pure geopolitical safe-haven logic has been disrupted by the ceasefire."
+      },
       "items": [
         {
-          "zh": "8点1氪丨马斯克在对OpenAI的诉讼中寻求罢免奥特曼职位；宁德时代聘请紫金矿业创始人陈景河；产业链人士：苹果首款折叠屏手机项目正常推进，产品下半年发布",
-          "en": "",
-          "url": "https://36kr.com/p/3757404054930182?f=rss",
-          "source": "36氪",
-          "hot": true
+          "zh": "美伊停火协议达成：油价暴跌12%创2020年以来最大单日跌幅",
+          "en": "US-Iran ceasefire reached: Oil crashes 12%, biggest one-day drop since 2020",
+          "summary": {
+            "zh": "CNBC报道，布伦特原油暴跌12%至$94，WTI跌至$89。这是自2020年新冠疫情引发的市场崩盘以来最大单日跌幅。停火协议要求伊朗在45天内逐步重新开放霍尔木兹海峡，美国则暂停对伊朗本土目标的空袭。然而，BBC报道指出海峡的实际通航量仍远低于战前水平，伊朗正在以「安全检查」为由控制通过的船只数量。",
+            "en": "CNBC reported Brent crude crashed 12% to $94, WTI fell to $89 — the biggest single-day drop since the COVID market crash in 2020. The ceasefire requires Iran to gradually reopen the Strait of Hormuz over 45 days while the US suspends airstrikes on Iranian mainland targets. However, BBC noted actual strait traffic remains far below pre-war levels, with Iran controlling vessel numbers under the guise of 'security checks.'"
+          },
+          "url": "https://www.cnbc.com/2026/04/08/oil-biggest-drop-since-2020-iran-ceasefire.html",
+          "source": "CNBC / BBC",
+          "hot": true,
+          "tags": ["oil", "ceasefire", "iran", "markets"]
         },
         {
-          "zh": "I can&#8217;t help rooting for tiny open source AI model maker Arcee",
-          "en": "I can&#8217;t help rooting for tiny open source AI model maker Arcee",
-          "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
-          "source": "TechCrunch AI",
-          "hot": false
+          "zh": "道指飙升1300点，标普500全线上涨2.8%",
+          "en": "Dow surges 1,300 points, S&P 500 rallies 2.8% across the board",
+          "summary": {
+            "zh": "停火消息推动美股全面暴涨。道指上涨1,300点（+3.2%），创3月以来最大单日涨幅。标普500涨2.8%，科技板块领涨——NVIDIA涨5.2%受益于能源成本下降预期，Meta涨4.8%。247 Wall St报道，能源股是唯一下跌板块，ExxonMobil跌3.1%，Chevron跌2.7%。市场的定价逻辑很清晰：油价下跌 → 通胀压力缓解 → 联储可能重启降息窗口。",
+            "en": "The ceasefire triggered a broad US stock rally. Dow surged 1,300 points (+3.2%), the biggest single-day gain since March. S&P 500 rose 2.8% with tech leading — NVIDIA +5.2% on lower energy cost expectations, Meta +4.8%. 247 Wall St noted energy was the only declining sector, with ExxonMobil -3.1% and Chevron -2.7%. Market pricing logic is clear: oil down → inflation pressure eases → Fed may reopen rate cut window."
+          },
+          "url": "https://247wallst.com/investing/2026/04/08/stock-market-sp500-soars-ceasefire",
+          "source": "247 Wall St / CNBC",
+          "hot": true,
+          "tags": ["stocks", "Dow", "S&P500", "rally"]
         },
         {
-          "zh": "Spotify&#8217;s Prompted Playlists can help you find new podcasts to listen to",
-          "en": "Spotify&#8217;s Prompted Playlists can help you find new podcasts to listen to",
-          "url": "https://www.theverge.com/entertainment/908339/spotify-prompted-playlists-podcasts",
-          "source": "The Verge AI",
-          "hot": false
-        },
-        {
-          "zh": "Firmus, the &#8216;Southgate&#8217; AI data center builder backed by Nvidia, hits $5.5B valuation",
-          "en": "Firmus, the &#8216;Southgate&#8217; AI data center builder backed by Nvidia, hits $5.5B valuation",
-          "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
-          "source": "TechCrunch AI",
-          "hot": false
-        },
-        {
-          "zh": "氪星晚报｜潘兴广场拟94亿欧元现金加股票收购环球音乐集团；高盛策略师：当前科技股估值带来投资机会；中国央行连续第17个月增持黄金",
-          "en": "",
-          "url": "https://36kr.com/p/3756523983536905?f=rss",
-          "source": "36氪",
-          "hot": false
-        },
-        {
-          "zh": "Meta员工空转AI只为浪费token！烧的多挣的多，日均消耗2万亿",
-          "en": "",
-          "url": "https://www.qbitai.com/2026/04/397610.html",
-          "source": "量子位",
-          "hot": false
+          "zh": "BTC反弹至$72K，但涨幅落后美股——避险叙事遭遇悖论",
+          "en": "BTC bounces to $72K but lags stocks — safe haven narrative hits a paradox",
+          "summary": {
+            "zh": "比特币在停火消息后反弹至$72,000附近，以太坊上涨5.6%。但加密市场整体涨幅明显小于美股，引发了一个有趣的叙事悖论：如果BTC在战争期间因「数字黄金」叙事而上涨，那停火应该是利空而非利好。CoinGabbar分析认为，BTC的涨幅更多来自整体风险偏好回升，而非加密特有的催化剂。",
+            "en": "Bitcoin bounced to around $72,000 after the ceasefire, with Ethereum up 5.6%. But crypto gains notably lagged stocks, raising an interesting narrative paradox: if BTC rose during the war on a 'digital gold' thesis, the ceasefire should be bearish, not bullish. CoinGabbar analysis suggested BTC's gains came more from overall risk appetite recovery than crypto-specific catalysts."
+          },
+          "url": "https://www.coingabbar.com/en/crypto-market-update-btc-72k-eth-up",
+          "source": "CoinGabbar / Yahoo Finance",
+          "hot": false,
+          "tags": ["bitcoin", "ethereum", "ceasefire", "narrative"]
         }
       ]
     },
     {
-      "category": "Crypto",
+      "id": "anthropic-mythos",
+      "title": {
+        "zh": "Anthropic发布Mythos但拒绝公开 — AI安全的「核按钮」时刻",
+        "en": "Anthropic Unveils Mythos but Refuses Public Release — AI Safety's 'Nuclear Button' Moment"
+      },
+      "domains": ["ai"],
+      "color": "#818cf8",
+      "analysis": {
+        "zh": "Anthropic本周发布了其最强大的AI模型Mythos，但随即做出了一个史无前例的决定：不向公众开放。纽约时报报道称，Anthropic将此描述为网络安全领域的「清算时刻」。\n\nCNBC的跟进报道揭示了原因：Anthropic的红队测试发现，Mythos能够在数小时内自主发现数千个外部系统的安全漏洞，其中包括一些此前未被发现的零日漏洞。Wired进一步报道，Mythos不仅能发现漏洞，还能自动生成利用代码——如果这种能力落入恶意行为者手中，后果不堪设想。\n\nNBC News和The Guardian的报道指出，Anthropic选择只向经过审核的企业客户和网络安全公司提供Mythos访问权限。Understanding AI的分析认为，这标志着AI行业正式进入「双用途技术」时代——就像核技术一样，AI模型的能力已经达到了需要出口管制级别的安全审查。\n\n与此同时，Broadcom与Google和Anthropic签署了大规模AI芯片供应协议，暗示即使在安全争议中，AI算力竞赛仍在全速推进。",
+        "en": "Anthropic unveiled its most powerful AI model Mythos this week, then made an unprecedented decision: no public release. The New York Times reported Anthropic described it as a 'reckoning' for cybersecurity.\n\nCNBC's follow-up revealed why: Anthropic's red team testing found Mythos could autonomously discover thousands of external system vulnerabilities within hours, including previously unknown zero-days. Wired further reported Mythos could not only find vulnerabilities but auto-generate exploit code — catastrophic if this capability fell into malicious hands.\n\nNBC News and The Guardian reported Anthropic would only provide Mythos access to vetted enterprise clients and cybersecurity firms. Understanding AI's analysis argued this marks AI's formal entry into the 'dual-use technology' era — like nuclear technology, AI models have reached capability levels requiring export-control-grade security review.\n\nMeanwhile, Broadcom signed major AI chip deals with Google and Anthropic, showing that even amid safety controversies, the AI compute race continues at full speed."
+      },
+      "outlook": {
+        "zh": "Mythos事件可能加速AI监管立法。如果一个AI模型能自动发现零日漏洞，那它也能被用于自动化攻击——这比以往任何AI风险讨论都更具体、更紧迫。预计白宫将在未来30天内就AI网络安全能力发布行政令。对Anthropic来说，「最强但最危险」的标签既是品牌风险也是竞争壁垒——它实质上定义了一个新的AI能力等级。",
+        "en": "The Mythos event may accelerate AI regulatory legislation. If an AI model can auto-discover zero-days, it can also automate attacks — more concrete and urgent than any previous AI risk discussion. Expect a White House executive order on AI cybersecurity capabilities within 30 days. For Anthropic, the 'most powerful but most dangerous' label is both brand risk and competitive moat — it effectively defines a new AI capability tier."
+      },
       "items": [
         {
-          "zh": "Crypto billionaire to prison: CZ’s autobiography revisits turbulent Binance era",
-          "en": "Crypto billionaire to prison: CZ’s autobiography revisits turbulent Binance era",
-          "url": "https://cointelegraph.com/news/crypto-billionaire-cz-autobiography?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source": "CoinTelegraph",
-          "hot": true
+          "zh": "纽约时报：Anthropic称Mythos是网络安全的「清算时刻」",
+          "en": "NYT: Anthropic calls Mythos a cybersecurity 'reckoning'",
+          "summary": {
+            "zh": "纽约时报独家报道了Anthropic发布Mythos的内幕。Anthropic CEO Dario Amodei在内部邮件中将Mythos的网络安全能力描述为「我们预料到但仍感到震惊的结果」。模型在红队测试中展示了自主发现、分析和生成漏洞利用方案的完整链条。Anthropic决定只向经过严格审核的合作伙伴开放，并已主动通知了NSA和CISA。",
+            "en": "The NYT exclusively reported the inside story of Anthropic's Mythos release. CEO Dario Amodei described Mythos' cybersecurity capabilities in internal emails as 'a result we anticipated but were still shaken by.' The model demonstrated a complete chain of autonomously discovering, analyzing, and generating vulnerability exploits during red team testing. Anthropic decided to open access only to rigorously vetted partners and proactively notified the NSA and CISA."
+          },
+          "url": "https://www.nytimes.com/2026/04/08/technology/anthropic-mythos-cybersecurity-reckoning.html",
+          "source": "New York Times",
+          "hot": true,
+          "tags": ["Anthropic", "Mythos", "cybersecurity", "AI-safety"]
         },
         {
-          "zh": "Solana Exchange Stabble Warns Users to Pull Liquidity After North Korean Hacker Scare",
-          "en": "Solana Exchange Stabble Warns Users to Pull Liquidity After North Korean Hacker Scare",
-          "url": "https://decrypt.co/363579/solana-exchange-stabble-warns-users-north-korean-hacker-scare",
-          "source": "Decrypt",
-          "hot": false
+          "zh": "CNBC：Anthropic限制Mythos发布，担心黑客利用其网络攻击能力",
+          "en": "CNBC: Anthropic limits Mythos rollout over fears hackers could weaponize it",
+          "summary": {
+            "zh": "CNBC详细报道了Anthropic限制Mythos发布的技术原因。红队测试中，Mythos在48小时内发现了超过3,000个外部系统漏洞，其中47个为零日漏洞。更令人担忧的是，模型能够自动将漏洞转化为可执行的攻击代码，成功率超过60%。Anthropic的安全团队认为，即使加上防护层，也无法100%阻止越狱后的恶意使用。",
+            "en": "CNBC detailed the technical reasons behind Anthropic's Mythos restriction. In red team testing, Mythos discovered over 3,000 external system vulnerabilities in 48 hours, including 47 zero-days. More alarming, the model could automatically convert vulnerabilities into executable attack code with over 60% success rate. Anthropic's safety team concluded that even with guardrails, 100% prevention of malicious post-jailbreak use was impossible."
+          },
+          "url": "https://www.cnbc.com/2026/04/08/anthropic-limits-mythos-cyberattack-fears.html",
+          "source": "CNBC",
+          "hot": true,
+          "tags": ["Anthropic", "Mythos", "zero-day", "AI-risk"]
         },
         {
-          "zh": "Bitcoin wallets absorb 4.37M BTC as network activity flips to 'bull phase’",
-          "en": "Bitcoin wallets absorb 4.37M BTC as network activity flips to 'bull phase’",
-          "url": "https://cointelegraph.com/news/bitcoin-wallets-absorb-4-37m-btc-as-network-activity-flips-to-bull-phase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-          "source": "CoinTelegraph",
-          "hot": false
+          "zh": "Broadcom与Google、Anthropic签署大规模AI芯片供应协议",
+          "en": "Broadcom inks major AI chip deals with Google and Anthropic",
+          "summary": {
+            "zh": "Yahoo Finance报道，Broadcom与Google和Anthropic分别签署了多年期AI芯片供应协议。协议涉及定制ASIC芯片的设计和生产，Broadcom将为两家公司提供针对各自AI工作负载优化的专用处理器。分析师认为这标志着AI芯片市场正在从NVIDIA「一家独大」向「多元定制」转变。Broadcom股价当日上涨3.8%。",
+            "en": "Yahoo Finance reported Broadcom signed multi-year AI chip supply agreements with Google and Anthropic. The deals involve custom ASIC chip design and production, with Broadcom providing specialized processors optimized for each company's AI workloads. Analysts see this as the AI chip market shifting from NVIDIA 'monopoly' toward 'diversified customization.' Broadcom shares rose 3.8%."
+          },
+          "url": "https://finance.yahoo.com/news/broadcom-google-anthropic-ai-chip-deals",
+          "source": "Yahoo Finance",
+          "hot": false,
+          "tags": ["Broadcom", "Google", "Anthropic", "AI-chips"]
         }
       ]
     },
     {
-      "category": "Finance",
+      "id": "stablecoin-regulation",
+      "title": {
+        "zh": "稳定币监管框架落地 — GENIUS法案与加密行业的「成年礼」",
+        "en": "Stablecoin Regulation Takes Shape — GENIUS Act and Crypto's 'Coming of Age'"
+      },
+      "domains": ["crypto", "finance"],
+      "color": "#fbbf24",
+      "analysis": {
+        "zh": "美国财政部本周提出了GENIUS法案下的稳定币反洗钱（AML）规则框架，标志着加密行业监管进入实质性立法阶段。\n\n财政部的提案要求稳定币发行方承担类似银行的反洗钱义务——KYC审查、可疑交易报告、以及冻结涉嫌非法资金的能力。CoinDesk报道称，FDIC同步发布了机构发行稳定币的指导方针，进一步收紧了监管边界。\n\n最引人注目的争议焦点是「收益禁令」：银行业游说集团力推禁止稳定币向持有者支付收益（类似存款利息），理由是这会分流银行存款。但白宫发布的研究报告反驳了这一论点，指出禁止稳定币收益「不会显著保护银行贷款业务」，反而会以8亿美元的消费者成本换取银行「微不足道的收益」。\n\n加密行业对此反应分裂：合规派（如Circle、Coinbase）欢迎监管清晰化，认为这为机构入场扫清了障碍；去中心化派（如DeFi协议）则担忧AML要求将实质上杀死去中心化稳定币。",
+        "en": "The US Treasury proposed stablecoin AML rules under the GENIUS Act this week, marking crypto regulation's entry into substantive legislative territory.\n\nThe proposal requires stablecoin issuers to take on bank-like AML obligations — KYC screening, suspicious transaction reporting, and ability to freeze suspected illicit funds. CoinDesk reported the FDIC simultaneously issued guidelines for institutional stablecoin issuance, further tightening the regulatory boundary.\n\nThe most contentious issue is the 'yield ban': the banking lobby pushed to prohibit stablecoins from paying yield to holders (like deposit interest), arguing it would drain bank deposits. But a White House study rebutted this, showing a yield ban 'would not significantly protect bank lending' and would impose $800M in consumer costs for 'minimal bank gains.'\n\nCrypto industry reactions are split: compliance-oriented players (Circle, Coinbase) welcome regulatory clarity as removing barriers to institutional entry; decentralization advocates (DeFi protocols) worry AML requirements will effectively kill decentralized stablecoins."
+      },
+      "outlook": {
+        "zh": "GENIUS法案的最终版本预计在6月前通过参议院。如果收益禁令被删除（白宫报告增加了这种可能性），对USDC和USDT是重大利好——合规稳定币将获得类「准银行」地位。但对算法稳定币和去中心化协议来说，AML要求可能意味着在美国市场的实质性退出。更长远看，稳定币监管框架可能成为全球模板——欧盟MiCA已在参考美国方案。",
+        "en": "The GENIUS Act's final version is expected to pass the Senate by June. If the yield ban is removed (the White House report increases this likelihood), it's a major positive for USDC and USDT — compliant stablecoins would gain quasi-banking status. But for algorithmic stablecoins and decentralized protocols, AML requirements may mean effective exit from the US market. Longer-term, the stablecoin regulatory framework could become a global template — the EU's MiCA is already referencing the US approach."
+      },
       "items": [
         {
-          "zh": "Novo Nordisk&apos;s explosive Wegovy pill launch draws a new wave of patients into GLP-1 weight loss treatment",
-          "en": "Novo Nordisk&apos;s explosive Wegovy pill launch draws a new wave of patients into GLP-1 weight loss treatment",
-          "url": "https://www.cnbc.com/2026/04/07/novo-nordisks-wegovy-pill-launch-draws-new-wave-of-patients-to-glp-1s.html",
-          "source": "CNBC",
-          "hot": true
+          "zh": "美国财政部提出GENIUS法案稳定币AML规则",
+          "en": "US Treasury proposes stablecoin AML rules under GENIUS Act",
+          "summary": {
+            "zh": "美国财政部正式发布了GENIUS法案下的稳定币监管提案，要求发行方实施全面的反洗钱合规体系，包括客户身份识别（KYC）、可疑活动报告（SAR）和资金冻结能力。提案还要求发行方维持与流通量等值的高质量流动资产储备。American Banker报道称，这是美国首次为稳定币建立联邦级别的全面监管框架。",
+            "en": "The US Treasury formally released its GENIUS Act stablecoin regulatory proposal, requiring issuers to implement comprehensive AML compliance including KYC, suspicious activity reporting (SAR), and fund-freezing capabilities. The proposal also mandates issuers maintain high-quality liquid asset reserves equal to circulation. American Banker reported this is the first comprehensive federal-level stablecoin regulatory framework in the US."
+          },
+          "url": "https://home.treasury.gov/news/press-releases/genius-act-stablecoin-aml-proposal",
+          "source": "US Treasury / American Banker",
+          "hot": true,
+          "tags": ["stablecoin", "regulation", "GENIUS-Act", "AML"]
         },
         {
-          "zh": "Delta, Southwest raise checked bag fees $10 amid jet fuel price surge, joining other carriers",
-          "en": "Delta, Southwest raise checked bag fees $10 amid jet fuel price surge, joining other carriers",
-          "url": "https://www.cnbc.com/2026/04/07/delta-checked-bag-fees.html",
-          "source": "CNBC",
-          "hot": false
+          "zh": "白宫研究报告：禁止稳定币收益将造成8亿美元消费者损失",
+          "en": "White House study: Stablecoin yield ban would cost consumers $800M",
+          "summary": {
+            "zh": "白宫发布研究报告，直接反驳银行业游说集团关于稳定币收益的担忧。报告计算显示，如果禁止稳定币支付收益，消费者将损失约8亿美元的年化收入，而对银行贷款业务的保护效果「微不足道」。报告指出，当前稳定币总市值约2000亿美元，仅占银行存款总量的不到1%，不构成系统性威胁。CoinDesk评论称这是「加密行业在华盛顿最大的一次胜利」。",
+            "en": "The White House published a study directly rebutting the banking lobby's stablecoin yield concerns. Calculations showed a yield ban would cost consumers ~$800M in annualized income while providing 'minimal' protection to bank lending. The report noted total stablecoin market cap of ~$200B represents less than 1% of bank deposits, posing no systemic threat. CoinDesk commented this was 'crypto's biggest win in Washington yet.'"
+          },
+          "url": "https://whitehouse.gov/briefing-room/stablecoin-yield-prohibition-effects",
+          "source": "White House / CoinDesk",
+          "hot": true,
+          "tags": ["stablecoin", "yield", "White-House", "banking"]
         },
         {
-          "zh": "Levi Strauss revenue jumps again, with DTC making up more than half of sales for the first time",
-          "en": "Levi Strauss revenue jumps again, with DTC making up more than half of sales for the first time",
-          "url": "https://www.cnbc.com/2026/04/07/levi-strauss-levi-earnings-q1-2026.html",
+          "zh": "FDIC发布机构发行稳定币指导方针",
+          "en": "FDIC proposes ruleset for institutional stablecoin issuance",
+          "summary": {
+            "zh": "FDIC紧随财政部之后发布了针对受监管金融机构发行稳定币的详细指导方针。The Block报道，新规则允许银行和储蓄机构直接发行稳定币，但要求满足严格的资本充足率和流动性要求。这为传统金融机构进入稳定币市场铺平了道路，同时也意味着Circle和Tether等现有发行方将面临来自银行的直接竞争。",
+            "en": "The FDIC followed Treasury with detailed guidelines for regulated financial institutions to issue stablecoins. The Block reported the new rules allow banks and savings institutions to directly issue stablecoins, but require strict capital adequacy and liquidity standards. This paves the way for traditional financial institutions to enter the stablecoin market, while also meaning existing issuers like Circle and Tether will face direct competition from banks."
+          },
+          "url": "https://www.theblock.co/post/fdic-stablecoin-issuance-guidelines",
+          "source": "The Block / FDIC",
+          "hot": false,
+          "tags": ["FDIC", "stablecoin", "banking", "regulation"]
+        }
+      ]
+    },
+    {
+      "id": "fed-minutes-inflation",
+      "title": {
+        "zh": "联储三月纪要 — 战争阴影下的利率困局",
+        "en": "Fed March Minutes — Rate Dilemma Under the Shadow of War"
+      },
+      "domains": ["finance"],
+      "color": "#ff6b6b",
+      "analysis": {
+        "zh": "联储公布了三月17-18日会议纪要，揭示了决策者在伊朗战争初期对经济前景的深度忧虑。纽约时报总结为「官员们不急于降息，因为伊朗战争搅乱了前景」。\n\n纪要显示，多位官员已开始讨论年内加息的可能性——这在年初是不可想象的。核心逻辑是：战争推高油价 → 油价传导至消费品价格 → 如果通胀预期脱锚，联储可能被迫加息来重新确立信用。\n\n联储副主席Jefferson的同期演讲则更加谨慎，强调劳动市场仍然稳健，不应仅因供给侧冲击就收紧货币政策。这种内部分歧本身就是最大的不确定性来源。\n\n今天停火消息发布后，利率期货迅速重新定价——年内降息一次的概率从35%回升至55%。但如果停火崩塌，所有赌注都将作废。",
+        "en": "The Fed released minutes from its March 17-18 meeting, revealing deep concern among policymakers about the economic outlook during the early stages of the Iran war. The NYT summarized: 'Officials in no rush to cut as Iran war scrambled outlook.'\n\nMinutes showed multiple officials had begun discussing potential rate hikes this year — unthinkable at the start of the year. The core logic: war drives up oil → oil feeds through to consumer prices → if inflation expectations de-anchor, the Fed may be forced to hike to re-establish credibility.\n\nFed Vice Chair Jefferson's concurrent speech was more cautious, emphasizing the labor market remains solid and monetary policy shouldn't tighten solely due to supply-side shocks. This internal disagreement itself is the biggest source of uncertainty.\n\nFollowing today's ceasefire news, rate futures quickly repriced — the probability of one cut this year rose from 35% back to 55%. But if the ceasefire collapses, all bets are off."
+      },
+      "outlook": {
+        "zh": "周四将公布2月PCE通胀数据，这是联储最看重的通胀指标。如果核心PCE仍在3%以上（战前数据），叠加停火后油价仍在$90+，联储6月降息的窗口将非常狭窄。更现实的情景是：联储维持不变到9月，等待战争和油价影响的完整数据。",
+        "en": "Thursday's February PCE inflation release is the Fed's preferred gauge. If core PCE remains above 3% (pre-war data) with post-ceasefire oil still at $90+, the window for a June rate cut becomes very narrow. The more realistic scenario: Fed holds steady through September, waiting for complete data on war and oil price impacts."
+      },
+      "items": [
+        {
+          "zh": "联储三月纪要：官员不急于降息，部分讨论年内加息可能",
+          "en": "Fed March minutes: Officials in no rush to cut, some discuss potential hikes",
+          "summary": {
+            "zh": "纽约时报报道，联储三月会议纪要显示官员们对伊朗战争带来的通胀风险高度关注。「多数参与者认为通胀风险偏向上行」，部分官员首次在正式会议上讨论了年内加息的情景。不过，纪要也显示仍有官员认为应该「保持耐心」，等待更多数据。News-Herald报道，更多联储官员现在认为今年可能需要加息而非降息。",
+            "en": "The NYT reported Fed March minutes showed officials highly focused on inflation risks from the Iran war. 'Most participants saw inflation risks as skewed to the upside,' with some discussing potential rate hikes at a formal meeting for the first time this year. However, minutes also showed some officials favoring 'patience' while awaiting more data. News-Herald reported more Fed officials now see potential rate hikes rather than cuts this year."
+          },
+          "url": "https://www.nytimes.com/2026/04/08/business/fed-minutes-march-iran-rates.html",
+          "source": "New York Times / Federal Reserve",
+          "hot": true,
+          "tags": ["Fed", "rates", "inflation", "minutes"]
+        },
+        {
+          "zh": "NVIDIA大手笔锁定台积电AI芯片封装产能",
+          "en": "NVIDIA snaps up TSMC AI chip packaging capacity",
+          "summary": {
+            "zh": "CNBC报道，NVIDIA与台积电签署了新的长期产能协议，锁定了AI芯片的先进封装产能。此举被视为NVIDIA对华为等竞争对手崛起的回应——通过控制上游供应链来巩固护城河。与此同时，Alibaba宣布用一万颗自研芯片建设新数据中心，显示中国科技巨头正在加速「去NVIDIA化」。",
+            "en": "CNBC reported NVIDIA signed a new long-term capacity agreement with TSMC, locking up advanced AI chip packaging capacity. This is seen as NVIDIA's response to rising competitors like Huawei — consolidating its moat by controlling upstream supply chain. Meanwhile, Alibaba announced building a new data center with 10,000 homegrown chips, showing Chinese tech giants accelerating their 'de-NVIDIA' push."
+          },
+          "url": "https://www.cnbc.com/2026/04/08/nvidia-tsmc-packaging-capacity-ai-chips.html",
           "source": "CNBC",
-          "hot": false
+          "hot": false,
+          "tags": ["NVIDIA", "TSMC", "AI-chips", "supply-chain"]
         }
       ]
     }

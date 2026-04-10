@@ -1,13 +1,11 @@
-name: Daily News Fetch & Deploy
+name: Deploy to GitHub Pages
 
 on:
-  schedule:
-    # 每天 UTC 00:30 = 北京时间 08:30
-    - cron: '30 0 * * *'
-  workflow_dispatch: # 手动触发
+  push:
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
-  contents: write
   pages: write
   id-token: write
 
@@ -16,30 +14,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  fetch-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Fetch today's news
-        run: node scripts/fetch-news.js
-
-      - name: Commit & push data
-        run: |
-          git config user.name "bagua-bot"
-          git config user.email "bot@bagua.daily"
-          git add data/
-          git diff --cached --quiet || git commit -m "data: $(date -u +%Y-%m-%d) daily news"
-          git push
-
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
