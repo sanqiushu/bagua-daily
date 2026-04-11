@@ -1,0 +1,104 @@
+{
+  "date": "2026-04-11",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "Anthropic temporarily banned OpenClaw&#8217;s creator from accessing Claude",
+          "en": "Anthropic temporarily banned OpenClaw&#8217;s creator from accessing Claude",
+          "url": "https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/",
+          "source": "TechCrunch AI",
+          "hot": true
+        },
+        {
+          "zh": "20-year-old man arrested for allegedly throwing a Molotov cocktail at Sam Altman’s house",
+          "en": "20-year-old man arrested for allegedly throwing a Molotov cocktail at Sam Altman’s house",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/910393/openai-sam-altman-house-molotov-cocktail",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "The Iranian Lego AI video creators credit their virality to &#8216;heart&#8217;",
+          "en": "The Iranian Lego AI video creators credit their virality to &#8216;heart&#8217;",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/909948/explosive-media-lego-iran-war-trump-netanyahu",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "阿里视频生成大模型Wan2.7登顶DesignArena榜单",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/399370.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "紫荆智康发布“紫荆AI医院”线上虚拟诊室",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/399366.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "氪星晚报 ｜无印良品：2026财年第二季度营收196.1亿元，同比增长14.8%；小马智行发布PonyWorld世界模型2.0",
+          "en": "",
+          "url": "https://36kr.com/p/3760914298651400?f=rss",
+          "source": "36氪",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "Bitcoin community weighs in on reports of Iran's crypto toll for oil ships",
+          "en": "Bitcoin community weighs in on reports of Iran's crypto toll for oil ships",
+          "url": "https://cointelegraph.com/news/bitcoin-community-iran-crypto-toll-oil?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "This &#39;Space Invaders&#39; Clone Game Pays Real Bitcoin—If You&#39;re Skilled, Lucky or Rich",
+          "en": "This &#39;Space Invaders&#39; Clone Game Pays Real Bitcoin—If You&#39;re Skilled, Lucky or Rich",
+          "url": "https://decrypt.co/364036/space-invaders-clone-game-pays-real-bitcoin-skilled-lucky-rich",
+          "source": "Decrypt",
+          "hot": false
+        },
+        {
+          "zh": "Prediction market users await Artemis II mission splashdown",
+          "en": "Prediction market users await Artemis II mission splashdown",
+          "url": "https://cointelegraph.com/news/prediction-market-bets-artemis-moon-mission?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "The Masters has become the biggest event of the year for private jet companies",
+          "en": "The Masters has become the biggest event of the year for private jet companies",
+          "url": "https://www.cnbc.com/2026/04/10/masters-tournament-golf-luxury-private-jet.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "Amazon debuts Masters coverage, becoming the golf tournament&apos;s fourth-ever media partner",
+          "en": "Amazon debuts Masters coverage, becoming the golf tournament&apos;s fourth-ever media partner",
+          "url": "https://www.cnbc.com/2026/04/09/amazon-masters-coverage-media-partner-streaming.html",
+          "source": "CNBC",
+          "hot": false
+        },
+        {
+          "zh": "Disney plans layoffs of as many as 1,000 employees",
+          "en": "Disney plans layoffs of as many as 1,000 employees",
+          "url": "https://www.cnbc.com/2026/04/09/disney-layoffs-ceo-josh-damaro.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
