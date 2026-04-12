@@ -1,0 +1,97 @@
+{
+  "date": "2026-04-12",
+  "sections": [
+    {
+      "category": "AI",
+      "items": [
+        {
+          "zh": "Sam Altman responds to ‘incendiary’ New Yorker article after attack on his home",
+          "en": "Sam Altman responds to ‘incendiary’ New Yorker article after attack on his home",
+          "url": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/",
+          "source": "TechCrunch AI",
+          "hot": true
+        },
+        {
+          "zh": "Your article about AI doesn’t need AI art",
+          "en": "Your article about AI doesn’t need AI art",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "My baby deer plushie told me that Mitski&#8217;s dad was a CIA operative",
+          "en": "My baby deer plushie told me that Mitski&#8217;s dad was a CIA operative",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/910008/fawn-friends-ai-companion",
+          "source": "The Verge AI",
+          "hot": false
+        },
+        {
+          "zh": "滴滴自动驾驶张博：聚焦安全和体验 推动自动驾驶全球化落地",
+          "en": "",
+          "url": "https://www.qbitai.com/2026/04/399675.html",
+          "source": "量子位",
+          "hot": false
+        },
+        {
+          "zh": "为什么有钱人也不买GUCCI了？",
+          "en": "",
+          "url": "https://36kr.com/p/3762200670077448?f=rss",
+          "source": "36氪",
+          "hot": false
+        },
+        {
+          "zh": "拿下豪华种子轮，一家明星AI公司宣布倒闭",
+          "en": "",
+          "url": "https://36kr.com/p/3762088319484419?f=rss",
+          "source": "36氪",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Crypto",
+      "items": [
+        {
+          "zh": "Here’s what happened in crypto today",
+          "en": "Here’s what happened in crypto today",
+          "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": true
+        },
+        {
+          "zh": "US President Trump faces renewed backlash as Trump-linked tokens crash",
+          "en": "US President Trump faces renewed backlash as Trump-linked tokens crash",
+          "url": "https://cointelegraph.com/news/trump-backlash-crypto-tokens-crash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        },
+        {
+          "zh": "Crypto crashed six months ago: Have markets improved, or are bears still in charge?",
+          "en": "Crypto crashed six months ago: Have markets improved, or are bears still in charge?",
+          "url": "https://cointelegraph.com/news/crypto-crashed-six-months-ago-have-markets-improved-or-are-bears-still-in-charge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+          "source": "CoinTelegraph",
+          "hot": false
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "items": [
+        {
+          "zh": "How Kodak is trying to turn around its business after teetering on bankruptcy",
+          "en": "How Kodak is trying to turn around its business after teetering on bankruptcy",
+          "url": "https://www.cnbc.com/2026/04/11/kodak-film-business-ceo-jim-continenza.html",
+          "source": "CNBC",
+          "hot": true
+        },
+        {
+          "zh": "The Masters has become the biggest event of the year for private jet companies",
+          "en": "The Masters has become the biggest event of the year for private jet companies",
+          "url": "https://www.cnbc.com/2026/04/10/masters-tournament-golf-luxury-private-jet.html",
+          "source": "CNBC",
+          "hot": false
+        }
+      ]
+    }
+  ]
+}
